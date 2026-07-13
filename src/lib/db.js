@@ -227,6 +227,7 @@ export const db = {
       category: appData.category,
       google_group_url: appData.google_group_url,
       play_store_url: appData.play_store_url,
+      screenshot_url: appData.screenshot_url || null,
       logo_letter: appData.title.trim().charAt(0).toUpperCase()
     };
 
@@ -266,6 +267,33 @@ export const db = {
       localStorage.setItem(MOCK_STORAGE_KEY_APPS, JSON.stringify(apps));
       return createdApp;
     }
+  },
+
+  async uploadScreenshot(file) {
+    if (isSupabaseConfigured()) {
+      try {
+        const fileExt = 'webp';
+        const fileName = `${Math.random().toString(36).substring(2, 15)}.${fileExt}`;
+        const filePath = `${fileName}`;
+
+        const { error } = await supabase.storage
+          .from('app-media')
+          .upload(filePath, file);
+
+        if (error) throw error;
+
+        const { data: { publicUrl } } = supabase.storage
+          .from('app-media')
+          .getPublicUrl(filePath);
+
+        return publicUrl;
+      } catch (e) {
+        console.error('Supabase storage upload error:', e);
+        throw e;
+      }
+    }
+    // Mock Fallback
+    return URL.createObjectURL(file);
   },
 
   async markAsPublished(id) {

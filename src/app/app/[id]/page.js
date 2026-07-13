@@ -230,44 +230,74 @@ Thank you so much! Post yours below and I will test back.`;
             </div>
           )}
 
-          {/* Description */}
-          <div>
-            <h3 style={{ fontSize: '1.05rem', marginBottom: '0.5rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>
-              Uygulama Açıklaması
-            </h3>
-            <p className="detail-desc">{app.description}</p>
-          </div>
-
-          {/* Testing Flow Guide / Links */}
-          {app.status === 'testing' ? (
-            <div style={{ backgroundColor: 'var(--card-bg)', border: '1px solid var(--border-color)', borderRadius: '8px', padding: '1.5rem', marginTop: '1rem' }}>
-              <h3 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: 'var(--text-color)' }}>
-                Test Sürecine Katılın (2 Adım)
-              </h3>
-              
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '1.5rem' }}>
-                Google Play kuralları gereği, indirme bağlantısının aktif olması için öncelikle test grubuna üye olmalısınız.
-              </p>
-
-              <div className="detail-links">
-                <button onClick={handleGroupClick} className="primary" style={{ fontSize: '0.95rem', padding: '0.75rem 1.5rem' }}>
-                  1. Google Grubuna Katıl
-                </button>
-                <button onClick={handleDownloadClick} style={{ fontSize: '0.95rem', padding: '0.75rem 1.5rem' }}>
-                  2. Google Play'den İndir
-                </button>
+          {/* Main layout with Description on left and Screenshot on right */}
+          <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '2rem', marginTop: '1.5rem', alignItems: 'flex-start' }}>
+            
+            {/* Left Column (Description and Testing Flow) */}
+            <div style={{ flex: '1', minWidth: '280px', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+              {/* Description */}
+              <div>
+                <h3 style={{ fontSize: '1.05rem', marginBottom: '0.5rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>
+                  Uygulama Açıklaması
+                </h3>
+                <p className="detail-desc">{app.description}</p>
               </div>
+
+              {/* Testing Flow Guide / Links */}
+              {app.status === 'testing' ? (
+                <div style={{ backgroundColor: 'var(--card-bg)', border: '1px solid var(--border-color)', borderRadius: '8px', padding: '1.5rem' }}>
+                  <h3 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: 'var(--text-color)' }}>
+                    Test Sürecine Katılın (2 Adım)
+                  </h3>
+                  
+                  <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '1.5rem' }}>
+                    Google Play kuralları gereği, indirme bağlantısının aktif olması için öncelikle test grubuna üye olmalısınız.
+                  </p>
+
+                  <div className="detail-links">
+                    <button onClick={handleGroupClick} className="primary" style={{ fontSize: '0.95rem', padding: '0.75rem 1.5rem' }}>
+                      1. Google Grubuna Katıl
+                    </button>
+                    <button onClick={handleDownloadClick} style={{ fontSize: '0.95rem', padding: '0.75rem 1.5rem' }}>
+                      2. Google Play'den İndir
+                    </button>
+                  </div>
+                </div>
+              ) : (
+                <div style={{ backgroundColor: 'rgba(16, 185, 129, 0.05)', border: '1px solid #10b981', borderRadius: '8px', padding: '1.5rem', textAlign: 'center' }}>
+                  <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: '#10b981' }}>
+                    Bu Uygulamanın Test Süreci Başarıyla Tamamlandı!
+                  </h3>
+                  <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
+                    Destek olan tüm gönüllü test kullanıcılarına teşekkür ederiz.
+                  </p>
+                </div>
+              )}
             </div>
-          ) : (
-            <div style={{ backgroundColor: 'rgba(16, 185, 129, 0.05)', border: '1px solid #10b981', borderRadius: '8px', padding: '1.5rem', marginTop: '1rem', textAlign: 'center' }}>
-              <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: '#10b981' }}>
-                Bu Uygulamanın Test Süreci Başarıyla Tamamlandı!
-              </h3>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-                Destek olan tüm gönüllü test kullanıcılarına teşekkür ederiz.
-              </p>
-            </div>
-          )}
+
+            {/* Right Column (Screenshot) */}
+            {app.screenshot_url && (
+              <div style={{ width: '280px', flexShrink: '0', margin: '0 auto' }}>
+                <h3 style={{ fontSize: '1.05rem', marginBottom: '0.5rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>
+                  Ekran Görüntüsü
+                </h3>
+                <div style={{ 
+                  border: '1px solid var(--border-color)', 
+                  borderRadius: '8px', 
+                  overflow: 'hidden', 
+                  backgroundColor: '#16161a',
+                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.5)'
+                }}>
+                  <img 
+                    src={app.screenshot_url} 
+                    alt={`${app.title} Ekran Görüntüsü`} 
+                    style={{ width: '100%', height: 'auto', display: 'block' }}
+                  />
+                </div>
+              </div>
+            )}
+
+          </div>
 
           {/* SHARING TOOL PANEL (Reddit/Direct Link) */}
           <div style={{ backgroundColor: 'var(--card-bg)', border: '1px solid var(--border-color)', borderRadius: '8px', padding: '1.25rem', marginTop: '0.5rem' }}>

@@ -5,12 +5,61 @@ import { useRouter } from 'next/navigation';
 import Header from '../../components/Header';
 import { db } from '../../lib/db';
 
+// Client-side image compression helper (WebP format)
+function compressImage(file, maxWidth = 800, quality = 0.8) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = (event) => {
+      const img = new Image();
+      img.src = event.target.result;
+      img.onload = () => {
+        const canvas = document.createElement('canvas');
+        let width = img.width;
+        let height = img.height;
+
+        // Resize if width is larger than maxWidth
+        if (width > maxWidth) {
+          height = Math.round((height * maxWidth) / width);
+          width = maxWidth;
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, width, height);
+
+        canvas.toBlob(
+          (blob) => {
+            if (blob) {
+              const compressedFile = new File([blob], file.name.replace(/\.[^/.]+$/, "") + ".webp", {
+                type: 'image/webp',
+                lastModified: Date.now()
+              });
+              resolve(compressedFile);
+            } else {
+              reject(new Error('Resim sıkıştırılamadı.'));
+            }
+          },
+          'image/webp',
+          quality
+        );
+      };
+      img.onerror = (err) => reject(err);
+    };
+    reader.onerror = (err) => reject(err);
+  });
+}
+
 export default function AddApp() {
   const router = useRouter();
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
+  const [screenshotFile, setScreenshotFile] = useState(null);
+  const [uploadStatus, setUploadStatus] = useState('');
 
   const [formData, setFormData] = useState({
     title: '',
@@ -62,13 +111,27 @@ export default function AddApp() {
 
     setSaving(true);
     try {
-      const newApp = await db.addApp(formData);
+      let screenshot_url = null;
+      if (screenshotFile) {
+        setUploadStatus('Resim sıkıştırılıyor...');
+        const compressedFile = await compressImage(screenshotFile);
+        
+        setUploadStatus('Resim depoya yükleniyor...');
+        screenshot_url = await db.uploadScreenshot(compressedFile);
+      }
+
+      setUploadStatus('Uygulama bilgileri kaydediliyor...');
+      await db.addApp({
+        ...formData,
+        screenshot_url
+      });
       router.push('/');
     } catch (e) {
       console.error(e);
       setError(e.message || 'Uygulama eklenirken bir hata oluştu.');
     } finally {
       setSaving(false);
+      setUploadStatus('');
     }
   };
 
@@ -186,13 +249,42 @@ export default function AddApp() {
               </span>
             </div>
 
-            <div className="form-actions">
-              <button type="button" onClick={() => router.push('/')} disabled={saving}>
-                Vazgeç
-              </button>
-              <button type="submit" className="primary" disabled={saving}>
-                {saving ? 'Kaydediliyor...' : 'Yayınla'}
-              </button>
+            <div className="form-group">
+              <label htmlFor="screenshot">Uygulama Ekran Görüntüsü (Dikey - İsteğe Bağlı)</label>
+              <input
+                type="file"
+                id="screenshot"
+                name="screenshot"
+                accept="image/*"
+                onChange={(e) => setScreenshotFile(e.target.files[0] || null)}
+                style={{
+                  padding: '0.5rem',
+                  backgroundColor: '#16161a',
+                  border: '1px solid var(--border-color)',
+                  borderRadius: '6px',
+                  color: 'var(--text-color)',
+                  width: '100%'
+                }}
+              />
+              <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', display: 'block', marginTop: '0.25rem' }}>
+                Uygulamanızın dikey (telefon ekranı) ekran görüntüsü. Resim yüklenirken otomatik olarak WebP olarak sıkıştırılır.
+              </span>
+            </div>
+
+            <div className="form-actions" style={{ flexDirection: 'column', alignItems: 'stretch', gap: '1rem' }}>
+              {uploadStatus && (
+                <div style={{ color: 'var(--accent-color)', fontSize: '0.85rem', textAlign: 'center', fontWeight: '500' }}>
+                  {uploadStatus}
+                </div>
+              )}
+              <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1rem' }}>
+                <button type="button" onClick={() => router.push('/')} disabled={saving}>
+                  Vazgeç
+                </button>
+                <button type="submit" className="primary" disabled={saving}>
+                  {saving ? 'Kaydediliyor...' : 'Yayınla'}
+                </button>
+              </div>
             </div>
           </form>
         </div>
