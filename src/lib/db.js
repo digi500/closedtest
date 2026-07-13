@@ -179,7 +179,12 @@ export const db = {
           .from('apps')
           .select('*')
           .order('created_at', { ascending: false });
-        if (!error) return data;
+        if (!error) {
+          return data.map(app => ({
+            ...app,
+            logo_letter: app.title ? app.title.trim().charAt(0).toUpperCase() : '?'
+          }));
+        }
       } catch (e) {
         console.error('Supabase getApps error, fetching from mock data:', e);
       }
@@ -202,7 +207,12 @@ export const db = {
           .select('*')
           .eq('id', id)
           .single();
-        if (!error) return data;
+        if (!error && data) {
+          return {
+            ...data,
+            logo_letter: data.title ? data.title.trim().charAt(0).toUpperCase() : '?'
+          };
+        }
       } catch (e) {
         console.error(`Supabase getApp ${id} error, fetching from mock data:`, e);
       }
@@ -233,16 +243,24 @@ export const db = {
 
     if (isSupabaseConfigured()) {
       try {
+        const { logo_letter, ...dbAppPayload } = newApp;
         const { data, error } = await supabase
           .from('apps')
           .insert([{
-            ...newApp,
+            ...dbAppPayload,
             owner_id: user.id,
             owner_name: user.name
           }])
           .select()
           .single();
-        if (!error) return data;
+        if (!error && data) {
+          return {
+            ...data,
+            logo_letter: data.title ? data.title.trim().charAt(0).toUpperCase() : '?'
+          };
+        } else if (error) {
+          console.error('Supabase addApp database error:', error);
+        }
       } catch (e) {
         console.error('Supabase addApp error, saving to mock data:', e);
       }
