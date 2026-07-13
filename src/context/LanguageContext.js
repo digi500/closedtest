@@ -12,18 +12,26 @@ export function LanguageProvider({ children }) {
   useEffect(() => {
     // Detect language on mount
     const savedLang = localStorage.getItem('closedtest_lang');
-    if (savedLang === 'tr' || savedLang === 'en') {
+    if (savedLang && translations[savedLang]) {
       setLanguage(savedLang);
     } else {
-      const browserLang = typeof navigator !== 'undefined' ? (navigator.language || navigator.userLanguage || '') : '';
-      const detected = browserLang.toLowerCase().startsWith('tr') ? 'tr' : 'en';
-      setLanguage(detected);
+      const browserLang = typeof navigator !== 'undefined' ? (navigator.language || navigator.userLanguage || '') : 'en';
+      if (translations[browserLang]) {
+        setLanguage(browserLang);
+      } else {
+        const baseLang = browserLang.split('-')[0].toLowerCase();
+        if (translations[baseLang]) {
+          setLanguage(baseLang);
+        } else {
+          setLanguage('en');
+        }
+      }
     }
     setMounted(true);
   }, []);
 
   const changeLanguage = (lang) => {
-    if (lang === 'tr' || lang === 'en') {
+    if (translations[lang]) {
       setLanguage(lang);
       localStorage.setItem('closedtest_lang', lang);
     }

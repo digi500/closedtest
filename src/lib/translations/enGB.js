@@ -1,4 +1,4 @@
-export const en = {
+export const enGB = {
   // Common / Header
   logo: "Closed Test",
   home: "Home",
@@ -15,7 +15,7 @@ export const en = {
   // Home page
   heroTitle: "Google Play Closed Testing Exchange",
   heroSubtitle: "Open-source peer-to-peer closed testing platform for Google Play Console's closed testing requirements.",
-  heroDesc: "Find voluntary developers to test your application, or support other developers by testing their applications.",
+  heroDesc: "Find volunteer developers to test your application, or support other developers by testing their applications.",
   newApps: "Newly Added Applications",
   recentApps: "Latest testing requests",
   testedApps: "Tested Applications ({count})",

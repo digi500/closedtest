@@ -45,24 +45,29 @@ export default function Header() {
         
         <nav className="user-nav">
           {mounted && (
-            <button 
-              onClick={() => changeLanguage(language === 'tr' ? 'en' : 'tr')}
+            <select
+              value={language}
+              onChange={(e) => changeLanguage(e.target.value)}
               style={{
                 background: 'var(--card-bg)',
                 border: '1px solid var(--border-color)',
-                padding: '0.35rem 0.75rem',
+                padding: '0.35rem 0.5rem',
                 borderRadius: '6px',
                 color: 'var(--text-color)',
                 fontSize: '0.8rem',
                 cursor: 'pointer',
                 fontWeight: '600',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '0.25rem'
+                outline: 'none',
+                marginRight: '0.5rem'
               }}
             >
-              {language === 'tr' ? '🇺🇸 EN' : '🇹🇷 TR'}
-            </button>
+              <option value="tr">🇹🇷 Türkçe</option>
+              <option value="en">🇺🇸 English (US)</option>
+              <option value="en-GB">🇬🇧 English (UK)</option>
+              <option value="en-AU">🇦🇺 English (AU)</option>
+              <option value="pt-BR">🇧🇷 Português (BR)</option>
+              <option value="pt-PT">🇵🇹 Português (PT)</option>
+            </select>
           )}
           
           {!loading && (
