@@ -61,7 +61,7 @@ export default function Header() {
                 gap: '0.25rem'
               }}
             >
-              {language === 'tr' ? '🇬🇧 EN' : '🇹🇷 TR'}
+              {language === 'tr' ? '🇺🇸 EN' : '🇹🇷 TR'}
             </button>
           )}
           
