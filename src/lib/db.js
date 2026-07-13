@@ -301,14 +301,7 @@ export const db = {
     // fields: 'click_count', 'group_join_count', 'download_count'
     if (isSupabaseConfigured()) {
       try {
-        // Simple raw sql increment is complex via standard JS client without RPC.
-        // We can fetch, increment, and update, or ignore for simplicity.
-        const app = await this.getApp(id);
-        if (app) {
-          const updateObj = {};
-          updateObj[field] = (app[field] || 0) + 1;
-          await supabase.from('apps').update(updateObj).eq('id', id);
-        }
+        await supabase.rpc('increment_app_count', { app_id: id, field_name: field });
       } catch (e) {
         console.error(`Supabase incrementCount error:`, e);
       }
