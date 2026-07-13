@@ -67,6 +67,8 @@ export default function Header() {
               <option value="en-AU">🇦🇺 English (AU)</option>
               <option value="pt-BR">🇧🇷 Português (BR)</option>
               <option value="pt-PT">🇵🇹 Português (PT)</option>
+              <option value="es">🇪🇸 Español (ES)</option>
+              <option value="es-MX">🇲🇽 Español (MX)</option>
             </select>
           )}
           
