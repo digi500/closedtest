@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Header from '../../components/Header';
 import { db } from '../../lib/db';
+import { useLanguage } from '../../context/LanguageContext';
 
 // Client-side image compression helper (WebP format)
 function compressImage(file, maxWidth = 800, quality = 0.8) {
@@ -54,6 +55,7 @@ function compressImage(file, maxWidth = 800, quality = 0.8) {
 
 export default function AddApp() {
   const router = useRouter();
+  const { t, mounted } = useLanguage();
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -70,12 +72,12 @@ export default function AddApp() {
   });
 
   const categories = [
-    '🎮 Oyun',
-    '🛠️ Araçlar & Verimlilik',
-    '🎓 Eğitim & Bilgi',
-    '❤️ Sağlık & Yaşam',
-    '🌍 Sosyal & Eğlence',
-    '🧩 Diğer'
+    { id: '🎮 Oyun', labelKey: 'games' },
+    { id: '🛠️ Araçlar & Verimlilik', labelKey: 'tools' },
+    { id: '🎓 Eğitim & Bilgi', labelKey: 'education' },
+    { id: '❤️ Sağlık & Yaşam', labelKey: 'health' },
+    { id: '🌍 Sosyal & Eğlence', labelKey: 'social' },
+    { id: '🧩 Diğer', labelKey: 'other' }
   ];
 
   useEffect(() => {
@@ -100,27 +102,27 @@ export default function AddApp() {
     setError('');
 
     // Validations
-    if (!formData.title.trim()) return setError('Uygulama adı boş bırakılamaz.');
-    if (!formData.description.trim()) return setError('Açıklama alanı boş bırakılamaz.');
+    if (!formData.title.trim()) return setError(t('errTitleEmpty'));
+    if (!formData.description.trim()) return setError(t('errDescEmpty'));
     if (!formData.google_group_url.startsWith('http')) {
-      return setError('Geçerli bir Google Grubu katılım linki girin (https://... ile başlamalı).');
+      return setError(t('errGroupUrl'));
     }
     if (!formData.play_store_url.startsWith('http')) {
-      return setError('Geçerli bir Google Play Store test linki girin (https://... ile başlamalı).');
+      return setError(t('errPlayUrl'));
     }
 
     setSaving(true);
     try {
       let screenshot_url = null;
       if (screenshotFile) {
-        setUploadStatus('Resim sıkıştırılıyor...');
+        setUploadStatus(t('statusCompressing'));
         const compressedFile = await compressImage(screenshotFile);
         
-        setUploadStatus('Resim depoya yükleniyor...');
+        setUploadStatus(t('statusUploading'));
         screenshot_url = await db.uploadScreenshot(compressedFile);
       }
 
-      setUploadStatus('Uygulama bilgileri kaydediliyor...');
+      setUploadStatus(t('statusSaving'));
       await db.addApp({
         ...formData,
         screenshot_url
@@ -128,7 +130,7 @@ export default function AddApp() {
       router.push('/');
     } catch (e) {
       console.error(e);
-      setError(e.message || 'Uygulama eklenirken bir hata oluştu.');
+      setError(e.message || t('errGeneric'));
     } finally {
       setSaving(false);
       setUploadStatus('');
@@ -140,7 +142,7 @@ export default function AddApp() {
       <>
         <Header />
         <div className="container" style={{ textAlign: 'center', paddingTop: '4rem' }}>
-          <p style={{ color: 'var(--text-muted)' }}>Yükleniyor...</p>
+          <p style={{ color: 'var(--text-muted)' }}>{t('loading')}</p>
         </div>
       </>
     );
@@ -152,12 +154,12 @@ export default function AddApp() {
         <Header />
         <div className="container" style={{ textAlign: 'center', paddingTop: '4rem' }}>
           <div className="form-card" style={{ padding: '2rem' }}>
-            <h2 style={{ marginBottom: '1rem' }}>Giriş Yapmalısınız</h2>
+            <h2 style={{ marginBottom: '1rem' }}>{t('commentLoginRequired').replace('için', '')}</h2>
             <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem' }}>
               Uygulama ekleyebilmek için öncelikle Google hesabınız ile giriş yapmanız gerekmektedir.
             </p>
             <button onClick={() => db.loginWithGoogle()} className="primary">
-              Google ile Giriş Yap
+              {t('loginGoogle')}
             </button>
           </div>
         </div>
@@ -170,7 +172,7 @@ export default function AddApp() {
       <Header />
       <div className="container">
         <h1 style={{ fontSize: '1.5rem', fontWeight: '700', marginBottom: '1.5rem', textAlign: 'center' }}>
-          Yeni Test Talebi Oluştur
+          {t('addTitle')}
         </h1>
 
         <div className="form-card">
@@ -178,7 +180,7 @@ export default function AddApp() {
 
           <form onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="title">Uygulama Adı</label>
+              <label htmlFor="title">{t('appName')}</label>
               <input
                 type="text"
                 id="title"
@@ -191,7 +193,7 @@ export default function AddApp() {
             </div>
 
             <div className="form-group">
-              <label htmlFor="category">Kategori</label>
+              <label htmlFor="category">{t('appCategory')}</label>
               <select
                 id="category"
                 name="category"
@@ -199,13 +201,13 @@ export default function AddApp() {
                 onChange={handleChange}
               >
                 {categories.map((cat) => (
-                  <option key={cat} value={cat}>{cat}</option>
+                  <option key={cat.id} value={cat.id}>{t(cat.labelKey)}</option>
                 ))}
               </select>
             </div>
 
             <div className="form-group">
-              <label htmlFor="description">Uygulama Açıklaması ve Test Talebi Detayı</label>
+              <label htmlFor="description">{t('appDesc')}</label>
               <textarea
                 id="description"
                 name="description"
@@ -218,7 +220,7 @@ export default function AddApp() {
             </div>
 
             <div className="form-group">
-              <label htmlFor="google_group_url">Google Grubu Katılım Linki</label>
+              <label htmlFor="google_group_url">{t('googleGroupUrl')}</label>
               <input
                 type="url"
                 id="google_group_url"
@@ -229,12 +231,12 @@ export default function AddApp() {
                 required
               />
               <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', display: 'block', marginTop: '0.25rem' }}>
-                Kullanıcıların Google Play üzerinden test grubunuza dahil olabilmesi için bu gruba katılmaları gerekir.
+                {t('googleGroupHelp')}
               </span>
             </div>
 
             <div className="form-group">
-              <label htmlFor="play_store_url">Google Play Store Test Bağlantısı (Opt-in Link)</label>
+              <label htmlFor="play_store_url">{t('playStoreUrl')}</label>
               <input
                 type="url"
                 id="play_store_url"
@@ -245,12 +247,12 @@ export default function AddApp() {
                 required
               />
               <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', display: 'block', marginTop: '0.25rem' }}>
-                Google Play Console'daki kapalı test panelinizden alacağınız test katılım bağlantısı.
+                {t('playStoreHelp')}
               </span>
             </div>
 
             <div className="form-group">
-              <label htmlFor="screenshot">Uygulama Ekran Görüntüsü (Dikey - İsteğe Bağlı)</label>
+              <label htmlFor="screenshot">{t('screenshot')}</label>
               <input
                 type="file"
                 id="screenshot"
@@ -267,7 +269,7 @@ export default function AddApp() {
                 }}
               />
               <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', display: 'block', marginTop: '0.25rem' }}>
-                Uygulamanızın dikey (telefon ekranı) ekran görüntüsü. Resim yüklenirken otomatik olarak WebP olarak sıkıştırılır.
+                {t('screenshotHelp')}
               </span>
             </div>
 
@@ -279,10 +281,10 @@ export default function AddApp() {
               )}
               <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1rem' }}>
                 <button type="button" onClick={() => router.push('/')} disabled={saving}>
-                  Vazgeç
+                  {t('cancel')}
                 </button>
                 <button type="submit" className="primary" disabled={saving}>
-                  {saving ? 'Kaydediliyor...' : 'Yayınla'}
+                  {saving ? t('saving') : t('save')}
                 </button>
               </div>
             </div>

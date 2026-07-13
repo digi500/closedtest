@@ -1,5 +1,6 @@
 import "./globals.css";
 import Footer from "../components/Footer";
+import { LanguageProvider } from "../context/LanguageContext";
 
 export const metadata = {
   title: "Closed Test - Google Play Kapalı Test Yardımlaşma Platformu",
@@ -10,8 +11,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="tr">
       <body style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-        <div style={{ flex: 1 }}>{children}</div>
-        <Footer />
+        <LanguageProvider>
+          <div style={{ flex: 1 }}>{children}</div>
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );

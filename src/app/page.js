@@ -4,21 +4,28 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Header from '../components/Header';
 import { db } from '../lib/db';
+import { useLanguage } from '../context/LanguageContext';
 
 export default function Home() {
   const [apps, setApps] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('Tümü');
+  const { language, t, mounted } = useLanguage();
 
   const categories = [
-    'Tümü',
-    '🎮 Oyun',
-    '🛠️ Araçlar & Verimlilik',
-    '🎓 Eğitim & Bilgi',
-    '❤️ Sağlık & Yaşam',
-    '🌍 Sosyal & Eğlence',
-    '🧩 Diğer'
+    { id: 'Tümü', labelKey: 'categoryAll' },
+    { id: '🎮 Oyun', labelKey: 'games' },
+    { id: '🛠️ Araçlar & Verimlilik', labelKey: 'tools' },
+    { id: '🎓 Eğitim & Bilgi', labelKey: 'education' },
+    { id: '❤️ Sağlık & Yaşam', labelKey: 'health' },
+    { id: '🌍 Sosyal & Eğlence', labelKey: 'social' },
+    { id: '🧩 Diğer', labelKey: 'other' }
   ];
+
+  const getTranslatedCategory = (catId) => {
+    const found = categories.find(c => c.id === catId);
+    return found ? t(found.labelKey) : catId;
+  };
 
   useEffect(() => {
     async function loadApps() {
@@ -45,14 +52,26 @@ export default function Home() {
       const diffHours = Math.floor(diffTime / (1000 * 60 * 60));
       if (diffHours === 0) {
         const diffMins = Math.floor(diffTime / (1000 * 60));
-        return diffMins <= 1 ? 'Şimdi' : `${diffMins} dk önce`;
+        if (language === 'tr') {
+          return diffMins <= 1 ? 'Şimdi' : `${diffMins} dk önce`;
+        } else {
+          return diffMins <= 1 ? 'Just now' : `${diffMins}m ago`;
+        }
       }
-      return `${diffHours} saat önce`;
+      if (language === 'tr') {
+        return `${diffHours} saat önce`;
+      } else {
+        return `${diffHours}h ago`;
+      }
     }
     if (diffDays === 1) {
-      return 'Dün';
+      return language === 'tr' ? 'Dün' : 'Yesterday';
     }
-    return `${diffDays} gün önce`;
+    if (language === 'tr') {
+      return `${diffDays} gün önce`;
+    } else {
+      return `${diffDays}d ago`;
+    }
   };
 
   // Filter apps
@@ -73,20 +92,20 @@ export default function Home() {
       <main className="container">
         {loading ? (
           <div style={{ textAlign: 'center', padding: '4rem' }}>
-            <p style={{ color: 'var(--text-muted)' }}>Yükleniyor...</p>
+            <p style={{ color: 'var(--text-muted)' }}>{t('loading')}</p>
           </div>
         ) : (
           <>
             {/* HERO SECTION / INTRO */}
             <div style={{ marginBottom: '2.5rem', textAlign: 'center' }}>
               <h1 style={{ fontSize: '2rem', fontWeight: '800', marginBottom: '0.5rem' }}>
-                Google Play Kapalı Test Yardımlaşması
+                {t('heroTitle')}
               </h1>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', fontStyle: 'italic', marginBottom: '1rem' }}>
-                Open-source peer-to-peer closed testing platform for Google Play Console's closed testing requirements.
+                {t('heroSubtitle')}
               </p>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', maxWidth: '600px', margin: '0 auto' }}>
-                Uygulamanızı test edecek gönüllü geliştiriciler bulun veya diğer geliştiricilerin uygulamalarını test ederek onlara destek olun.
+                {t('heroDesc')}
               </p>
             </div>
 
@@ -94,8 +113,8 @@ export default function Home() {
             {sliderApps.length > 0 && (
               <div className="slider-wrapper">
                 <div className="section-header">
-                  <h2>Yeni Eklenen Uygulamalar</h2>
-                  <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Son eklenen test talepleri</span>
+                  <h2>{t('newApps')}</h2>
+                  <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{t('recentApps')}</span>
                 </div>
                 <div className="slider-container">
                   {sliderApps.map((app) => (
@@ -113,19 +132,19 @@ export default function Home() {
 
             {/* ACTIVE TEST APPLICATIONS SECTION */}
             <div className="section-header" style={{ marginTop: '2rem' }}>
-              <h2>Test Edilen Uygulamalar ({activeApps.length})</h2>
-              <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Gönüllü tester bekleyenler</span>
+              <h2>{t('testedApps', { count: activeApps.length })}</h2>
+              <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{t('testingStatus')}</span>
             </div>
 
             {/* Category Filters */}
             <div className="filter-bar">
               {categories.map((cat) => (
                 <button
-                  key={cat}
-                  className={`filter-btn ${selectedCategory === cat ? 'active' : ''}`}
-                  onClick={() => setSelectedCategory(cat)}
+                  key={cat.id}
+                  className={`filter-btn ${selectedCategory === cat.id ? 'active' : ''}`}
+                  onClick={() => setSelectedCategory(cat.id)}
                 >
-                  {cat}
+                  {t(cat.labelKey)}
                 </button>
               ))}
             </div>
@@ -142,7 +161,7 @@ export default function Home() {
                         </div>
                         <div className="app-card-details">
                           <div className="app-card-title">{app.title}</div>
-                          <div className="app-card-subtitle">{app.category}</div>
+                          <div className="app-card-subtitle">{getTranslatedCategory(app.category)}</div>
                         </div>
                       </div>
                       <p className="app-card-desc">{app.description}</p>
@@ -156,7 +175,7 @@ export default function Home() {
               </div>
             ) : (
               <div className="empty-state">
-                <p>Bu kategoride aktif test talebi bulunmuyor.</p>
+                <p>{t('noApps')}</p>
               </div>
             )}
 
@@ -164,8 +183,8 @@ export default function Home() {
             {publishedApps.length > 0 && (
               <div style={{ marginTop: '4rem', borderTop: '1px solid var(--border-color)', paddingTop: '2.5rem' }}>
                 <div className="section-header">
-                  <h2 style={{ color: '#10b981' }}>✓ Başarıyla Yayınlananlar ({publishedApps.length})</h2>
-                  <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>14 günlük testi geçip Google Play'de yayınlananlar</span>
+                  <h2 style={{ color: '#10b981' }}>✓ {t('published')} ({publishedApps.length})</h2>
+                  <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{t('publishedStatus')}</span>
                 </div>
                 <div className="grid-container">
                   {publishedApps.map((app) => (
@@ -177,14 +196,14 @@ export default function Home() {
                           </div>
                           <div className="app-card-details">
                             <div className="app-card-title">{app.title}</div>
-                            <div className="app-card-subtitle">{app.category}</div>
+                            <div className="app-card-subtitle">{getTranslatedCategory(app.category)}</div>
                           </div>
                         </div>
                         <p className="app-card-desc">{app.description}</p>
                       </div>
                       <div className="app-card-footer">
                         <span>{app.owner_name}</span>
-                        <span style={{ color: '#10b981', fontWeight: '600' }}>YAYINLANDI</span>
+                        <span style={{ color: '#10b981', fontWeight: '600' }}>{t('published').toUpperCase()}</span>
                       </div>
                     </Link>
                   ))}
