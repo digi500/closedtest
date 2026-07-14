@@ -93,5 +93,21 @@ export const ay = {
   // Footer
   footerText: "Jiskt'ata yant'awi luraña bursa luraqinakaru yatichawi.",
   footerSubText: "Aka patapampa open-source ha munaspa yanapaq luraqinaku lurañawa.",
-  githubBtn: "Yanapañani / Star churaña GitHub-na"
+  githubBtn: "Yanapañani / Star churaña GitHub-na",
+
+  // Support & Contact
+  supportFAQ: "Yanapt’awi & FAQ",
+  supportTitle: "Yanapt’awi & Uñt’ayasiña",
+  supportDesc: "¿Plataforma tuqit jisktʼanakas utjiti jan ukax nanakamp jikisiñ munasmati? Mä yatiyaw apayanisma aka formulario ukamp jan ukax FAQ t’aqa uñakipt’añamawa.",
+  faqTitle: "Sapa kuti jisktʼasir jisktʼanaka",
+  contactFormTitle: "Mä Yatiyaw apayanipxita",
+  nameLabel: "Sutima ukat Apellido",
+  emailLabel: "Ukax Correo electrónico ukan uñt’ayatawa",
+  subjectLabel: "Sujitu",
+  messageLabel: "Uka yatiyäwimaxa",
+  sendMessage: "Yatiyawinak apayanipxam",
+  sendingMessage: "Ukax mä...",
+  messageSent: "¡Yatiyäwimax apayatäxiwa!",
+  messageSentDesc: "Uka contacto mayiwixa suma katuqatawa. Jiwasax correo electrónico tuqiw jank’ak kutt’ayapxäma.",
+  writeNewMessage: "Machaq Yatiyawi Qillqaña"
 };

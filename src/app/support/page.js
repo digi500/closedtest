@@ -84,12 +84,10 @@ export default function SupportPage() {
       <main className="container" style={{ paddingBottom: '4rem' }}>
         <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
           <h1 style={{ fontSize: '2.25rem', fontWeight: '800', marginBottom: '0.75rem' }}>
-            {language === 'tr' ? 'Destek & İletişim' : 'Support & Contact'}
+            {t('supportTitle')}
           </h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '1rem', maxWidth: '600px', margin: '0 auto' }}>
-            {language === 'tr' 
-              ? 'Platform hakkında sorularınız mı var veya bizimle iletişime geçmek mi istiyorsunuz? Aşağıdaki formdan mesaj atabilir veya SSS bölümünü inceleyebilirsiniz.'
-              : 'Do you have questions about the platform or want to get in touch? Send us a message using the form below or browse the FAQ section.'}
+            {t('supportDesc')}
           </p>
         </div>
 
@@ -98,7 +96,7 @@ export default function SupportPage() {
           {/* FAQ Area (Left Column) */}
           <div style={{ flex: '1.2', minWidth: '320px', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             <h2 style={{ fontSize: '1.4rem', fontWeight: '700', marginBottom: '0.5rem', color: 'var(--text-color)' }}>
-              {language === 'tr' ? 'Sıkça Sorulan Sorular' : 'Frequently Asked Questions'}
+              {t('faqTitle')}
             </h2>
             
             {faqs.map((faq, idx) => (
@@ -154,29 +152,27 @@ export default function SupportPage() {
           {/* Contact Form Area (Right Column) */}
           <div style={{ flex: '1', minWidth: '320px', backgroundColor: 'var(--card-bg)', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem' }}>
             <h2 style={{ fontSize: '1.4rem', fontWeight: '700', marginBottom: '1.5rem' }}>
-              {language === 'tr' ? 'Bize Mesaj Gönderin' : 'Send Us a Message'}
+              {t('contactFormTitle')}
             </h2>
 
             {success ? (
               <div style={{ backgroundColor: 'rgba(16, 185, 129, 0.08)', border: '1px solid #10b981', borderRadius: '8px', padding: '1.5rem', textAlign: 'center' }}>
                 <span style={{ fontSize: '2.5rem' }}>✉️</span>
                 <h3 style={{ fontSize: '1.1rem', color: '#10b981', marginTop: '0.5rem', marginBottom: '0.5rem' }}>
-                  {language === 'tr' ? 'Mesajınız Gönderildi!' : 'Message Sent!'}
+                  {t('messageSent')}
                 </h3>
                 <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '1.5rem' }}>
-                  {language === 'tr' 
-                    ? 'İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.' 
-                    : 'Your contact request has been received. We will get back to you via email as soon as possible.'}
+                  {t('messageSentDesc')}
                 </p>
                 <button className="primary" onClick={() => setSuccess(false)} style={{ fontSize: '0.85rem' }}>
-                  {language === 'tr' ? 'Yeni Mesaj Yaz' : 'Write New Message'}
+                  {t('writeNewMessage')}
                 </button>
               </div>
             ) : (
               <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
                 <div>
                   <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: '600', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>
-                    {language === 'tr' ? 'Adınız Soyadınız' : 'Your Name'}
+                    {t('nameLabel')}
                   </label>
                   <input
                     type="text"
@@ -198,7 +194,7 @@ export default function SupportPage() {
 
                 <div>
                   <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: '600', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>
-                    {language === 'tr' ? 'E-posta Adresiniz' : 'Your Email'}
+                    {t('emailLabel')}
                   </label>
                   <input
                     type="email"
@@ -220,7 +216,7 @@ export default function SupportPage() {
 
                 <div>
                   <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: '600', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>
-                    {language === 'tr' ? 'Konu' : 'Subject'}
+                    {t('subjectLabel')}
                   </label>
                   <input
                     type="text"
@@ -242,7 +238,7 @@ export default function SupportPage() {
 
                 <div>
                   <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: '600', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>
-                    {language === 'tr' ? 'Mesajınız' : 'Your Message'}
+                    {t('messageLabel')}
                   </label>
                   <textarea
                     required
@@ -278,8 +274,8 @@ export default function SupportPage() {
                   }}
                 >
                   {loading 
-                    ? (language === 'tr' ? 'Gönderiliyor...' : 'Sending...') 
-                    : (language === 'tr' ? '✉️ Mesaj Gönder' : '✉️ Send Message')}
+                    ? t('sendingMessage')
+                    : t('sendMessage')}
                 </button>
               </form>
             )}

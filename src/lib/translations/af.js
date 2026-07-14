@@ -93,5 +93,21 @@ export const af = {
   // Footer
   footerText: "Geslote toetsuitruilplatform vir ontwikkelaars.",
   footerSubText: "Hierdie platform is heeltemal oopbron en word deur vrywillige ontwikkelaars ontwikkel.",
-  githubBtn: "Dra by / Gee Ster op GitHub"
+  githubBtn: "Dra by / Gee Ster op GitHub",
+
+  // Support & Contact
+  supportFAQ: "Ondersteuning en Gereelde Vrae",
+  supportTitle: "Ondersteuning & Kontak",
+  supportDesc: "Het jy vrae oor die platform of wil jy ons kontak? Jy kan 'n boodskap stuur deur die vorm hieronder te gebruik of die FAQ-afdeling hersien.",
+  faqTitle: "Gereelde Vrae",
+  contactFormTitle: "Stuur vir ons 'n boodskap",
+  nameLabel: "Jou Naam en Van",
+  emailLabel: "Jou e-posadres",
+  subjectLabel: "Onderwerp",
+  messageLabel: "Jou boodskap",
+  sendMessage: "Stuur Boodskap",
+  sendingMessage: "Stuur tans …",
+  messageSent: "Jou boodskap is gestuur!",
+  messageSentDesc: "Jou kontakversoek is suksesvol ontvang. Ons sal so gou moontlik na jou terugkom via jou e-posadres.",
+  writeNewMessage: "Skryf nuwe boodskap"
 };

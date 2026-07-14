@@ -93,5 +93,21 @@ export const am = {
   // Footer
   footerText: "ለአልሚዎች የተዘጋጀ የተዘጉ ሙከራዎች ልውውጥ መድረክ።",
   footerSubText: "ይህ መድረክ ሙሉ በሙሉ ክፍት ምንጭ ሲሆን በበጎ ፈቃደኛ አልሚዎች የተገነባ ነው።",
-  githubBtn: "ያግዙ / በGitHub ላይ ኮከብ ይስጡ"
+  githubBtn: "ያግዙ / በGitHub ላይ ኮከብ ይስጡ",
+
+  // Support & Contact
+  supportFAQ: "ድጋፍ እና የሚጠየቁ ጥያቄዎች",
+  supportTitle: "ድጋፍ እና ግንኙነት",
+  supportDesc: "ስለ መድረኩ ጥያቄዎች አሉዎት ወይም እኛን ማግኘት ይፈልጋሉ? ከዚህ በታች ባለው ቅጽ በመጠቀም መልእክት መላክ ወይም FAQ ክፍሉን መገምገም ይችላሉ።",
+  faqTitle: "በተደጋጋሚ የሚጠየቁ ጥያቄዎች",
+  contactFormTitle: "መልእክት ላኩልን።",
+  nameLabel: "የእርስዎ ስም እና የአያት ስም",
+  emailLabel: "የኢሜል አድራሻዎ",
+  subjectLabel: "ርዕሰ ጉዳይ",
+  messageLabel: "መልእክትህ",
+  sendMessage: "መልእክት ላክ",
+  sendingMessage: "በመላክ ላይ...",
+  messageSent: "መልእክትህ ተልኳል!",
+  messageSentDesc: "የእውቂያ ጥያቄዎ በተሳካ ሁኔታ ደርሷል። በተቻለ ፍጥነት በኢሜል አድራሻዎ እንመለሳለን።",
+  writeNewMessage: "አዲስ መልእክት ጻፍ"
 };
