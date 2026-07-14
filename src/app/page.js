@@ -10,6 +10,7 @@ export default function Home() {
   const [apps, setApps] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('Tümü');
+  const [sortBy, setSortBy] = useState('newest');
   const { language, t, mounted } = useLanguage();
 
   const categories = [
@@ -82,6 +83,22 @@ export default function Home() {
   const filteredActiveApps = selectedCategory === 'Tümü'
     ? activeApps
     : activeApps.filter(app => app.category === selectedCategory);
+
+  // Sort active apps
+  const sortedAndFilteredActiveApps = [...filteredActiveApps].sort((a, b) => {
+    if (sortBy === 'likes') {
+      return (b.likes_count || 0) - (a.likes_count || 0);
+    }
+    return new Date(b.created_at) - new Date(a.created_at);
+  });
+
+  // Sort published apps
+  const sortedPublishedApps = [...publishedApps].sort((a, b) => {
+    if (sortBy === 'likes') {
+      return (b.likes_count || 0) - (a.likes_count || 0);
+    }
+    return new Date(b.created_at) - new Date(a.created_at);
+  });
 
   // Slider apps: Last 5 active apps added
   const sliderApps = activeApps.slice(0, 5);
@@ -165,10 +182,48 @@ export default function Home() {
               ))}
             </div>
 
+            {/* Sorting Tabs */}
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1.25rem', gap: '0.5rem' }}>
+              <button 
+                onClick={() => setSortBy('newest')} 
+                style={{ 
+                  fontSize: '0.75rem', 
+                  padding: '0.3rem 0.75rem', 
+                  borderRadius: '15px',
+                  backgroundColor: sortBy === 'newest' ? 'var(--accent-color)' : 'var(--card-bg)',
+                  color: sortBy === 'newest' ? '#fff' : 'var(--text-muted)',
+                  border: '1px solid',
+                  borderColor: sortBy === 'newest' ? 'var(--accent-color)' : 'var(--border-color)',
+                  fontWeight: '600',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                📅 {language === 'tr' ? 'En Yeniler' : 'Newest'}
+              </button>
+              <button 
+                onClick={() => setSortBy('likes')} 
+                style={{ 
+                  fontSize: '0.75rem', 
+                  padding: '0.3rem 0.75rem', 
+                  borderRadius: '15px',
+                  backgroundColor: sortBy === 'likes' ? 'var(--accent-color)' : 'var(--card-bg)',
+                  color: sortBy === 'likes' ? '#fff' : 'var(--text-muted)',
+                  border: '1px solid',
+                  borderColor: sortBy === 'likes' ? 'var(--accent-color)' : 'var(--border-color)',
+                  fontWeight: '600',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                🔥 {language === 'tr' ? 'En Çok Beğenilenler' : 'Most Liked'}
+              </button>
+            </div>
+
             {/* Active Apps Grid */}
-            {filteredActiveApps.length > 0 ? (
+            {sortedAndFilteredActiveApps.length > 0 ? (
               <div className="grid-container">
-                {filteredActiveApps.map((app) => (
+                {sortedAndFilteredActiveApps.map((app) => (
                   <Link href={`/app/${app.id}`} key={app.id} className="app-card">
                     <div>
                       <div className="app-card-header">
@@ -184,7 +239,10 @@ export default function Home() {
                     </div>
                     <div className="app-card-footer">
                       <span>{app.owner_name}</span>
-                      <span>{formatDateRelative(app.created_at)}</span>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                        <span style={{ fontSize: '0.8rem', opacity: 0.85 }}>❤️ {app.likes_count || 0}</span>
+                        <span>{formatDateRelative(app.created_at)}</span>
+                      </div>
                     </div>
                   </Link>
                 ))}
@@ -203,7 +261,7 @@ export default function Home() {
                   <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{t('publishedStatus')}</span>
                 </div>
                 <div className="grid-container">
-                  {publishedApps.map((app) => (
+                  {sortedPublishedApps.map((app) => (
                     <Link href={`/app/${app.id}`} key={app.id} className="app-card" style={{ opacity: 0.75 }}>
                       <div>
                         <div className="app-card-header">
@@ -219,7 +277,10 @@ export default function Home() {
                       </div>
                       <div className="app-card-footer">
                         <span>{app.owner_name}</span>
-                        <span style={{ color: '#10b981', fontWeight: '600' }}>{t('published').toUpperCase()}</span>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                          <span style={{ fontSize: '0.8rem', opacity: 0.85 }}>❤️ {app.likes_count || 0}</span>
+                          <span style={{ color: '#10b981', fontWeight: '600' }}>{t('published').toUpperCase()}</span>
+                        </div>
                       </div>
                     </Link>
                   ))}

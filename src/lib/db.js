@@ -31,7 +31,8 @@ const INITIAL_MOCK_APPS = [
     status: 'testing',
     click_count: 42,
     group_join_count: 18,
-    download_count: 14
+    download_count: 14,
+    likes_count: 15
   },
   {
     id: 'mock-app-2',
@@ -47,7 +48,8 @@ const INITIAL_MOCK_APPS = [
     status: 'testing',
     click_count: 85,
     group_join_count: 24,
-    download_count: 21
+    download_count: 21,
+    likes_count: 32
   },
   {
     id: 'mock-app-3',
@@ -63,7 +65,8 @@ const INITIAL_MOCK_APPS = [
     status: 'published', // Completed 14-days testing successfully!
     click_count: 120,
     group_join_count: 32,
-    download_count: 28
+    download_count: 28,
+    likes_count: 48
   }
 ];
 
@@ -432,5 +435,70 @@ export const db = {
       localStorage.setItem(MOCK_STORAGE_KEY_COMMENTS, JSON.stringify(comments));
       return createdComment;
     }
+  },
+
+  async toggleLike(appId) {
+    const user = await this.getCurrentUser();
+    if (!user) throw new Error('Uygulamaları beğenmek için giriş yapmalısınız.');
+    
+    let isLiked = false;
+    let likedAppIds = [];
+    
+    if (typeof window !== 'undefined') {
+      likedAppIds = JSON.parse(localStorage.getItem(`closedtest_liked_apps_${user.id}`) || '[]');
+      const index = likedAppIds.indexOf(appId);
+      if (index === -1) {
+        likedAppIds.push(appId);
+        isLiked = true;
+      } else {
+        likedAppIds.splice(index, 1);
+        isLiked = false;
+      }
+      localStorage.setItem(`closedtest_liked_apps_${user.id}`, JSON.stringify(likedAppIds));
+    }
+
+    if (isSupabaseConfigured()) {
+      try {
+        const incrementValue = isLiked ? 1 : -1;
+        await supabase.rpc('increment_app_likes', { app_id: appId, increment_value: incrementValue });
+      } catch (e) {
+        console.error('Supabase toggleLike error, attempting direct update:', e);
+        try {
+          const app = await this.getApp(appId);
+          if (app) {
+            const currentLikes = app.likes_count || 0;
+            const newLikes = Math.max(0, currentLikes + (isLiked ? 1 : -1));
+            await supabase.from('apps').update({ likes_count: newLikes }).eq('id', appId);
+          }
+        } catch (err) {
+          console.error('Supabase direct like update error:', err);
+        }
+      }
+    }
+
+    // Mock Fallback Update
+    initMockData();
+    if (typeof window !== 'undefined') {
+      const apps = JSON.parse(localStorage.getItem(MOCK_STORAGE_KEY_APPS) || '[]');
+      const appIndex = apps.findIndex(app => app.id === appId);
+      if (appIndex !== -1) {
+        const currentLikes = apps[appIndex].likes_count || 0;
+        apps[appIndex].likes_count = Math.max(0, currentLikes + (isLiked ? 1 : -1));
+        localStorage.setItem(MOCK_STORAGE_KEY_APPS, JSON.stringify(apps));
+        return { likes_count: apps[appIndex].likes_count, isLiked };
+      }
+    }
+    
+    return { likes_count: 0, isLiked };
+  },
+
+  async isAppLiked(appId) {
+    const user = await this.getCurrentUser();
+    if (!user) return false;
+    if (typeof window !== 'undefined') {
+      const likedAppIds = JSON.parse(localStorage.getItem(`closedtest_liked_apps_${user.id}`) || '[]');
+      return likedAppIds.includes(appId);
+    }
+    return false;
   }
 };

@@ -22,6 +22,8 @@ export default function AppDetail() {
   const [copiedReddit, setCopiedReddit] = useState(false);
   const [translatedDesc, setTranslatedDesc] = useState('');
   const [isTranslating, setIsTranslating] = useState(false);
+  const [likesCount, setLikesCount] = useState(0);
+  const [isLiked, setIsLiked] = useState(false);
 
   useEffect(() => {
     async function loadData() {
@@ -30,10 +32,15 @@ export default function AppDetail() {
         const appData = await db.getApp(id);
         if (appData) {
           setApp(appData);
+          setLikesCount(appData.likes_count || 0);
           // Increment click count for page view
           db.incrementCount(id, 'click_count');
           const commentsData = await db.getComments(id);
           setComments(commentsData);
+          
+          // Check if user has liked this app
+          const liked = await db.isAppLiked(id);
+          setIsLiked(liked);
         }
         const currentUser = await db.getCurrentUser();
         setUser(currentUser);
@@ -111,6 +118,20 @@ export default function AppDetail() {
       if (updated) {
         setApp(updated);
       }
+    }
+  };
+
+  const handleToggleLike = async () => {
+    if (!user) {
+      alert(language === 'tr' ? 'Uygulamaları beğenmek için giriş yapmalısınız!' : 'You must log in to like applications!');
+      return;
+    }
+    try {
+      const result = await db.toggleLike(app.id);
+      setIsLiked(result.isLiked);
+      setLikesCount(result.likes_count);
+    } catch (e) {
+      alert(e.message || 'Hata oluştu.');
     }
   };
 
@@ -290,7 +311,39 @@ Thank you so much! Post yours below and I will test back.`;
               <span style={{ fontSize: '0.8rem', color: 'var(--accent-color)', fontWeight: '600', textTransform: 'uppercase' }}>
                 {getTranslatedCategory(app.category)}
               </span>
-              <h1 className="detail-title">{app.title}</h1>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+                <h1 className="detail-title" style={{ margin: 0 }}>{app.title}</h1>
+                <button
+                  onClick={handleToggleLike}
+                  style={{
+                    background: 'rgba(255, 255, 255, 0.03)',
+                    border: '1px solid var(--border-color)',
+                    padding: '0.2rem 0.6rem',
+                    borderRadius: '20px',
+                    cursor: 'pointer',
+                    fontSize: '1rem',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '0.35rem',
+                    color: isLiked ? '#ef4444' : 'var(--text-muted)',
+                    transition: 'all 0.2s ease',
+                    outline: 'none'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'scale(1.08)';
+                    e.currentTarget.style.borderColor = isLiked ? '#ef4444' : 'var(--accent-color)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'scale(1)';
+                    e.currentTarget.style.borderColor = 'var(--border-color)';
+                  }}
+                >
+                  <span>{isLiked ? '❤️' : '🤍'}</span>
+                  <span style={{ fontSize: '0.8rem', fontWeight: '600', color: 'var(--text-color)' }}>
+                    {likesCount}
+                  </span>
+                </button>
+              </div>
               <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
                 {t('addedBy')}: <strong>{app.owner_name}</strong> • {formatDate(app.created_at)}
               </span>
