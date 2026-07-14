@@ -80,13 +80,50 @@ export default function AppDetail() {
     setIsTranslating(true);
     try {
       const targetLang = language;
-      const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(app.description)}&langpair=auto|${targetLang}`);
-      const data = await res.json();
-      if (data?.responseData?.translatedText) {
-        setTranslatedDesc(data.responseData.translatedText);
-      } else {
-        alert(language === 'tr' ? 'Çeviri yapılamadı.' : 'Translation failed.');
+      const desc = app.description;
+      
+      // Split description by paragraphs to preserve layout and stay under character limits
+      const paragraphs = desc.split('\n');
+      const translatedParagraphs = [];
+      
+      for (let p of paragraphs) {
+        if (!p.trim()) {
+          translatedParagraphs.push('');
+          continue;
+        }
+        
+        // If a single paragraph is longer than 450 chars, split it by sentence delimiters
+        if (p.length > 450) {
+          const sentences = p.match(/[^.!?]+[.!?]+(\s|$)/g) || [p];
+          let currentChunk = '';
+          const translatedSentences = [];
+          
+          for (let s of sentences) {
+            if ((currentChunk + s).length > 450) {
+              if (currentChunk) {
+                const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(currentChunk.trim())}&langpair=auto|${targetLang}`);
+                const data = await res.json();
+                translatedSentences.push(data?.responseData?.translatedText || currentChunk);
+              }
+              currentChunk = s;
+            } else {
+              currentChunk += s;
+            }
+          }
+          if (currentChunk) {
+            const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(currentChunk.trim())}&langpair=auto|${targetLang}`);
+            const data = await res.json();
+            translatedSentences.push(data?.responseData?.translatedText || currentChunk);
+          }
+          translatedParagraphs.push(translatedSentences.join(' '));
+        } else {
+          const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(p.trim())}&langpair=auto|${targetLang}`);
+          const data = await res.json();
+          translatedParagraphs.push(data?.responseData?.translatedText || p);
+        }
       }
+      
+      setTranslatedDesc(translatedParagraphs.join('\n'));
     } catch (err) {
       console.error(err);
       alert(language === 'tr' ? 'Bağlantı hatası oluştu.' : 'Connection error occurred.');
