@@ -109,5 +109,15 @@ export const haw = {
   sendingMessage: "Ke hoʻouna nei...",
   messageSent: "Ua Hoʻouna ʻia kāu leka!",
   messageSentDesc: "Ua loaʻa pono kāu noi hoʻokaʻaʻike. E hoʻi mākou iā ʻoe ma kāu leka uila i ka hikiwawe.",
-  writeNewMessage: "Kākau i ka memo hou"
+  writeNewMessage: "Kākau i ka memo hou",
+
+  // Support FAQs
+  faq1Q: "He aha ka Google Play 20 Tester Rule?",
+  faq1A: "No nā moʻokāki hoʻomohala hoʻokahi hou i wehe ʻia ma hope o Nowemapa 2023, ua kauoha ʻo Google e hana i ka hoʻāʻo paʻa ʻana me 20 mau mea hoʻohana hoʻāʻo ma lalo o 14 mau lā ma mua o ka hoʻolaha ʻana i kā lākou mau noi. ʻAʻole hiki ke paʻi ʻia nā noi i hoʻokō ʻole i kēia lula.",
+  faq2Q: "Pehea e hana ai ka Platform? Ua uku ʻia?",
+  faq2A: "ʻAʻole manuahi ko mākou paepae a ma muli o ka launa pū ʻana. Hoʻāʻo nā mea hoʻomohala i nā noi a kekahi. Ke hoʻāʻo nei ʻoe i nā noi a nā poʻe ʻē aʻe, e hoʻāʻo nā mea hoʻomohala ʻē aʻe i kāu noi me ka hanohano a me ka ʻoihana hui e loaʻa iā ʻoe.",
+  faq3Q: "Pehea wau e ho'āʻo ai i kahi polokalamu?",
+  faq3A: "E hele i ka ʻaoʻao o ka polokalamu āu e makemake ai e hoʻāʻo. E hui pū me ka Google Group ma ke kaomi ʻana i ke pihi ma ka ʻanuʻu 1. A laila e hoʻoiho i ka palapala noi i kāu kelepona mai Google Play ma ke kaomi ʻana i ke pihi hoʻoiho ma ka ʻanuʻu 2 a mai holoi iā ia mai kāu kelepona no ka liʻiliʻi loa 14 lā.",
+  faq4Q: "He aha ka hopena i ka pau ʻana o ka hana hoʻāʻo o kaʻu noi?",
+  faq4A: "Ke hoʻopau maikaʻi ʻia ka manawa 14 mau lā, hiki iā ʻoe ke hōʻano hou i kāu noi me ke koho \"Mark as Published\" mai ka papa hoʻomohala ma kāu ʻaoʻao kikoʻī noiʻi. Hōʻoia pū kā mākou ʻōnaehana i kēia ma o ka Google Play Store. Ma hope o kēia kaʻina, wehe ʻia nā ʻanuʻu hoʻāʻo a ʻike ʻia ke pihi hoʻoiho pololei Google Play."
 };

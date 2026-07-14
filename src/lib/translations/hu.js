@@ -109,5 +109,15 @@ export const hu = {
   sendingMessage: "Küldés...",
   messageSent: "Üzenetét elküldtük!",
   messageSentDesc: "Kapcsolatfelvételi kérelmét sikeresen megkaptuk. A lehető leghamarabb felvesszük Önnel a kapcsolatot e-mail címén keresztül.",
-  writeNewMessage: "Új üzenet írása"
+  writeNewMessage: "Új üzenet írása",
+
+  // Support FAQs
+  faq1Q: "Mi az a Google Play 20 tesztelői szabály?",
+  faq1A: "A 2023 novembere után megnyitott új egyéni fejlesztői fiókok esetében a Google kötelezővé tette, hogy legalább 20 tesztfelhasználóval zárt tesztelést végezzenek legalább 14 napig az alkalmazásaik közzététele előtt. Azok az alkalmazások, amelyek nem teljesítik ezt a szabályt, nem tehetők közzé.",
+  faq2Q: "Hogyan működik a platform? Fizetett?",
+  faq2A: "Platformunk teljesen ingyenes és együttműködésen alapul. A fejlesztők egymás alkalmazásait tesztelik. Miközben mások alkalmazásait teszteli, más fejlesztők is tesztelik az Ön alkalmazását az Ön által megszerzett presztízssel és együttműködési hálózattal.",
+  faq3Q: "Hogyan tesztelhetek egy alkalmazást?",
+  faq3A: "Nyissa meg a tesztelni kívánt alkalmazás oldalát. Az 1. lépésben található gombra kattintva csatlakozzon az alkalmazás Google Csoportjához. Ezután töltse le az alkalmazást telefonjára a Google Playről a 2. lépésben található letöltés gombra kattintva, és legalább 14 napig ne törölje azt a telefonjáról.",
+  faq4Q: "Mi történik, amikor az alkalmazás tesztelési folyamata véget ér?",
+  faq4A: "Ha a 14 napos időszak sikeresen letelt, frissítheti alkalmazását a „Megjelölés közzétettként” opcióval az alkalmazás részletes oldalán található fejlesztői panelen. Rendszerünk ezt a Google Play Áruházban is ellenőrzi. Ezt a szakaszt követően a tesztelési lépések megszűnnek, és megjelenik a Google Play közvetlen letöltése gomb."
 };

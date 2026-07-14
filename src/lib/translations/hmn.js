@@ -109,5 +109,15 @@ export const hmn = {
   sendingMessage: "Xa...",
   messageSent: "Koj cov lus tau xa!",
   messageSentDesc: "Koj qhov kev thov tiv tauj tau txais tiav lawm. Peb yuav xa rov qab rau koj ntawm koj tus email chaw nyob sai li sai tau.",
-  writeNewMessage: "Sau Xov Xwm Tshiab"
+  writeNewMessage: "Sau Xov Xwm Tshiab",
+
+  // Support FAQs
+  faq1Q: "Google Play 20 Tester Txoj Cai yog dab tsi?",
+  faq1A: "Rau cov neeg tsim tawm tshiab cov nyiaj tau qhib tom qab lub Kaum Ib Hlis 2023, Google tau ua kom nws yuav tsum tau ua qhov kev sim kaw nrog tsawg kawg 20 tus neeg siv sim tsawg kawg 14 hnub ua ntej tshaj tawm lawv daim ntawv thov. Cov ntawv thov uas tsis ua tiav txoj cai no tsis tuaj yeem luam tawm.",
+  faq2Q: "Lub Platform ua haujlwm li cas? Puas yog nws them?",
+  faq2A: "Peb lub platform yog dawb kiag li thiab raws li kev koom tes. Cov neeg tsim tawm sim ib leeg cov ntawv thov. Thaum koj sim lwm tus neeg daim ntawv thov, lwm tus neeg tsim khoom kuj tseem yuav sim koj daim ntawv thov nrog lub koob meej thiab kev koom tes hauv kev sib koom tes uas koj yuav tau txais.",
+  faq3Q: "Kuv Yuav Ntsuam Xyuas App Li Cas?",
+  faq3A: "Mus rau nplooj ntawv ntawm lub app koj xav sim. Koom nrog lub app hauv Google Group los ntawm nias lub pob hauv Kauj Ruam 1. Tom qab ntawd rub tawm daim ntawv thov rau koj lub xov tooj los ntawm Google Play los ntawm txhaj khawm rub tawm hauv Kauj Ruam 2 thiab tsis txhob rho tawm ntawm koj lub xov tooj tsawg kawg 14 hnub.",
+  faq4Q: "Yuav ua li cas tshwm sim thaum kuv daim ntawv thov kev xeem txheej txheem xaus?",
+  faq4A: "Thaum lub sijhawm 14-hnub ua tiav tiav, koj tuaj yeem hloov kho koj daim ntawv thov nrog \"Mark as Published\" xaiv los ntawm pawg neeg tsim tawm ntawm koj nplooj ntawv nthuav dav. Peb qhov system kuj txheeb xyuas qhov no ntawm Google Play Store. Tom qab cov theem no, cov kauj ruam xeem raug tshem tawm thiab qhov ncaj qha Google Play download khawm tshwm."
 };
