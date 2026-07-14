@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
     title: `${app.title} - Google Play Kapalı Test Desteği | Closed Test`,
     description: `${app.title} için kapalı test grubuna katılın, 14 günlük test kullanıcısı olun. Açıklama: ${app.description ? app.description.slice(0, 150) : ''}...`,
     alternates: {
-      canonical: `https://closedtest.com/app/${id}`,
+      canonical: `https://closedtest-beryl.vercel.app/app/${id}`,
     }
   };
 }

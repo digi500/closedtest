@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://closedtest.com/sitemap.xml',
+    sitemap: 'https://closedtest-beryl.vercel.app/sitemap.xml',
   }
 }

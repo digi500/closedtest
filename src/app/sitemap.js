@@ -1,7 +1,7 @@
 import { db } from '../lib/db';
 
 export default async function sitemap() {
-  const baseUrl = 'https://closedtest.com';
+  const baseUrl = 'https://closedtest-beryl.vercel.app';
 
   // Fetch all applications
   let apps = [];

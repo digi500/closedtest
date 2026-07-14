@@ -19,14 +19,14 @@ const langCodes = [
 
 const alternatesLanguages = {};
 langCodes.forEach(code => {
-  alternatesLanguages[code] = `https://closedtest.com/?lang=${code}`;
+  alternatesLanguages[code] = `https://closedtest-beryl.vercel.app/?lang=${code}`;
 });
 
 export const metadata = {
   title: "Closed Test - Google Play Kapalı Test Yardımlaşma Platformu",
   description: "Google Play 14 günlük kapalı test süreci için gönüllü test kullanıcıları bulun, geri bildirim toplayın ve uygulamanızı başarıyla yayınlayın.",
   alternates: {
-    canonical: 'https://closedtest.com',
+    canonical: 'https://closedtest-beryl.vercel.app',
     languages: alternatesLanguages,
   }
 };
