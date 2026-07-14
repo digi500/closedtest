@@ -93,5 +93,21 @@ export const fr = {
   // Footer
   footerText: "Plateforme d'échange de tests fermés pour les développeurs.",
   footerSubText: "Cette plateforme est entièrement open-source et développée par des développeurs bénévoles.",
-  githubBtn: "Contribuer / Mettre une Étoile sur GitHub"
+  githubBtn: "Contribuer / Mettre une Étoile sur GitHub",
+
+  // Support & Contact
+  supportFAQ: "Assistance et FAQ",
+  supportTitle: "Assistance et contact",
+  supportDesc: "Vous avez des questions sur la plateforme ou souhaitez nous contacter ? Vous pouvez envoyer un message en utilisant le formulaire ci-dessous ou consulter la section FAQ.",
+  faqTitle: "Foire aux questions",
+  contactFormTitle: "Envoyez-nous un message",
+  nameLabel: "Votre nom et prénom",
+  emailLabel: "Votre adresse e-mail",
+  subjectLabel: "Sujet",
+  messageLabel: "Votre message",
+  sendMessage: "Envoyer un message",
+  sendingMessage: "Envoi...",
+  messageSent: "Votre message a été envoyé !",
+  messageSentDesc: "Votre demande de contact a été reçue avec succès. Nous vous répondrons via votre adresse e-mail dans les plus brefs délais.",
+  writeNewMessage: "Écrire un nouveau message"
 };

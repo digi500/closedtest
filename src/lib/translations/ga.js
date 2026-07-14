@@ -93,5 +93,21 @@ export const ga = {
   // Footer
   footerText: "Ardán malartaithe trialacha dúnta d'fhorbróirí.",
   footerSubText: "Tá an t-ardán seo go hiomlán foinse oscailte agus forbartha ag forbróirí deonacha.",
-  githubBtn: "Tabhair Cabhair / Tabhair Réalta ar GitHub"
+  githubBtn: "Tabhair Cabhair / Tabhair Réalta ar GitHub",
+
+  // Support & Contact
+  supportFAQ: "Tacaíocht & CC || Tacaíocht & Teagmháil || An bhfuil ceisteanna agat faoin ardán nó an bhfuil fonn ort teagmháil a dhéanamh linn? Is féidir leat teachtaireacht a sheoladh ag baint úsáide as an bhfoirm thíos nó athbhreithniú a dhéanamh ar an rannán Ceisteanna Coitianta. || Ceisteanna Coitianta || Seol Teachtaireacht chugainn || D'Ainm agus Sloinne || Do Sheoladh Ríomhphoist || Ábhar || Do theachtaireacht || Seol Teachtaireacht || Á sheoladh...",
+  supportTitle: "Tá do Theachtaireacht Seolta! || Fuarthas d'iarratas teagmhála. Rachaimid ar ais chugat trí do sheoladh r-phoist a luaithe is féidir. || Scríobh Teachtaireacht Nua",
+  supportDesc: "Platform hakkında sorularınız mı var veya bizimle iletişime geçmek mi istiyorsunuz? Aşağıdaki formdan mesaj atabilir veya SSS bölümünü inceleyebilirsiniz.",
+  faqTitle: "Sıkça Sorulan Sorular",
+  contactFormTitle: "Bize Mesaj Gönderin",
+  nameLabel: "Adınız Soyadınız",
+  emailLabel: "E-posta Adresiniz",
+  subjectLabel: "Konu",
+  messageLabel: "Mesajınız",
+  sendMessage: "Mesaj Gönder",
+  sendingMessage: "Gönderiliyor...",
+  messageSent: "Mesajınız Gönderildi!",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

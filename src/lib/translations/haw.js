@@ -93,5 +93,21 @@ export const haw = {
   // Footer
   footerText: "He kahua hoʻololi hōʻike paʻa no nā mea hoʻomohala.",
   footerSubText: "He open-source loa kēia kahua a hoʻomohala ʻia e nā mea hoʻomohala manawaleʻa.",
-  githubBtn: "Kōkua / Hāʻawi i ka Hōkū ma GitHub"
+  githubBtn: "Kōkua / Hāʻawi i ka Hōkū ma GitHub",
+
+  // Support & Contact
+  supportFAQ: "Kākoʻo & FAQ",
+  supportTitle: "Kākoʻo & Hoʻokaʻaʻike",
+  supportDesc: "He mau nīnau kāu e pili ana i ka paepae a makemake paha e hoʻokaʻaʻike mai iā mākou? Hiki iā ʻoe ke hoʻouna i kahi leka me ka hoʻohana ʻana i ka palapala ma lalo a i ʻole e nānā i ka ʻāpana FAQ.",
+  faqTitle: "Nīnau pinepine",
+  contactFormTitle: "E hoʻouna mai iā mākou i kahi leka",
+  nameLabel: "Kou inoa a me kou inoa",
+  emailLabel: "ʻO kāu leka uila",
+  subjectLabel: "Kumuhana",
+  messageLabel: "ʻO kāu leka",
+  sendMessage: "Hoʻouna i ka leka",
+  sendingMessage: "Ke hoʻouna nei...",
+  messageSent: "Ua Hoʻouna ʻia kāu leka!",
+  messageSentDesc: "Ua loaʻa pono kāu noi hoʻokaʻaʻike. E hoʻi mākou iā ʻoe ma kāu leka uila i ka hikiwawe.",
+  writeNewMessage: "Kākau i ka memo hou"
 };

@@ -93,5 +93,21 @@ export const gn = {
   // Footer
   footerText: "Mbohasa ñemboty py'ara'ã bursa mba'eapohára kuérape gurarã.",
   footerSubText: "Ko platform oreko open-source ha tapicha kuéra oipytyvõva'ekue rupive ojehupity.",
-  githubBtn: "Eipytyvõ / Emoĩ Mbyja GitHub-pe"
+  githubBtn: "Eipytyvõ / Emoĩ Mbyja GitHub-pe",
+
+  // Support & Contact
+  supportFAQ: "Pytyvõ & FAQ",
+  supportTitle: "Pytyvõ & Ñe’ẽmondo",
+  supportDesc: "¿Reguerekópa porandu pe plataforma rehegua térã reñe’ẽse orendive? Ikatu remondo peteĩ marandu reiporúvo pe formulario oĩva iguýpe térã rehesa’ỹijo pe sección FAQ.",
+  faqTitle: "Porandu ojejapóva jepi",
+  contactFormTitle: "Emondo Oréve Marandu",
+  nameLabel: "Nde Réra ha Nde Apellido",
+  emailLabel: "Nde Correo Electrónico",
+  subjectLabel: "Materia",
+  messageLabel: "Nde marandu",
+  sendMessage: "Emondo Marandu",
+  sendingMessage: "Omondo...",
+  messageSent: "¡Oñemondóma Nde Marandu!",
+  messageSentDesc: "Oñemoguahẽ porã ne mba’ejerure ñe’ẽmondo rehegua. Roñe’ẽ jeýta nendive nde dirección de correo electrónico rupive pya’e ikatuháicha.",
+  writeNewMessage: "Ehai Marandu Pyahu"
 };

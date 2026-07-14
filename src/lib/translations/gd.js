@@ -93,5 +93,21 @@ export const gd = {
   // Footer
   footerText: "Àrd-ùrlar malairt deuchainn dùinte airson luchd-leasachaidh.",
   footerSubText: "Tha an t-àrd-ùrlar seo gu tur mar stòr fosgailte agus air a leasachadh le luchd-leasachaidh saor-thoileach.",
-  githubBtn: "Cuir ris / Thoir Rionnag air GitHub"
+  githubBtn: "Cuir ris / Thoir Rionnag air GitHub",
+
+  // Support & Contact
+  supportFAQ: "Taic & Ceistean Cumanta || Taic & Fios",
+  supportTitle: "A bheil ceistean agad mun àrd-ùrlar no a bheil thu airson fios a chuir thugainn? Faodaidh tu teachdaireachd a chuir a’ cleachdadh an fhoirm gu h-ìosal no ath-sgrùdadh a dhèanamh air an roinn Ceistean Cumanta.",
+  supportDesc: "Ceistean Bitheanta",
+  faqTitle: "| Cuir Teachdaireachd thugainn || D’ Ainm agus Sloinneadh || An Seòladh Post-d agad || Cuspair|| Am brath agad|| Cuir Teachdaireachd || A' cur...",
+  contactFormTitle: "Chaidh do theachdaireachd a chuir!",
+  nameLabel: "Chaidh d’ iarrtas conaltraidh fhaighinn gu soirbheachail. Gheibh sinn air ais thugad tron ​​t-seòladh post-d agad cho luath ‘s a ghabhas.",
+  emailLabel: "Sgrìobh Teachdaireachd Ùr",
+  subjectLabel: "Konu",
+  messageLabel: "Mesajınız",
+  sendMessage: "Mesaj Gönder",
+  sendingMessage: "Gönderiliyor...",
+  messageSent: "Mesajınız Gönderildi!",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

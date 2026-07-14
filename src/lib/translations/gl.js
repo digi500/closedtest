@@ -93,5 +93,21 @@ export const gl = {
   // Footer
   footerText: "Plataforma de intercambio de probas pechadas para desenvolvedores.",
   footerSubText: "Esta plataforma é completamente de código aberto e desenvolvida por desenvolvedores voluntarios.",
-  githubBtn: "Contribuír / Dar Estrela en GitHub"
+  githubBtn: "Contribuír / Dar Estrela en GitHub",
+
+  // Support & Contact
+  supportFAQ: "Soporte e preguntas frecuentes",
+  supportTitle: "Soporte e contacto",
+  supportDesc: "Tes dúbidas sobre a plataforma ou queres contactar connosco? Podes enviar unha mensaxe usando o seguinte formulario ou revisar a sección de preguntas frecuentes.",
+  faqTitle: "Preguntas frecuentes",
+  contactFormTitle: "Envíanos unha mensaxe",
+  nameLabel: "O teu nome e apelidos",
+  emailLabel: "O teu enderezo de correo electrónico",
+  subjectLabel: "Tema",
+  messageLabel: "A túa mensaxe",
+  sendMessage: "Enviar mensaxe",
+  sendingMessage: "Enviando...",
+  messageSent: "A túa mensaxe foi enviada!",
+  messageSentDesc: "A túa solicitude de contacto foi recibida correctamente. Porémonos en contacto contigo a través do teu enderezo de correo electrónico o antes posible.",
+  writeNewMessage: "Escribe unha nova mensaxe"
 };

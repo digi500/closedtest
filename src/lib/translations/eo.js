@@ -109,4 +109,5 @@ export const eo = {
   sendingMessage: "Sendante...",
   messageSent: "Via Mesaĝo Estas Sendita!",
   messageSentDesc: "Via kontaktpeto estis ricevita sukcese. Ni respondos al vi per via retadreso kiel eble plej baldaŭ.",
-  writeNewMessage: "Skribu Novan Mesaĝ
+  writeNewMessage: "Skribu Novan Mesaĝon"
+};

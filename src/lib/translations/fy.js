@@ -93,5 +93,21 @@ export const fy = {
   // Footer
   footerText: "Sletten test-útwikselplatfoarm foar ûntwikkelders.",
   footerSubText: "Dit platfoarm is folslein iepen-boarne en ûntwikkele troch frijwillige ûntwikkelders.",
-  githubBtn: "Bydrage / Jou in Stjer op GitHub"
+  githubBtn: "Bydrage / Jou in Stjer op GitHub",
+
+  // Support & Contact
+  supportFAQ: "Stipe & FAQ",
+  supportTitle: "Stipe en kontakt",
+  supportDesc: "Hawwe jo fragen oer it platfoarm of wolle jo kontakt mei ús opnimme? Jo kinne in berjocht stjoere mei it formulier hjirûnder of kontrolearje de FAQ-seksje.",
+  faqTitle: "Faak stelde fragen",
+  contactFormTitle: "Stjoer ús in berjocht",
+  nameLabel: "Jo namme en efternamme",
+  emailLabel: "Jo e-postadres",
+  subjectLabel: "Underwerp",
+  messageLabel: "Jo berjocht",
+  sendMessage: "Berjocht ferstjoere",
+  sendingMessage: "Ferstjoere...",
+  messageSent: "Jo berjocht is ferstjoerd!",
+  messageSentDesc: "Jo kontaktfersyk is mei súkses ûntfongen. Wy nimme sa gau mooglik werom nei jo fia jo e-mailadres.",
+  writeNewMessage: "Skriuw nij berjocht"
 };
