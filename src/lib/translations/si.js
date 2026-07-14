@@ -93,5 +93,21 @@ export const si = {
   // Footer
   footerText: "සංවර්ධකයින් සඳහා සංවෘත පරීක්ෂණ හුවමාරු වේදිකාව.",
   footerSubText: "මෙම වේදිකාව සම්පූර්ණයෙන්ම විවෘත මූලාශ්‍ර වන අතර ස්වේච්ඡා සංවර්ධකයින් විසින් සංවර්ධනය කර ඇත.",
-  githubBtn: "දායක වන්න / GitHub හි තරුවක් දෙන්න"
+  githubBtn: "දායක වන්න / GitHub හි තරුවක් දෙන්න",
+
+  // Support & Contact
+  supportFAQ: "සහාය සහ නිතර අසන පැන",
+  supportTitle: "සහාය සහ සම්බන්ධතා",
+  supportDesc: "ඔබට වේදිකාව පිළිබඳ ප්‍රශ්න තිබේද නැතහොත් අප හා සම්බන්ධ වීමට අවශ්‍යද? ඔබට පහත පෝරමය භාවිතයෙන් පණිවිඩයක් යැවීමට හෝ නිතර අසන පැන කොටස සමාලෝචනය කිරීමට හැකිය.",
+  faqTitle: "නිතර අසන ප්‍රශ්න || අපට පණිවිඩයක් එවන්න",
+  contactFormTitle: "ඔබගේ නම සහ වාසගම",
+  nameLabel: "ඔබගේ විද්‍යුත් තැපැල් ලිපිනය || විෂය",
+  emailLabel: "ඔබේ පණිවිඩය",
+  subjectLabel: "පණිවිඩයක් යවන්න || යවමින්...",
+  messageLabel: "ඔබගේ පණිවිඩය යවා ඇත!",
+  sendMessage: "ඔබගේ සම්බන්ධතා ඉල්ලීම සාර්ථකව ලැබී ඇත. අපි හැකි ඉක්මනින් ඔබගේ විද්‍යුත් තැපැල් ලිපිනය හරහා ඔබ වෙත නැවත පැමිණෙන්නෙමු.",
+  sendingMessage: "නව පණිවිඩයක් ලියන්න",
+  messageSent: "Mesajınız Gönderildi!",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

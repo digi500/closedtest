@@ -93,5 +93,21 @@ export const sk = {
   // Footer
   footerText: "Platforma pre výmenu uzavretého testovania pre vývojárov.",
   footerSubText: "Táto platforma je plne open-source a vyvíjaná dobrovoľnými vývojármi.",
-  githubBtn: "Prispieť / Dať hviezdičku na GitHubu"
+  githubBtn: "Prispieť / Dať hviezdičku na GitHubu",
+
+  // Support & Contact
+  supportFAQ: "Podpora a časté otázky",
+  supportTitle: "Podpora a kontakt",
+  supportDesc: "Máte otázky týkajúce sa platformy alebo nás chcete kontaktovať? Môžete poslať správu pomocou nižšie uvedeného formulára alebo si prečítať sekciu FAQ.",
+  faqTitle: "Často kladené otázky",
+  contactFormTitle: "Pošlite nám správu",
+  nameLabel: "Vaše meno a priezvisko",
+  emailLabel: "Vaša e-mailová adresa",
+  subjectLabel: "Predmet",
+  messageLabel: "Vaša správa",
+  sendMessage: "Odoslať správu",
+  sendingMessage: "Odosiela sa...",
+  messageSent: "Vaša správa bola odoslaná!",
+  messageSentDesc: "Vaša žiadosť o kontakt bola úspešne prijatá. Čo najskôr sa vám ozveme prostredníctvom vašej e-mailovej adresy.",
+  writeNewMessage: "Napíšte novú správu"
 };

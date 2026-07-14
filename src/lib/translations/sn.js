@@ -93,5 +93,21 @@ export const sn = {
   // Footer
   footerText: "Yakavharwa muedzo wekutsinhana chikuva chevanogadzira.",
   footerSubText: "Chikuva ichi chakazara zvakasiyana open-source uye chakagadzirwa nevanogadzira vanozvipira.",
-  githubBtn: "Batsira / Ipa Nyeredzi paGitHub"
+  githubBtn: "Batsira / Ipa Nyeredzi paGitHub",
+
+  // Support & Contact
+  supportFAQ: "Support & FAQ || Support & Contact || Iwe une mibvunzo nezve chikuva kana kuti unoda kutibata? Unogona kutumira meseji uchishandisa fomu riri pazasi kana kuongorora chikamu cheFAQ.",
+  supportTitle: "Mibvunzo Inowanzo bvunzwa",
+  supportDesc: "Send Us a Message",
+  faqTitle: "Zita Nesurname Yako",
+  contactFormTitle: "Yako Email Kero || Nyaya",
+  nameLabel: "Your message",
+  emailLabel: "Send Message",
+  subjectLabel: "Kutumira...",
+  messageLabel: "Mharidzo Yako Yatumirwa!",
+  sendMessage: "Chikumbiro chako chekutaura chagamuchirwa. Tichadzoka kwauri kuburikidza ne-e-mail yako kero nekukurumidza sezvinobvira.",
+  sendingMessage: "Nyora Mharidzo Itsva",
+  messageSent: "Mesajınız Gönderildi!",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

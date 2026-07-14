@@ -93,5 +93,21 @@ export const sm = {
   // Footer
   footerText: "Tapunia suʻega fefaʻatauaʻiga tulaga mo tagata atiaʻe.",
   footerSubText: "O lenei tulaga e matua tatala-punaoa ma atiina ae e tagata atiaʻe volenitia.",
-  githubBtn: "Fesoasoani / Foai se Fetu i GitHub"
+  githubBtn: "Fesoasoani / Foai se Fetu i GitHub",
+
+  // Support & Contact
+  supportFAQ: "Lagolago & FAQ",
+  supportTitle: "Lagolago & Fa'afeso'ota'i",
+  supportDesc: "E i ai ni au fesili e uiga i le tulaga pe manaʻo e faʻafesoʻotaʻi i matou? E mafai ona e lafo se fe'au e fa'aoga le fomu i lalo pe toe iloilo le vaega FAQ.",
+  faqTitle: "Fesili e Fai soo",
+  contactFormTitle: "Auina Mai se Feau",
+  nameLabel: "Lou Igoa ma lou Igoa",
+  emailLabel: "Lau tuatusi imeli",
+  subjectLabel: "Mataupu",
+  messageLabel: "Lau savali",
+  sendMessage: "Auina le Feau",
+  sendingMessage: "Tuuina atu...",
+  messageSent: "Ua Auina Lau Feau!",
+  messageSentDesc: "Ua maua manuia lau talosaga fa'afeso'ota'i. Matou te toe fa'afo'i atu ia te oe e ala i lau tuatusi imeli i se taimi vave e mafai ai.",
+  writeNewMessage: "Tusi Feau Fou"
 };

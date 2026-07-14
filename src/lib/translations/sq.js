@@ -93,5 +93,21 @@ export const sq = {
   // Footer
   footerText: "Platformë e shkëmbimit të testeve të mbyllura për zhvilluesit.",
   footerSubText: "Kjo platformë është plotësisht me kod të hapur dhe zhvillohet nga zhvillues vullnetarë.",
-  githubBtn: "Kontribuoni / Jepni Yll në GitHub"
+  githubBtn: "Kontribuoni / Jepni Yll në GitHub",
+
+  // Support & Contact
+  supportFAQ: "Mbështetje & FAQ",
+  supportTitle: "Mbështetje & Kontakt",
+  supportDesc: "Keni pyetje në lidhje me platformën apo dëshironi të na kontaktoni? Mund të dërgoni një mesazh duke përdorur formularin e mëposhtëm ose të rishikoni seksionin FAQ.",
+  faqTitle: "Pyetjet e bëra më shpesh",
+  contactFormTitle: "Na dërgoni një mesazh",
+  nameLabel: "Emri dhe Mbiemri juaj",
+  emailLabel: "Adresa juaj e emailit",
+  subjectLabel: "Subjekti",
+  messageLabel: "Mesazhi juaj",
+  sendMessage: "Dërgo mesazh",
+  sendingMessage: "Dërgimi...",
+  messageSent: "Mesazhi juaj është dërguar!",
+  messageSentDesc: "Kërkesa juaj për kontakt është marrë me sukses. Ne do t'ju kontaktojmë me adresën tuaj të e-mail sa më shpejt të jetë e mundur.",
+  writeNewMessage: "Shkruani një mesazh të ri"
 };

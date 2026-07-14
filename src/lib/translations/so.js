@@ -93,5 +93,21 @@ export const so = {
   // Footer
   footerText: "Madal isdhaafsi imtixaan oo xiran oo loogu talagalay horumariyeyaasha.",
   footerSubText: "Madashani waa mid si buuxda u furan oo ay horumariyeen horumariyayaal mutadawiciin ah.",
-  githubBtn: "Ku biir / Sii Xiddig GitHub"
+  githubBtn: "Ku biir / Sii Xiddig GitHub",
+
+  // Support & Contact
+  supportFAQ: "Taageero & FAQ",
+  supportTitle: "Taageero & Xiriir",
+  supportDesc: "Miyaad qabtaa su'aalo ku saabsan goobta ama waxaad rabtaa inaad nala soo xiriirto? Waxaad diri kartaa fariin addoo isticmaalaya foomka hoose ama dib u eeg qaybta FAQ.",
+  faqTitle: "Su'aalaha Inta Badan La Isweydiiyo",
+  contactFormTitle: "Fariin Nooga soo dir",
+  nameLabel: "Magacaaga iyo Magacaaga",
+  emailLabel: "Ciwaanka emailkaaga",
+  subjectLabel: "Mawduuca",
+  messageLabel: "Fariintaada",
+  sendMessage: "Fariin Dir",
+  sendingMessage: "Diraya...",
+  messageSent: "Fariintaadii waa la Diray!",
+  messageSentDesc: "Codsigaaga xiriirka si guul leh ayaa loo helay Waxaan kuugu soo celin doonaa e-mailkaaga sida ugu dhakhsaha badan.",
+  writeNewMessage: "Qor fariin cusub"
 };
