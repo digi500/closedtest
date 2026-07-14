@@ -109,5 +109,15 @@ export const zu = {
   sendingMessage: "Gönderiliyor...",
   messageSent: "Mesajınız Gönderildi!",
   messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
-  writeNewMessage: "Yeni Mesaj Yaz"
+  writeNewMessage: "Yeni Mesaj Yaz",
+
+  // Support FAQs
+  faq1Q: "Uyini Umthetho Wokuhlola we-Google Play 20?",
+  faq1A: "Kuma-akhawunti kanjiniyela amasha avulwe ngemva kukaNovemba 2023, i-Google ikwenze kwaba isibopho ukwenza ukuhlola okuvaliwe nabasebenzisi abahlolayo okungenani abangu-20 okungenani izinsuku ezingu-14 ngaphambi kokushicilela izinhlelo zabo zokusebenza. Izicelo ezingawuqedi lo mthetho azikwazi ukushicilelwa.",
+  faq2Q: "Isebenza Kanjani Inkundla? Ingabe ikhokhiwe?",
+  faq2A: "Ipulatifomu yethu imahhala ngokuphelele futhi isekelwe ekubambisaneni. Onjiniyela bahlola izinhlelo zokusebenza zomunye nomunye. Njengoba uhlola izinhlelo zokusebenza zabanye abantu, abanye onjiniyela bazophinde bahlole uhlelo lwakho lokusebenza ngodumo nokubambisana kwenethiwekhi ozoyithola.",
+  faq3Q: "Ngiluhlola Kanjani Uhlelo Lokusebenza?",
+  faq3A: "Iya ekhasini lohlelo lokusebenza ofuna ukulihlola. Joyina Iqembu le-Google lohlelo lokusebenza ngokuchofoza inkinobho ku-Isinyathelo 1. Bese ulanda uhlelo lokusebenza efonini yakho kusuka ku-Google Play ngokuchofoza inkinobho yokulanda kusinyathelo sesi-2 futhi ungawususi ocingweni lwakho okungenani izinsuku eziyi-14.",
+  faq4Q: "Kwenzekani Lapho Inqubo Yokuhlola Yesicelo Sami Iphela?",
+  faq4A: "Uma isikhathi sezinsuku eziyi-14 siqedwa ngempumelelo, ungabuyekeza isicelo sakho ngenketho ethi \"Maka Njengeshicilelwe\" kuphaneli yonjiniyela ekhasini lemininingwane yohlelo lwakho lokusebenza. Isistimu yethu futhi iqinisekisa lokhu nge-Google Play Isitolo. Ngemuva kwalesi sigaba, izinyathelo zokuhlola ziyasuswa futhi inkinobho yokulanda ye-Google Play eqondile iyavela."
 };
