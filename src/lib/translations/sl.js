@@ -109,5 +109,15 @@ export const sl = {
   sendingMessage: "Pošiljanje ...",
   messageSent: "Vaše sporočilo je bilo poslano!",
   messageSentDesc: "Vaša zahteva za stik je bila uspešno prejeta. Odgovorili vam bomo na vaš e-poštni naslov v najkrajšem možnem času.",
-  writeNewMessage: "Napiši novo sporočilo"
+  writeNewMessage: "Napiši novo sporočilo",
+
+  // Support FAQs
+  faq1Q: "Kaj je pravilo Google Play 20 Tester?",
+  faq1A: "Za nove posamezne račune razvijalcev, odprte po novembru 2023, je Google uvedel obvezno zaprto testiranje z vsaj 20 testnimi uporabniki vsaj 14 dni pred objavo njihovih aplikacij. Prijav, ki ne izpolnjujejo tega pravila, ni mogoče objaviti.",
+  faq2Q: "Kako deluje platforma? Je plačano?",
+  faq2A: "Naša platforma je popolnoma brezplačna in temelji na sodelovanju. Razvijalci testirajo aplikacije drug drugega. Ko preizkušate aplikacije drugih ljudi, bodo tudi drugi razvijalci preizkušali vašo aplikacijo s prestižem in mrežo sodelovanja, ki jo boste pridobili.",
+  faq3Q: "Kako preizkusim aplikacijo?",
+  faq3A: "Pojdite na stran aplikacije, ki jo želite preizkusiti. Pridružite se Googlovi skupini aplikacije s klikom na gumb v 1. koraku. Nato prenesite aplikacijo v svoj telefon iz Google Play s klikom na gumb za prenos v 2. koraku in je ne izbrišite iz telefona vsaj 14 dni.",
+  faq4Q: "Kaj se zgodi, ko se postopek testiranja moje aplikacije konča?",
+  faq4A: "Ko se 14-dnevno obdobje uspešno zaključi, lahko svojo aplikacijo posodobite z možnostjo »Označi kot objavljeno« na plošči za razvijalce na strani s podrobnostmi o aplikaciji. Naš sistem to preveri tudi prek trgovine Google Play. Po tej stopnji so koraki testiranja odstranjeni in prikaže se gumb za neposreden prenos iz Google Play."
 };

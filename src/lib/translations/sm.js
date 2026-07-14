@@ -109,5 +109,15 @@ export const sm = {
   sendingMessage: "Tuuina atu...",
   messageSent: "Ua Auina Lau Feau!",
   messageSentDesc: "Ua maua manuia lau talosaga fa'afeso'ota'i. Matou te toe fa'afo'i atu ia te oe e ala i lau tuatusi imeli i se taimi vave e mafai ai.",
-  writeNewMessage: "Tusi Feau Fou"
+  writeNewMessage: "Tusi Feau Fou",
+
+  // Support FAQs
+  faq1Q: "O le a le tulafono a le Google Play 20 Tester?",
+  faq1A: "Mo tala fou a tagata atiaeina na tatalaina ina ua mavae Novema 2023, ua faʻatagaina e Google le faia o suʻega tapuni ma le itiiti ifo ma le 20 tagata suʻega mo le itiiti ifo i le 14 aso aʻo leʻi faʻasalalau a latou talosaga. O talosaga e le fa'amae'aina lenei tulafono e le mafai ona fa'asalalau.",
+  faq2Q: "E fa'afefea ona galue le Platform? Ua totogi?",
+  faq2A: "O la matou faʻavae e matua leai se totogi ma faʻavae i luga o le galulue faʻatasi. E su'e e tagata atia'e talosaga a le tasi ma le isi. A'o e su'eina tusi talosaga a isi tagata, o le a fa'ata'ita'i fo'i e isi tagata atia'e lau talosaga i le tulaga mamalu ma feso'ota'iga felagolagoma'i e te maua.",
+  faq3Q: "E fa'afefea ona ou su'eina se App?",
+  faq3A: "Alu i le itulau o le app e te mana'o e su'e. Auai i le Google Group a le app e ala i le kilikiina o le ki i le Laasaga 1. Ona sii mai lea o le talosaga i lau telefoni mai Google Play e ala i le kilikiina o le ki download i le Laasaga 2 ma aua le tapeina mai lau telefoni mo le itiiti ifo i le 14 aso.",
+  faq4Q: "O le a le mea e tupu pe a uma le su'ega a la'u talosaga?",
+  faq4A: "A mae'a ma le manuia le 14-aso, e mafai ona e fa'afou lau talosaga i le \"Mark as Published\" filifiliga mai le fa'alapotopotoga fa'apitoa i lau itulau fa'amatalaga o talosaga. E fa'amaonia fo'i e le matou faiga lenei e ala i le Google Play Store. A maeʻa lenei laʻasaga, ua aveese laasaga o suʻega ma faʻaalia le Google Play download button."
 };

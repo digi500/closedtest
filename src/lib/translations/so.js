@@ -109,5 +109,15 @@ export const so = {
   sendingMessage: "Diraya...",
   messageSent: "Fariintaadii waa la Diray!",
   messageSentDesc: "Codsigaaga xiriirka si guul leh ayaa loo helay Waxaan kuugu soo celin doonaa e-mailkaaga sida ugu dhakhsaha badan.",
-  writeNewMessage: "Qor fariin cusub"
+  writeNewMessage: "Qor fariin cusub",
+
+  // Support FAQs
+  faq1Q: "Waa maxay Xeerka Tijaabada Google Play 20?",
+  faq1A: "Akoonada horumariyaha shaqsi ee cusub ee furmay Noofembar 2023 ka dib, Google waxa ay ka dhigtay qasab in ay samayso imtixaan xidhan ugu yaraan 20 isticmaaleyaal imtixaan ugu yaraan 14 maalmood ka hor inta aanay daabicin codsiyadooda. Codsiyada aan buuxin sharcigan lama daabici karo.",
+  faq2Q: "Sidee ayuu Platformku u shaqeeyaa? Ma la bixiyaa?",
+  faq2A: "Madalkeennu gabi ahaanba waa xor oo ku salaysan iskaashi. Horumarinta ayaa midba midka kale tijaabiyaa codsiyadiisa. Markaad tijaabiso codsiyada dadka kale, horumariyayaal kale ayaa sidoo kale ku tijaabin doona codsigaaga sharafta iyo shabakadda iskaashiga ee aad heli doonto.",
+  faq3Q: "Sideen u tijaabiyaa App-ka?",
+  faq3A: "Tag bogga abka aad rabto inaad tijaabiso. Ku biir Google Group-ka App-ka adiga oo gujinaya batoonka ku jira Talaabada 1-aad .kadib kala soo deg codsiga talefankaaga Google Play adiga oo gujinaya badhanka soo dajista ee Step 2 oo ha ka tirtirin talefankaaga ugu yaraan 14 maalmood.",
+  faq4Q: "Maxaa dhacaya Marka Nidaamka Imtixaanka Codsigaygu uu dhamaado?",
+  faq4A: "Marka muddada 14-ka maalmood ah ay si guul leh u dhammaato, waxaad ku cusboonaysiin kartaa codsigaaga ikhtiyaarka \"Mark sida la daabacay\" ee guddiga horumariyaha ee boggaga faahfaahinta codsiga. Nidaamkeena sidoo kale wuxuu tan ku caddeeyaa Google Play Store. Marxaladdan ka dib, tillaabooyinka tijaabada waa la saarayaa waxaana soo baxaya badhanka tooska ah ee Google Play."
 };

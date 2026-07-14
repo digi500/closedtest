@@ -109,5 +109,15 @@ export const sk = {
   sendingMessage: "Odosiela sa...",
   messageSent: "Vaša správa bola odoslaná!",
   messageSentDesc: "Vaša žiadosť o kontakt bola úspešne prijatá. Čo najskôr sa vám ozveme prostredníctvom vašej e-mailovej adresy.",
-  writeNewMessage: "Napíšte novú správu"
+  writeNewMessage: "Napíšte novú správu",
+
+  // Support FAQs
+  faq1Q: "Čo je pravidlo testera Google Play 20?",
+  faq1A: "V prípade nových individuálnych vývojárskych účtov otvorených po novembri 2023 spoločnosť Google zaviedla povinnosť vykonať uzavreté testovanie s najmenej 20 testovacími používateľmi aspoň 14 dní pred zverejnením ich aplikácií. Žiadosti, ktoré nespĺňajú toto pravidlo, nemôžu byť zverejnené.",
+  faq2Q: "Ako platforma funguje? je to platené?",
+  faq2A: "Naša platforma je úplne bezplatná a založená na spolupráci. Vývojári si navzájom testujú svoje aplikácie. Keď budete testovať aplikácie iných ľudí, ostatní vývojári budú tiež testovať vašu aplikáciu s prestížou a sieťou spolupráce, ktorú získate.",
+  faq3Q: "Ako otestujem aplikáciu?",
+  faq3A: "Prejdite na stránku aplikácie, ktorú chcete otestovať. Pripojte sa ku skupine Google aplikácie kliknutím na tlačidlo v kroku 1. Potom si aplikáciu stiahnite do telefónu zo služby Google Play kliknutím na tlačidlo sťahovania v kroku 2 a nevymažte ju z telefónu aspoň 14 dní.",
+  faq4Q: "Čo sa stane, keď sa skončí proces testovania mojej aplikácie?",
+  faq4A: "Po úspešnom dokončení 14-dňového obdobia môžete svoju aplikáciu aktualizovať pomocou možnosti „Označiť ako zverejnenú“ na paneli vývojárov na stránke s podrobnosťami o aplikácii. Náš systém to overuje aj prostredníctvom obchodu Google Play. Po tejto fáze sa testovacie kroky odstránia a zobrazí sa tlačidlo priameho stiahnutia zo služby Google Play."
 };

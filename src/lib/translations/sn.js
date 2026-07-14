@@ -109,5 +109,15 @@ export const sn = {
   sendingMessage: "Nyora Mharidzo Itsva",
   messageSent: "Mesajınız Gönderildi!",
   messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
-  writeNewMessage: "Yeni Mesaj Yaz"
+  writeNewMessage: "Yeni Mesaj Yaz",
+
+  // Support FAQs
+  faq1Q: "Chii chinonzi Google Play 20 Tester Rule?",
+  faq1A: "Kumaakaundi matsva emugadziri akavhurwa mushure meMbudzi 2023, Google yaita kuti iite bvunzo dzakavharika nevashandisi vebvunzo makumi maviri kwemazuva angangoita gumi nemana vasati vaburitsa mafomu avo. Zvikumbiro zvisingapedzi mutemo uyu hazvigone kuburitswa.",
+  faq2Q: "Iyo Platform Inoshanda Sei? Inobhadharwa here?",
+  faq2A: "Chikuva chedu chakasununguka zvachose uye chakavakirwa pakubatana. Vagadziri vanoedza mashandisirwo emumwe nemumwe. Sezvo iwe uchiyedza mashandisirwo evamwe vanhu, vamwe vanogadzira vanozoyedza zvakare application yako nerukudzo uye yekudyidzana network yauchawana.",
+  faq3Q: "Ndinoedza sei App?",
+  faq3A: "Enda kupeji yeapp yaunoda kuedza. Joinha app yeGoogle Group nekudzvanya bhatani riri muNhanho 1. Wobva wadhawunirodha application yacho pafoni yako kubva kuGoogle Play nekudzvanya bhatani rekudhawunirodha riri muChikamu 2 uye usaidzima mufoni mako kwemazuva gumi nemana.",
+  faq4Q: "Chii Chinoitika Kana Maitiro Angu Ekuyedza Yechikumbiro Apera?",
+  faq4A: "Kana nguva yemazuva gumi nemana yapera zvinobudirira, unogona kugadzirisa chikumbiro chako ne \"Maka seChakadhindwa\" sarudzo kubva pane yekuvandudza pane peji rako rekushandisa. Yedu system zvakare inosimbisa izvi kuburikidza neGoogle Play Store. Mushure meichi nhanho, matanho ekuyedza anobviswa uye yakananga Google Play yekurodha bhatani rinoonekwa."
 };
