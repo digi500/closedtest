@@ -109,5 +109,15 @@ export const et = {
   sendingMessage: "Saadan...",
   messageSent: "Teie sõnum on saadetud!",
   messageSentDesc: "Teie kontaktitaotlus on edukalt vastu võetud. Võtame teiega teie e-posti aadressi kaudu esimesel võimalusel ühendust.",
-  writeNewMessage: "Kirjutage uus sõnum"
+  writeNewMessage: "Kirjutage uus sõnum",
+
+  // Support FAQs
+  faq1Q: "Mis on Google Play 20 testija reegel?",
+  faq1A: "Pärast 2023. aasta novembrit avatud uute individuaalsete arendajakontode puhul on Google teinud kohustuslikuks suletud testimise läbiviimise vähemalt 20 testkasutajaga vähemalt 14 päeva jooksul enne nende rakenduste avaldamist. Rakendusi, mis seda reeglit ei täida, ei saa avaldada.",
+  faq2Q: "Kuidas platvorm töötab? Kas see on tasuline?",
+  faq2A: "Meie platvorm on täiesti tasuta ja põhineb koostööl. Arendajad testivad üksteise rakendusi. Kui testite teiste inimeste rakendusi, testivad ka teised arendajad teie rakendust prestiiži ja koostöövõrgustikuga, mille saate.",
+  faq3Q: "Kuidas rakendust testida?",
+  faq3A: "Minge testitava rakenduse lehele. Liituge rakenduse Google'i grupiga, klõpsates 1. sammus olevat nuppu. Seejärel laadige rakendus oma telefoni Google Playst alla, klõpsates 2. sammus allalaadimisnupul ja ärge kustutage seda oma telefonist vähemalt 14 päeva jooksul.",
+  faq4Q: "Mis juhtub, kui minu rakenduse testimisprotsess lõpeb?",
+  faq4A: "Kui 14-päevane periood on edukalt lõppenud, saate oma rakendust värskendada rakenduse üksikasjade lehel oleva arendajapaneeli valikuga Märgi avaldatuks. Meie süsteem kontrollib seda ka Google Play poe kaudu. Pärast seda etappi testimise etapid eemaldatakse ja kuvatakse Google Play otse allalaadimise nupp."
 };

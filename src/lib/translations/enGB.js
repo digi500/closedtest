@@ -109,5 +109,15 @@ export const enGB = {
   sendingMessage: "Sending...",
   messageSent: "Your Message Has Been Sent!",
   messageSentDesc: "Your contact request has been received successfully. We will get back to you via your e-mail address as soon as possible.",
-  writeNewMessage: "Write New Message"
+  writeNewMessage: "Write New Message",
+
+  // Support FAQs
+  faq1Q: "What is the Google Play 20 Tester Rule?",
+  faq1A: "For new individual developer accounts opened after November 2023, Google has made it mandatory to conduct closed testing with at least 20 test users for at least 14 days before publishing their applications. Applications that do not complete this rule cannot be published.",
+  faq2Q: "How Does the Platform Work? Is it paid?",
+  faq2A: "Our platform is completely free and based on cooperation. Developers test each other's applications. As you test other people's applications, other developers will also test your application with the prestige and cooperation network you will gain.",
+  faq3Q: "How Do I Test an App?",
+  faq3A: "Go to the page of the app you want to test. Join the app's Google Group by clicking the button in Step 1. Then download the application to your phone from Google Play by clicking the download button in Step 2 and do not delete it from your phone for at least 14 days.",
+  faq4Q: "What Happens When My Application's Testing Process Ends?",
+  faq4A: "When the 14-day period is completed successfully, you can update your application with the \"Mark as Published\" option from the developer panel on your application detail page. Our system also verifies this via the Google Play Store. After this stage, the testing steps are removed and the direct Google Play download button appears."
 };

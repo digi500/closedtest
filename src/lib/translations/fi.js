@@ -109,5 +109,15 @@ export const fi = {
   sendingMessage: "Lähetetään...",
   messageSent: "Viestisi on lähetetty!",
   messageSentDesc: "Yhteydenottopyyntösi on vastaanotettu onnistuneesti. Otamme sinuun yhteyttä sähköpostiosoitteesi kautta mahdollisimman pian.",
-  writeNewMessage: "Kirjoita Uusi Viesti"
+  writeNewMessage: "Kirjoita Uusi Viesti",
+
+  // Support FAQs
+  faq1Q: "Mikä on Google Play 20 -testaussääntö?",
+  faq1A: "Uusille yksittäisille kehittäjätileille, jotka on avattu marraskuun 2023 jälkeen, Google on tehnyt pakollisen suljetun testauksen vähintään 20 testikäyttäjän kanssa vähintään 14 päivän ajan ennen sovellusten julkaisemista. Sovelluksia, jotka eivät täytä tätä sääntöä, ei voida julkaista.",
+  faq2Q: "Miten alusta toimii? Onko se maksettu?",
+  faq2A: "Alustamme on täysin ilmainen ja perustuu yhteistyöhön. Kehittäjät testaavat toistensa sovelluksia. Kun testaat muiden sovelluksia, myös muut kehittäjät testaavat sovellustasi sillä arvovallalla ja yhteistyöverkostolla, jonka saat.",
+  faq3Q: "Kuinka testaan ​​sovellusta?",
+  faq3A: "Siirry testattavan sovelluksen sivulle. Liity sovelluksen Google-ryhmään napsauttamalla painiketta vaiheessa 1. Lataa sitten sovellus puhelimeesi Google Playsta napsauttamalla latauspainiketta vaiheessa 2 ja älä poista sitä puhelimestasi vähintään 14 päivään.",
+  faq4Q: "Mitä tapahtuu, kun sovellukseni testausprosessi päättyy?",
+  faq4A: "Kun 14 päivän jakso on päättynyt onnistuneesti, voit päivittää sovelluksesi \"Merkitse julkaistuksi\" -vaihtoehdolla sovelluksesi tietosivun kehittäjäpaneelista. Järjestelmämme varmistaa tämän myös Google Play Kaupan kautta. Tämän vaiheen jälkeen testausvaiheet poistetaan ja näkyviin tulee suora Google Play -latauspainike."
 };

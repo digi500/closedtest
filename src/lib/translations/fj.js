@@ -109,5 +109,15 @@ export const fj = {
   sendingMessage: "Vakauta...",
   messageSent: "Sa Vakau Na Nomuni iTukutuku!",
   messageSentDesc: "Sa ciqomi vinaka na nomu kerekere ni veitaratara. Eda na lesu tale mai vei iko ena nomu itikotiko ni imeli ena kena gauna totolo duadua.",
-  writeNewMessage: "Vola na itukutuku vou"
+  writeNewMessage: "Vola na itukutuku vou",
+
+  // Support FAQs
+  faq1Q: "Na cava na Google qito 20 Lawa ni veivakatovolei?",
+  faq1A: "Me baleta na akaude vou ni veivakatorocaketaki yadua e dolavi ni oti na Noveba 2023, sa vakayacora na Google me vakayacori na veivakatovolei sogo vata kei na lailai duadua ni 20 vakayagataki ni veivakatovolei me baleta na lailai duadua ni 14 na siga ni bera ni tabaki na nodra kerekere. Na kerekere e sega ni vakacavara na lawa oqo e sega ni rawa ni tabaki.",
+  faq2Q: "E Cakacaka Vakacava na Platform? E saumi beka?",
+  faq2A: "Na noda ituvatuva e galala taucoko ka yavutaki ena cakacaka vata. Era dau vakatovolea na dauvakatorocaketaka na nodra dui kerekere. Ni o vakatovolei ira na tamata tale eso na nodra kerekere, eso tale na dauvakatorocaketaka era na vakatovolea talega na nomu kerekere ena rede ni dokai kei na veitokoni o na rawata.",
+  faq3Q: "Au na vakatovolea vakacava e dua na App?",
+  faq3A: "Lako ki na draunipepa ni app o vinakata mo vakatovolei. Lewena na app ni Google ilawalawa ena nomu kilikitaka na ibulukau ena ikalawa 1. Qai lavetaka na ivolakerekere ki na nomu talevoni mai na Google qito ena nomu kilikitaka na ibulukau ni lavetaki ena ikalawa 2 ka kakua ni bokoca mai na nomu talevoni me lailai duadua 14 siga.",
+  faq4Q: "Na cava e yaco ni sa oti na noqu ivolakerekere ni veivakatovolei?",
+  faq4A: "Ni sa vakacavari vinaka na gauna ni 14-siga, sa rawa mo vakavoutaka na nomu kerekere ena \"Mark me vaka e tabaki\" digidigi mai na ilawalawa ni dauvakatorocaketaka ena nomu tabana ni itukutuku ni kerekere. Na noda ivakarau talega e vakadeitaka oqo ena sitoa ni qito ni Google. Ni oti na ikalawa oqo, sa kau laivi na ikalawa ni veivakatovolei ka sa basika mai na ibulukau ni lavetaki ni Google Play vakadodonu."
 };

@@ -109,5 +109,15 @@ export const az = {
   sendingMessage: "Göndərilir...",
   messageSent: "Mesajınız Göndərildi!",
   messageSentDesc: "Əlaqə sorğunuz uğurla qəbul edildi. Ən qısa zamanda e-poçt ünvanınız vasitəsilə sizinlə əlaqə saxlayacağıq.",
-  writeNewMessage: "Yeni Mesaj Yaz"
+  writeNewMessage: "Yeni Mesaj Yaz",
+
+  // Support FAQs
+  faq1Q: "Google Play 20 Tester Qaydası nədir?",
+  faq1A: "2023-cü ilin noyabrından sonra açılan yeni fərdi tərtibatçı hesabları üçün Google, tətbiqlərini dərc etməzdən əvvəl ən azı 14 gün ərzində ən azı 20 test istifadəçisi ilə qapalı test keçirməyi məcbur etdi. Bu qaydanı yerinə yetirməyən ərizələr dərc edilə bilməz.",
+  faq2Q: "Platforma necə işləyir? Ödənişlidir?",
+  faq2A: "Platformamız tamamilə pulsuzdur və əməkdaşlığa əsaslanır. Tərtibatçılar bir-birlərinin tətbiqlərini sınaqdan keçirirlər. Siz başqalarının proqramlarını sınaqdan keçirdiyiniz zaman digər tərtibatçılar da qazanacağınız prestij və əməkdaşlıq şəbəkəsi ilə tətbiqinizi sınaqdan keçirəcəklər.",
+  faq3Q: "Tətbiqi necə sınaqdan keçirə bilərəm?",
+  faq3A: "Test etmək istədiyiniz tətbiqin səhifəsinə keçin. 1-ci addımdakı düyməyə klikləməklə proqramın Google Qrupuna qoşulun. Sonra 2-ci addımda yükləmə düyməsini klikləməklə proqramı Google Play-dən telefonunuza endirin və ən azı 14 gün ərzində onu telefonunuzdan silməyin.",
+  faq4Q: "Ərizəmin Sınaq Prosesi bitdikdə nə baş verir?",
+  faq4A: "14 günlük müddət müvəffəqiyyətlə başa çatdıqda, proqram detalları səhifənizdəki tərtibatçı panelindən \"Dəcr olunmuş kimi işarələ\" seçimi ilə ərizənizi yeniləyə bilərsiniz. Sistemimiz bunu Google Play Store vasitəsilə də yoxlayır. Bu mərhələdən sonra sınaq addımları silinir və birbaşa Google Play yükləmə düyməsi görünür."
 };

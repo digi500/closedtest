@@ -109,5 +109,15 @@ export const cy = {
   sendingMessage: "Yn anfon...",
   messageSent: "Mae Eich Neges Wedi'i Anfon!",
   messageSentDesc: "Mae eich cais cyswllt wedi'i dderbyn yn llwyddiannus. Byddwn yn cysylltu â chi drwy eich cyfeiriad e-bost cyn gynted â phosibl.",
-  writeNewMessage: "Ysgrifennu Neges Newydd"
+  writeNewMessage: "Ysgrifennu Neges Newydd",
+
+  // Support FAQs
+  faq1Q: "Beth yw Rheol Profwr Google Play 20?",
+  faq1A: "Ar gyfer cyfrifon datblygwyr unigol newydd a agorwyd ar ôl Tachwedd 2023, mae Google wedi ei gwneud hi'n orfodol cynnal profion caeedig gydag o leiaf 20 o ddefnyddwyr prawf am o leiaf 14 diwrnod cyn cyhoeddi eu ceisiadau. Ni ellir cyhoeddi ceisiadau nad ydynt yn cwblhau'r rheol hon.",
+  faq2Q: "Sut Mae'r Llwyfan yn Gweithio? A yw'n cael ei dalu?",
+  faq2A: "Mae ein platfform yn hollol rhad ac am ddim ac yn seiliedig ar gydweithrediad. Mae datblygwyr yn profi cymwysiadau ei gilydd. Wrth i chi brofi cymwysiadau pobl eraill, bydd datblygwyr eraill hefyd yn profi'ch cais gyda'r rhwydwaith bri a chydweithrediad y byddwch chi'n ei ennill.",
+  faq3Q: "Sut Ydw i'n Profi Ap?",
+  faq3A: "Ewch i dudalen yr app rydych chi am ei brofi. Ymunwch â Grŵp Google yr ap trwy glicio ar y botwm yng Ngham 1. Yna lawrlwythwch y cais i'ch ffôn o Google Play trwy glicio ar y botwm lawrlwytho yng Ngham 2 a pheidiwch â'i ddileu o'ch ffôn am o leiaf 14 diwrnod.",
+  faq4Q: "Beth Sy'n Digwydd Pan Daw Proses Brofi Fy Nghais i Ben?",
+  faq4A: "Pan fydd y cyfnod 14 diwrnod wedi'i gwblhau'n llwyddiannus, gallwch chi ddiweddaru'ch cais gyda'r opsiwn \"Marcio fel Wedi'i Gyhoeddi\" o'r panel datblygwr ar dudalen manylion eich cais. Mae ein system hefyd yn gwirio hyn trwy'r Google Play Store. Ar ôl y cam hwn, mae'r camau profi yn cael eu tynnu ac mae'r botwm lawrlwytho uniongyrchol Google Play yn ymddangos."
 };

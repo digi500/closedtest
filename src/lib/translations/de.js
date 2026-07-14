@@ -109,5 +109,15 @@ export const de = {
   sendingMessage: "Senden...",
   messageSent: "Ihre Nachricht wurde gesendet!",
   messageSentDesc: "Ihre Kontaktanfrage wurde erfolgreich empfangen. Wir werden uns schnellstmöglich über Ihre E-Mail-Adresse bei Ihnen melden.",
-  writeNewMessage: "Neue Nachricht schreiben"
+  writeNewMessage: "Neue Nachricht schreiben",
+
+  // Support FAQs
+  faq1Q: "Was ist die Google Play 20-Testerregel?",
+  faq1A: "Für neue individuelle Entwicklerkonten, die nach November 2023 eröffnet werden, hat Google die Durchführung geschlossener Tests mit mindestens 20 Testnutzern für mindestens 14 Tage zur Pflicht gemacht, bevor ihre Anwendungen veröffentlicht werden. Bewerbungen, die diese Regel nicht erfüllen, können nicht veröffentlicht werden.",
+  faq2Q: "Wie funktioniert die Plattform? Ist es bezahlt?",
+  faq2A: "Unsere Plattform ist völlig kostenlos und basiert auf Zusammenarbeit. Entwickler testen gegenseitig ihre Anwendungen. Wenn Sie die Anwendungen anderer Leute testen, testen auch andere Entwickler Ihre Anwendung mit dem Prestige und dem Kooperationsnetzwerk, das Sie gewinnen.",
+  faq3Q: "Wie teste ich eine App?",
+  faq3A: "Gehen Sie zur Seite der App, die Sie testen möchten. Treten Sie der Google-Gruppe der App bei, indem Sie in Schritt 1 auf die Schaltfläche klicken. Laden Sie dann die Anwendung von Google Play auf Ihr Telefon herunter, indem Sie in Schritt 2 auf die Download-Schaltfläche klicken, und löschen Sie sie mindestens 14 Tage lang nicht von Ihrem Telefon.",
+  faq4Q: "Was passiert, wenn der Testprozess meiner Anwendung endet?",
+  faq4A: "Wenn die 14-tägige Frist erfolgreich abgelaufen ist, können Sie Ihre Bewerbung mit der Option „Als veröffentlicht markieren“ im Entwicklerbereich auf Ihrer Bewerbungsdetailseite aktualisieren. Unser System überprüft dies auch über den Google Play Store. Nach dieser Phase werden die Testschritte entfernt und die Schaltfläche zum direkten Herunterladen von Google Play wird angezeigt."
 };

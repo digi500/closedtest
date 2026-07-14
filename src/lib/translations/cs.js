@@ -109,5 +109,15 @@ export const cs = {
   sendingMessage: "Odesílání...",
   messageSent: "Vaše zpráva byla odeslána!",
   messageSentDesc: "Vaše žádost o kontakt byla úspěšně přijata. Co nejdříve se vám ozveme prostřednictvím vaší e-mailové adresy.",
-  writeNewMessage: "Napište novou zprávu"
+  writeNewMessage: "Napište novou zprávu",
+
+  // Support FAQs
+  faq1Q: "Jaké je pravidlo pro testery Google Play 20?",
+  faq1A: "U nových individuálních vývojářských účtů otevřených po listopadu 2023 společnost Google zavedla povinnost provádět uzavřené testování s alespoň 20 testovacími uživateli po dobu alespoň 14 dnů před zveřejněním jejich aplikací. Přihlášky, které toto pravidlo nesplňují, nelze zveřejnit.",
+  faq2Q: "Jak platforma funguje? Je to placené?",
+  faq2A: "Naše platforma je zcela bezplatná a založená na spolupráci. Vývojáři vzájemně testují své aplikace. Když budete testovat aplikace jiných lidí, ostatní vývojáři budou také testovat vaši aplikaci s prestiží a sítí spolupráce, kterou získáte.",
+  faq3Q: "Jak otestuji aplikaci?",
+  faq3A: "Přejděte na stránku aplikace, kterou chcete otestovat. Připojte se ke skupině Google aplikace kliknutím na tlačítko v kroku 1. Poté si stáhněte aplikaci do telefonu z Google Play kliknutím na tlačítko stahování v kroku 2 a nemažte ji z telefonu po dobu alespoň 14 dnů.",
+  faq4Q: "Co se stane, když proces testování mé aplikace skončí?",
+  faq4A: "Po úspěšném dokončení 14denního období můžete svou aplikaci aktualizovat pomocí možnosti „Označit jako zveřejněnou“ z panelu vývojáře na stránce s podrobnostmi o aplikaci. Náš systém to také ověřuje prostřednictvím obchodu Google Play. Po této fázi se testovací kroky odstraní a zobrazí se tlačítko přímého stažení z Google Play."
 };

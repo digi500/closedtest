@@ -109,5 +109,15 @@ export const af = {
   sendingMessage: "Stuur tans …",
   messageSent: "Jou boodskap is gestuur!",
   messageSentDesc: "Jou kontakversoek is suksesvol ontvang. Ons sal so gou moontlik na jou terugkom via jou e-posadres.",
-  writeNewMessage: "Skryf nuwe boodskap"
+  writeNewMessage: "Skryf nuwe boodskap",
+
+  // Support FAQs
+  faq1Q: "Wat is die Google Play 20-toetsreël?",
+  faq1A: "Vir nuwe individuele ontwikkelaarrekeninge wat na November 2023 geopen is, het Google dit verpligtend gemaak om geslote toetse met ten minste 20 toetsgebruikers uit te voer vir ten minste 14 dae voordat hul toepassings gepubliseer word. Aansoeke wat nie hierdie reël voltooi nie, kan nie gepubliseer word nie.",
+  faq2Q: "Hoe werk die platform? Is dit betaal?",
+  faq2A: "Ons platform is heeltemal gratis en gebaseer op samewerking. Ontwikkelaars toets mekaar se toepassings. Soos jy ander mense se toepassings toets, sal ander ontwikkelaars ook jou toepassing toets met die aansien en samewerkingsnetwerk wat jy sal kry.",
+  faq3Q: "Hoe toets ek 'n toepassing?",
+  faq3A: "Gaan na die bladsy van die toepassing wat u wil toets. Sluit aan by die toepassing se Google-groep deur die knoppie in Stap 1 te klik. Laai dan die toepassing af na jou foon vanaf Google Play deur die aflaai-knoppie in Stap 2 te klik en moenie dit vir ten minste 14 dae van jou foon uitvee nie.",
+  faq4Q: "Wat gebeur wanneer my aansoek se toetsproses eindig?",
+  faq4A: "Wanneer die tydperk van 14 dae suksesvol voltooi is, kan jy jou aansoek opdateer met die \"Merk as Gepubliseer\"-opsie vanaf die ontwikkelaarpaneel op jou aansoekbesonderhedebladsy. Ons stelsel verifieer dit ook via die Google Play Winkel. Na hierdie stadium word die toetsstappe verwyder en die direkte Google Play-aflaaiknoppie verskyn."
 };

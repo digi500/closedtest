@@ -109,5 +109,15 @@ export const ca = {
   sendingMessage: "S'està enviant...",
   messageSent: "El vostre missatge ha estat enviat!",
   messageSentDesc: "La vostra sol·licitud de contacte s'ha rebut correctament. Ens posarem en contacte amb vostè a través de la seva adreça de correu electrònic tan aviat com sigui possible.",
-  writeNewMessage: "Escriu un missatge nou"
+  writeNewMessage: "Escriu un missatge nou",
+
+  // Support FAQs
+  faq1Q: "Què és la regla del provador de Google Play 20?",
+  faq1A: "Per als nous comptes de desenvolupadors individuals oberts després del novembre de 2023, Google ha fet obligatori dur a terme proves tancades amb almenys 20 usuaris de prova durant almenys 14 dies abans de publicar les seves aplicacions. Les sol·licituds que no compleixin aquesta norma no es poden publicar.",
+  faq2Q: "Com funciona la plataforma? Es paga?",
+  faq2A: "La nostra plataforma és totalment gratuïta i es basa en la cooperació. Els desenvolupadors posen a prova les aplicacions dels altres. A mesura que proveu aplicacions d'altres persones, altres desenvolupadors també provaran la vostra aplicació amb la xarxa de prestigi i cooperació que obtindreu.",
+  faq3Q: "Com puc provar una aplicació?",
+  faq3A: "Aneu a la pàgina de l'aplicació que voleu provar. Uneix-te al grup de Google de l'aplicació fent clic al botó del pas 1. A continuació, baixa l'aplicació al teu telèfon des de Google Play fent clic al botó de descàrrega del pas 2 i no l'eliminis del telèfon durant almenys 14 dies.",
+  faq4Q: "Què passa quan finalitza el procés de prova de la meva sol·licitud?",
+  faq4A: "Quan el període de 14 dies s'hagi completat correctament, podeu actualitzar la vostra aplicació amb l'opció \"Marca com a publicada\" del tauler de desenvolupadors de la pàgina de detalls de l'aplicació. El nostre sistema també ho verifica a través de Google Play Store. Després d'aquesta etapa, s'eliminen els passos de prova i apareix el botó de descàrrega directa de Google Play."
 };

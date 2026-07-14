@@ -109,5 +109,15 @@ export const eo = {
   sendingMessage: "Sendante...",
   messageSent: "Via Mesaĝo Estas Sendita!",
   messageSentDesc: "Via kontaktpeto estis ricevita sukcese. Ni respondos al vi per via retadreso kiel eble plej baldaŭ.",
-  writeNewMessage: "Skribu Novan Mesaĝon"
+  writeNewMessage: "Skribu Novan Mesaĝon",
+
+  // Support FAQs
+  faq1Q: "Kio estas la Google Play 20 Tester Regulo?",
+  faq1A: "Por novaj individuaj programkontoj malfermitaj post novembro 2023, Google devige fari fermitajn provojn kun almenaŭ 20 testaj uzantoj dum almenaŭ 14 tagoj antaŭ publikigado de siaj aplikoj. Aplikoj kiuj ne plenumas ĉi tiun regulon ne povas esti publikigitaj.",
+  faq2Q: "Kiel Funkcias la Platformo? Ĉu ĝi estas pagita?",
+  faq2A: "Nia platformo estas tute senpaga kaj bazita sur kunlaboro. Programistoj testas reciproke la aplikojn. Dum vi testas aliulajn aplikaĵojn, aliaj programistoj ankaŭ testos vian aplikaĵon per la prestiĝo kaj kunlabora reto, kiun vi gajnos.",
+  faq3Q: "Kiel Mi Testas Apon?",
+  faq3A: "Iru al la paĝo de la programo, kiun vi volas testi. Aliĝu al la Google-Grupo de la programo alklakante la butonon en Paŝo 1. Poste elŝutu la aplikaĵon al via telefono de Google Play alklakante la elŝutbutonon en Paŝo 2 kaj ne forigu ĝin de via telefono dum almenaŭ 14 tagoj.",
+  faq4Q: "Kio Okazas Kiam la Testa Procezo de Mia Apliko Finiĝas?",
+  faq4A: "Kiam la 14-taga periodo finiĝos sukcese, vi povas ĝisdatigi vian aplikaĵon per la opcio \"Marki kiel Publikigita\" de la programista panelo sur via detala paĝo. Nia sistemo ankaŭ kontrolas tion per la Google Play Store. Post ĉi tiu etapo, la testaj paŝoj estas forigitaj kaj la rekta elŝuta butono de Google Play aperas."
 };

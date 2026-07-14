@@ -109,5 +109,15 @@ export const ay = {
   sendingMessage: "Ukax mä...",
   messageSent: "¡Yatiyäwimax apayatäxiwa!",
   messageSentDesc: "Uka contacto mayiwixa suma katuqatawa. Jiwasax correo electrónico tuqiw jank’ak kutt’ayapxäma.",
-  writeNewMessage: "Machaq Yatiyawi Qillqaña"
+  writeNewMessage: "Machaq Yatiyawi Qillqaña",
+
+  // Support FAQs
+  faq1Q: "¿Kunas Google Play 20 yant’ir kamachixa?",
+  faq1A: "Machaq sapa mayni desarrollador cuentanakatakix jist’aratawa noviembre phaxsit 2023 marat qhiparux, Google ukax obligatorio ukhamaw jist’antat yant’äwinak 20 yant’äw apnaqirinakamp 14 urunak janïr aplicacionanakap uñt’ayañkama. Aka kamachi jani phuqhañapataki mayiwinakaxa janiwa uñt’ayatäkaspati.",
+  faq2Q: "¿Kunjamsa Plataformajj irnaqtʼi? ¿Pallatäpachati?",
+  faq2A: "Jiwasan plataformax taqpach inakiw ukatx yanapt’asiñ tuqitw uñt’ayasi. Desarrolladores ukanakax maynit maynikam aplicacionanakap yant’apxi. Kunjamakitix yaqha jaqinakan aplicacionanakap yant’apxtaxa, yaqha desarrolladores ukanakax aplicación ukar yant’apxarakiniwa prestigio ukat red de cooperación ukampiw jikxatasma.",
+  faq3Q: "¿Kunjamsa mä App yantʼasma?",
+  faq3A: "Uka app ukax yant’añ munkta ukaruw sarasma. App ukan Google Grupo ukar mantam 1r t’aqapan botón ukar ch’iqt’asa, ukatx Google Play ukan teléfono ukar apkatañamawa 2 t’aqapan descarga botón ukar ch’iqt’asa ukat 14 urunak jan teléfonomat chhaqtayañamawa.",
+  faq4Q: "¿Kunas pasaspa Kunapachatï Nayan Aplicacionajan Yantʼäwipajj tukuyjje ukhajja?",
+  faq4A: "Kunawsatix 14 urunak saraqatat suma tukuyatäni ukhax \"Marka como Publicado\" ukampiw aplicación ukarux machaqar tukuyasma, panel desarrollador ukanx aplicación detalle ukanx aplicación ukarux machaqar tukuyasma. Jiwasan sistema ukax Google Play Store tuqiw ukax chiqancharaki. Aka pacha tukuyatatxa, yant’awinak lurañanakax apsutäxiwa ukatx directo Google Play descarga botón ukax uñstawayiwa."
 };

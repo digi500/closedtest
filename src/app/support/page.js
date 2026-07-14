@@ -14,39 +14,22 @@ export default function SupportPage() {
   const [success, setSuccess] = useState(false);
   const [activeFaq, setActiveFaq] = useState(null);
 
-  const faqs = language === 'tr' ? [
+  const faqs = [
     {
-      q: 'Google Play 20 Test Kullanıcısı Kuralı Nedir?',
-      a: 'Google, Kasım 2023\'ten sonra açılan yeni bireysel geliştirici hesapları için uygulamalarını yayına almadan önce en az 20 test kullanıcısı ile en az 14 gün boyunca aralıksız kapalı test yapma zorunluluğu getirmiştir. Bu kuralı tamamlamayan uygulamalar yayına alınamaz.'
+      q: t('faq1Q'),
+      a: t('faq1A')
     },
     {
-      q: 'Platform Nasıl Çalışıyor? Ücretli mi?',
-      a: 'Platformumuz tamamen ücretsiz ve yardımlaşma (cooperative) esasına dayanır. Geliştiriciler birbirlerinin uygulamalarını test ederler. Siz başkalarının uygulamalarını test ettikçe kazanacağınız prestij ve yardımlaşma ağı ile diğer geliştiriciler de sizin uygulamanızı test eder.'
+      q: t('faq2Q'),
+      a: t('faq2A')
     },
     {
-      q: 'Bir Uygulamayı Nasıl Test Ederim?',
-      a: 'Test etmek istediğiniz uygulamanın sayfasına gidin. 1. Adımdaki butona tıklayarak uygulamanın Google Grubuna katılın. Ardından 2. Adımdaki indirme butonuna tıklayarak uygulamayı Google Play\'den telefonunuza indirin ve en az 14 gün boyunca telefonunuzdan silmeyin.'
+      q: t('faq3Q'),
+      a: t('faq3A')
     },
     {
-      q: 'Uygulamamın Test Süreci Bitince Ne Olur?',
-      a: '14 günlük süreç başarıyla tamamlandığında, uygulama detay sayfanızda bulunan geliştirici panelinden uygulamanızı "Yayınlandı Olarak İşaretle" seçeneğiyle güncelleyebilirsiniz. Sistemimiz bunu Google Play Store üzerinden de doğrular. Bu aşamadan sonra test adımları kalkar ve doğrudan Google Play indirme butonu görünür.'
-    }
-  ] : [
-    {
-      q: 'What is the Google Play 20 Tester Rule?',
-      a: 'Google requires all new personal developer accounts created after November 2023 to run a closed test with at least 20 testers for 14 consecutive days before they can publish their apps to production.'
-    },
-    {
-      q: 'How Does This Platform Work? Is it Free?',
-      a: 'Our platform is completely free and based on mutual cooperation. Developers test each other\'s apps. By testing other applications, you build connections and trust, and other developers test your app in return.'
-    },
-    {
-      q: 'How Do I Test an Application?',
-      a: 'Go to the page of the app you want to test. Click the button in Step 1 to join the Google Group. Then, click the button in Step 2 to download the app from Google Play, and keep it installed on your phone for at least 14 days.'
-    },
-    {
-      q: 'What Happens When My App Testing is Complete?',
-      a: 'Once the 14-day period is successfully completed, you can mark your app as "Published" via the developer panel on your app page. Our system will also verify this automatically via the Google Play Store. The testing steps will then be replaced by a direct download link.'
+      q: t('faq4Q'),
+      a: t('faq4A')
     }
   ];
 

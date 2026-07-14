@@ -109,5 +109,15 @@ export const fo = {
   sendingMessage: "Senda...",
   messageSent: "Tíni boð eru send!",
   messageSentDesc: "Tín kontaktumbøn er móttikin. Vit venda aftur til tín umvegis tína teldupostadressu skjótast gjørligt.",
-  writeNewMessage: "Skriva nýggj boð"
+  writeNewMessage: "Skriva nýggj boð",
+
+  // Support FAQs
+  faq1Q: "Hvat er Google Play 20 royndarreglan?",
+  faq1A: "Fyri nýggjar einstakar forritararkontur, sum verða latnar upp eftir november 2023, hevur Google gjørt tað skyldugt at gera lukkaðar royndir við minst 20 royndarbrúkarum í minst 14 dagar, áðrenn tey geva út teirra forrit. Umsóknir, sum ikki lúka hesa reglu, kunnu ikki kunngerast.",
+  faq2Q: "Hvussu virkar pallurin? Er tað greitt?",
+  faq2A: "Okkara pallur er púra ókeypis og byggir á samstarv. Forritarar royna forrit hjá hvørjum øðrum. Meðan tú roynir forrit hjá øðrum, royna aðrir forritarar eisini títt forrit við tí áliti og samstarvsnetverki, tú fært.",
+  faq3Q: "Hvussu royni eg eina app?",
+  faq3A: "Far inn á síðuna á appini, sum tú vilt royna. Melda teg til Google bólkin hjá appini við at trýsta á knøttin í trin 1. Heinta síðani forritið á tína telefon frá Google Play við at trýsta á heinta-knøttin í trin 2 og strika tað ikki av tínari telefon í minst 14 dagar.",
+  faq4Q: "Hvat hendir, tá royndartilgongdin hjá mínari umsókn endar?",
+  faq4A: "Tá 14 daga tíðarskeiðið er liðugt, kanst tú dagføra tína forrit við møguleikanum \"Merk sum útgivið\" frá forritarapanelinum á tínari forritadetaljusíðu. Okkara skipan váttar hetta eisini umvegis Google Play handil. Eftir hetta stigið verða royndartrinini strikað og beinleiðis Google Play heinta-knappurin kemur fram."
 };

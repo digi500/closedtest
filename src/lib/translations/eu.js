@@ -109,5 +109,15 @@ export const eu = {
   sendingMessage: "Bidaltzen...",
   messageSent: "Zure mezua bidali da!",
   messageSentDesc: "Zure harremanetarako eskaera behar bezala jaso da. Zure helbide elektronikoaren bidez erantzungo dizugu ahalik eta lasterren.",
-  writeNewMessage: "Idatzi mezu berria"
+  writeNewMessage: "Idatzi mezu berria",
+
+  // Support FAQs
+  faq1Q: "Zer da Google Play 20 Tester Araua?",
+  faq1A: "2023ko azarotik aurrera irekitako garatzaile-kontu indibidual berrietarako, Google-k derrigorrezkoa egin du proba itxiak egitea gutxienez 20 erabiltzailerekin gutxienez 14 egunez euren aplikazioak argitaratu aurretik. Arau hau betetzen ez duten eskaerak ezin dira argitaratu.",
+  faq2Q: "Nola funtzionatzen du plataformak? Ordaindua al da?",
+  faq2A: "Gure plataforma guztiz doakoa da eta lankidetzan oinarritzen da. Garatzaileek elkarren aplikazioak probatzen dituzte. Besteen aplikazioak probatzen dituzun heinean, beste garatzaile batzuek ere zure aplikazioa probatuko dute irabaziko duzun prestigio eta lankidetza sarearekin.",
+  faq3Q: "Nola probatu dezaket aplikazio bat?",
+  faq3A: "Joan probatu nahi duzun aplikazioaren orrialdera. Sartu aplikazioaren Google Taldean 1. urratseko botoia sakatuz. Ondoren, deskargatu aplikazioa zure telefonora Google Play-tik 2. urratseko deskargatzeko botoia sakatuz eta ez ezabatu telefonotik gutxienez 14 egunetan.",
+  faq4Q: "Zer gertatzen da nire aplikazioaren proba-prozesua amaitzen denean?",
+  faq4A: "14 eguneko epea behar bezala amaitzen denean, zure aplikazioa eguneratu dezakezu \"Markatu argitaratutako gisa\" aukerarekin, aplikazioaren xehetasun-orriko garatzaileen panelean. Gure sistemak Google Play Store-ren bidez ere egiaztatzen du. Etapa honen ondoren, probaren urratsak kendu eta Google Play-ren deskarga zuzeneko botoia agertzen da."
 };

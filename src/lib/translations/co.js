@@ -109,5 +109,15 @@ export const co = {
   sendingMessage: "Mandendu...",
   messageSent: "U vostru messagiu hè statu mandatu!",
   messageSentDesc: "A vostra dumanda di cuntattu hè stata ricevuta cun successu. Vi risponderemu via u vostru indirizzu email u più prestu pussibule.",
-  writeNewMessage: "Scrivite un novu messagiu"
+  writeNewMessage: "Scrivite un novu messagiu",
+
+  // Support FAQs
+  faq1Q: "Chì ghjè a regula di Google Play 20 Tester?",
+  faq1A: "Per i novi cunti di sviluppatori individuali aperti dopu à nuvembre 2023, Google hà fattu ubligatoriu di fà teste chjuse cù almenu 20 utilizatori di teste per almenu 14 ghjorni prima di publicà e so applicazioni. L'applicazioni chì ùn cumplenu micca sta regula ùn ponu esse publicate.",
+  faq2Q: "Cumu funziona a piattaforma? Hè pagatu ?",
+  faq2A: "A nostra piattaforma hè cumplettamente libera è basata nantu à a cooperazione. I sviluppatori testanu l'applicazioni di l'altri. Cume teste l'applicazioni di l'altri, altri sviluppatori testanu ancu a vostra applicazione cù a rete di prestigiu è di cooperazione chì guadagnerete.",
+  faq3Q: "Cumu pruvà una App?",
+  faq3A: "Andà à a pagina di l'app chì vulete pruvà. Aghjunghjite u Gruppu Google di l'app clicchendu u buttone in u Passu 1. Allora scaricate l'applicazione à u vostru telefunu da Google Play clicchendu u buttone di scaricamentu in u Passu 2 è ùn sguassate micca da u vostru telefunu per almenu 14 ghjorni.",
+  faq4Q: "Cosa succede quandu u prucessu di prova di a mo applicazione finisce?",
+  faq4A: "Quandu u periodu di 14 ghjorni hè cumpletu cù successu, pudete aghjurnà a vostra applicazione cù l'opzione \"March as Published\" da u pannellu di sviluppatore in a pagina di dettagliu di l'applicazione. U nostru sistema verifica ancu questu via u Google Play Store. Dopu à sta tappa, i passi di prova sò sguassati è u buttone di scaricamentu direttu di Google Play appare."
 };
