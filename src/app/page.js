@@ -86,8 +86,24 @@ export default function Home() {
   // Slider apps: Last 5 active apps added
   const sliderApps = activeApps.slice(0, 5);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Closed Test",
+    "url": "https://closedtest.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://closedtest.com/?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main className="container">
         {loading ? (

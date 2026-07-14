@@ -196,7 +196,7 @@ export const db = {
       const apps = JSON.parse(localStorage.getItem(MOCK_STORAGE_KEY_APPS) || '[]');
       return apps.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
     }
-    return [];
+    return INITIAL_MOCK_APPS;
   },
 
   async getApp(id) {

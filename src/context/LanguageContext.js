@@ -11,24 +11,39 @@ export function LanguageProvider({ children }) {
 
   useEffect(() => {
     // Detect language on mount
+    let detectedLang = 'tr';
+    const params = new URLSearchParams(window.location.search);
+    const queryLang = params.get('lang');
     const savedLang = localStorage.getItem('closedtest_lang');
-    if (savedLang && translations[savedLang]) {
-      setLanguage(savedLang);
+
+    if (queryLang && translations[queryLang]) {
+      detectedLang = queryLang;
+      localStorage.setItem('closedtest_lang', queryLang);
+    } else if (savedLang && translations[savedLang]) {
+      detectedLang = savedLang;
     } else {
       const browserLang = typeof navigator !== 'undefined' ? (navigator.language || navigator.userLanguage || '') : 'en';
       if (translations[browserLang]) {
-        setLanguage(browserLang);
+        detectedLang = browserLang;
       } else {
         const baseLang = browserLang.split('-')[0].toLowerCase();
         if (translations[baseLang]) {
-          setLanguage(baseLang);
+          detectedLang = baseLang;
         } else {
-          setLanguage('en');
+          detectedLang = 'en';
         }
       }
     }
+    setLanguage(detectedLang);
     setMounted(true);
   }, []);
+
+  // Update HTML lang attribute dynamically in the DOM
+  useEffect(() => {
+    if (mounted) {
+      document.documentElement.setAttribute('lang', language);
+    }
+  }, [language, mounted]);
 
   const changeLanguage = (lang) => {
     if (translations[lang]) {
