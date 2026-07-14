@@ -215,6 +215,7 @@ function LanguageDropdown({ value, onChange }) {
             />
           </div>
           <div
+            className="custom-scrollbar"
             style={{
               maxHeight: '260px',
               overflowY: 'auto',
