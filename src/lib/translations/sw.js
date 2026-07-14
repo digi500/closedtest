@@ -93,5 +93,21 @@ export const sw = {
   // Footer
   footerText: "Jukwaa la kubadilishana majaribio yaliyofungwa kwa wasanidi programu.",
   footerSubText: "Jukwaa hili ni chanzo wazi kabisa na linatengenezwa na wasanidi programu wa kujitolea.",
-  githubBtn: "Changia / Toa Nyota kwenye GitHub"
+  githubBtn: "Changia / Toa Nyota kwenye GitHub",
+
+  // Support & Contact
+  supportFAQ: "Usaidizi na Maswali Yanayoulizwa Mara kwa Mara || Usaidizi na Mawasiliano",
+  supportTitle: "Je, una maswali kuhusu jukwaa au ungependa kuwasiliana nasi? Unaweza kutuma ujumbe ukitumia fomu iliyo hapa chini au ukague sehemu ya Maswali Yanayoulizwa Mara kwa Mara.",
+  supportDesc: "Maswali Yanayoulizwa Sana",
+  faqTitle: "Tutumie Ujumbe || Jina Lako na Jina Lako",
+  contactFormTitle: "Anwani yako ya barua pepe || Mada",
+  nameLabel: "Ujumbe wako",
+  emailLabel: "Tuma Ujumbe || Inatuma...",
+  subjectLabel: "Ujumbe Wako Umetumwa!",
+  messageLabel: "Ombi lako la mawasiliano limepokelewa. Tutakujibu kupitia anwani yako ya barua pepe haraka iwezekanavyo.",
+  sendMessage: "Andika Ujumbe Mpya",
+  sendingMessage: "Gönderiliyor...",
+  messageSent: "Mesajınız Gönderildi!",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

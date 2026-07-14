@@ -93,5 +93,21 @@ export const to = {
   // Footer
   footerText: "Polokalama fefaʻobi sivi mapuni maʻa e kau inisinia.",
   footerSubText: "Ko e polokalama ko ʻení ʻoku faka-open-source kotoa pea ne faʻu ʻe ha kau inisinia loto-lelei.",
-  githubBtn: "Tokoni / ʻOmai ha Fetuʻu he GitHub"
+  githubBtn: "Tokoni / ʻOmai ha Fetuʻu he GitHub",
+
+  // Support & Contact
+  supportFAQ: "Poupou & FAQ",
+  supportTitle: "Poupou & Fetu'utaki",
+  supportDesc: "'Oku 'iai ha'o fehu'i fekau'aki mo e peletifoomu pe 'oku ke fie fetu'utaki mai kiate kimautolu? Te ke lava ʻo ʻave ha pōpoaki ʻo fakaʻaongaʻi ʻa e foomu ʻi laló pe vakaiʻi ʻa e konga FAQ.",
+  faqTitle: "Frequently Asked Questions",
+  contactFormTitle: "Tuku mai ha Fekau",
+  nameLabel: "Your Name and Surname",
+  emailLabel: "Ko ho'o Tu'asila 'Imeili",
+  subjectLabel: "Kaveinga",
+  messageLabel: "Ko ho'o fekau",
+  sendMessage: "Fekau'i atu 'a e Fekau",
+  sendingMessage: "Fekau'i atu...",
+  messageSent: "Your Message Has Been Sent!",
+  messageSentDesc: "Kuo lava lelei ho'o kole fetu'utaki. Te mau toe foki atu kiate koe 'o fakafou 'i ho'o tu'asila 'imeili 'i he vave taha.",
+  writeNewMessage: "Tohi Fekau Fo'ou"
 };

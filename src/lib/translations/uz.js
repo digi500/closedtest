@@ -93,5 +93,21 @@ export const uz = {
   // Footer
   footerText: "Dasturchilar uchun yopiq test almashish platformasi.",
   footerSubText: "Ushbu platforma to'liq ochiq manbali bo'lib, ko'ngilli dasturchilar tomonidan ishlab chiqilmoqda.",
-  githubBtn: "Hissa qo'shish / GitHub-da yulduzcha berish"
+  githubBtn: "Hissa qo'shish / GitHub-da yulduzcha berish",
+
+  // Support & Contact
+  supportFAQ: "Yordam va tez-tez so'raladigan savollar",
+  supportTitle: "Yordam va aloqa",
+  supportDesc: "Platforma haqida savollaringiz bormi yoki biz bilan bog'lanmoqchimisiz? Siz quyidagi shakl orqali xabar yuborishingiz yoki FAQ bo'limini ko'rib chiqishingiz mumkin.",
+  faqTitle: "Tez-tez so'raladigan savollar",
+  contactFormTitle: "Bizga xabar yuboring",
+  nameLabel: "Ismingiz va familiyangiz",
+  emailLabel: "Sizning elektron pochta manzilingiz",
+  subjectLabel: "Mavzu",
+  messageLabel: "Sizning xabaringiz",
+  sendMessage: "Xabar yuborish",
+  sendingMessage: "Yuborilmoqda...",
+  messageSent: "Sizning xabaringiz yuborildi!",
+  messageSentDesc: "Sizning kontakt so'rovingiz muvaffaqiyatli qabul qilindi. Biz sizga elektron pochta manzilingiz orqali imkon qadar tezroq javob beramiz.",
+  writeNewMessage: "Yangi xabar yozish"
 };

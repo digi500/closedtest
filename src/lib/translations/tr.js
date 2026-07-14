@@ -93,5 +93,21 @@ export const tr = {
   // Footer
   footerText: "Geliştiriciler için kapalı test yardımlaşma platformu.",
   footerSubText: "Bu platform tamamen açık kaynaklıdır (Open Source) ve gönüllü geliştiriciler tarafından geliştirilmektedir.",
-  githubBtn: "GitHub'da Katkıda Bulunun / Yıldızlayın"
+  githubBtn: "GitHub'da Katkıda Bulunun / Yıldızlayın",
+
+  // Support & Contact
+  supportFAQ: "Destek & SSS",
+  supportTitle: "Destek & İletişim",
+  supportDesc: "Platform hakkında sorularınız mı var veya bizimle iletişime geçmek mi istiyorsunuz? Aşağıdaki formdan mesaj atabilir veya SSS bölümünü inceleyebilirsiniz.",
+  faqTitle: "Sıkça Sorulan Sorular",
+  contactFormTitle: "Bize Mesaj Gönderin",
+  nameLabel: "Adınız Soyadınız",
+  emailLabel: "E-posta Adresiniz",
+  subjectLabel: "Konu",
+  messageLabel: "Mesajınız",
+  sendMessage: "Mesaj Gönder",
+  sendingMessage: "Gönderiliyor...",
+  messageSent: "Mesajınız Gönderildi!",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

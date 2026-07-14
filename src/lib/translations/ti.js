@@ -93,5 +93,21 @@ export const ti = {
   // Footer
   footerText: "ንመማዕበልቲ ዝተዳለወ ናይ ዕጹው ፈተነ ምቅይያር መድረኽ።",
   footerSubText: "እዚ መድረኽ ሙሉእ ብሙሉእ ክፉት ምንጪ ኮይኑ ብወለንተኛታት መማዕበልቲ ዝማዕበለ እዩ።",
-  githubBtn: "ኣበርክቶ ግበር / ኣብ GitHub ኮከብ ሃብ"
+  githubBtn: "ኣበርክቶ ግበር / ኣብ GitHub ኮከብ ሃብ",
+
+  // Support & Contact
+  supportFAQ: "ደገፍ & FAQ",
+  supportTitle: "ደገፍን ርክብን",
+  supportDesc: "ብዛዕባ እቲ መድረኽ ሕቶታት ኣለኩም ዶ ወይስ ክትረኽቡና ትደልዩ? ኣብ ታሕቲ ዘሎ ቅጥዒ ተጠቒምካ መልእኽቲ ክትሰድድ ትኽእል ወይ ድማ ነቲ FAQ ዝብል ክፍሊ ክትምርምሮ ትኽእል ኢኻ።",
+  faqTitle: "ብተደጋጋሚ ዝሕተቱ ሕቶታት",
+  contactFormTitle: "መልእኽቲ ስደዱልና",
+  nameLabel: "ስምካን ስድራቤትካን",
+  emailLabel: "ናይ ኢመይል ኣድራሻኹም",
+  subjectLabel: "ርእሰ ነገር",
+  messageLabel: "መልእኽትኻ",
+  sendMessage: "መልእኽቲ ስደዱ",
+  sendingMessage: "ምልኣኽ...",
+  messageSent: "መልእኽትኹም ተላኢኹ ኣሎ!",
+  messageSentDesc: "ናይ ርክብ ሕቶኹም ብዓወት ተቐቢሉ ኣሎ። ብዝተኻእለ መጠን ብኢ-መይል ኣድራሻኹም ክንምለሰኩም ኢና።",
+  writeNewMessage: "ሓድሽ መልእኽቲ ጽሓፉ"
 };

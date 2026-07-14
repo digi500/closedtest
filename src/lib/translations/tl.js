@@ -93,5 +93,21 @@ export const tl = {
   // Footer
   footerText: "Platform ng palitan ng saradong pagsusuri para sa mga developer.",
   footerSubText: "Ang platform na ito ay ganap na open-source at binuo ng mga boluntaryong developer.",
-  githubBtn: "Mag-contribute / Magbigay ng Star sa GitHub"
+  githubBtn: "Mag-contribute / Magbigay ng Star sa GitHub",
+
+  // Support & Contact
+  supportFAQ: "Suporta at FAQ",
+  supportTitle: "Suporta at Makipag-ugnayan",
+  supportDesc: "Mayroon ka bang mga tanong tungkol sa platform o gusto mong makipag-ugnayan sa amin? Maaari kang magpadala ng mensahe gamit ang form sa ibaba o suriin ang seksyong FAQ.",
+  faqTitle: "Mga Madalas Itanong",
+  contactFormTitle: "Magpadala sa Amin ng Mensahe",
+  nameLabel: "Ang Iyong Pangalan at Apelyido",
+  emailLabel: "Iyong Email Address",
+  subjectLabel: "Paksa",
+  messageLabel: "Ang iyong mensahe",
+  sendMessage: "Magpadala ng Mensahe",
+  sendingMessage: "Ipinapadala...",
+  messageSent: "Naipadala na ang Iyong Mensahe!",
+  messageSentDesc: "Matagumpay na natanggap ang iyong kahilingan sa pakikipag-ugnayan. Babalikan ka namin sa pamamagitan ng iyong e-mail address sa lalong madaling panahon.",
+  writeNewMessage: "Sumulat ng Bagong Mensahe"
 };

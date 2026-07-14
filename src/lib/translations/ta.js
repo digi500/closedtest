@@ -93,5 +93,21 @@ export const ta = {
   // Footer
   footerText: "டெவலப்பர்களுக்கான மூடிய சோதனை பரிமாற்ற தளம்.",
   footerSubText: "இந்த தளம் முற்றிலும் திறந்த மூலமாகும் மற்றும் தன்னார்வ டெவலப்பர்களால் உருவாக்கப்பட்டது.",
-  githubBtn: "பங்களிக்கவும் / GitHub-இல் ஸ்டார் வழங்கவும்"
+  githubBtn: "பங்களிக்கவும் / GitHub-இல் ஸ்டார் வழங்கவும்",
+
+  // Support & Contact
+  supportFAQ: "ஆதரவு & அடிக்கடி கேட்கப்படும் கேள்விகள் || ஆதரவு & தொடர்பு",
+  supportTitle: "இயங்குதளத்தைப் பற்றி உங்களிடம் கேள்விகள் உள்ளதா அல்லது எங்களைத் தொடர்பு கொள்ள விரும்புகிறீர்களா? கீழே உள்ள படிவத்தைப் பயன்படுத்தி நீங்கள் ஒரு செய்தியை அனுப்பலாம் அல்லது அடிக்கடி கேட்கப்படும் கேள்விகள் பகுதியை மதிப்பாய்வு செய்யலாம்.",
+  supportDesc: "அடிக்கடி கேட்கப்படும் கேள்விகள் || எங்களுக்கு ஒரு செய்தி அனுப்பு || உங்கள் பெயர் மற்றும் குடும்பப்பெயர் || உங்கள் மின்னஞ்சல் முகவரி || பொருள் || உங்கள் செய்தி || செய்தி அனுப்பு || அனுப்புகிறது... || உங்கள் செய்தி அனுப்பப்பட்டது!",
+  faqTitle: "உங்கள் தொடர்புக் கோரிக்கை வெற்றிகரமாகப் பெறப்பட்டது. கூடிய விரைவில் உங்கள் மின்னஞ்சல் முகவரி மூலம் உங்களைத் தொடர்புகொள்வோம்.",
+  contactFormTitle: "புதிய செய்தியை எழுதுங்கள்",
+  nameLabel: "Adınız Soyadınız",
+  emailLabel: "E-posta Adresiniz",
+  subjectLabel: "Konu",
+  messageLabel: "Mesajınız",
+  sendMessage: "Mesaj Gönder",
+  sendingMessage: "Gönderiliyor...",
+  messageSent: "Mesajınız Gönderildi!",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

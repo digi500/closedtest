@@ -93,5 +93,21 @@ export const tk = {
   // Footer
   footerText: "Programmaçylar üçin ýapyk synag alyş-çalşy platformasy.",
   footerSubText: "Bu platforma dolulygyna açyk çeşmelir we meýletin programmaçylar tarapyndan taýýarlanylýar.",
-  githubBtn: "Goldaw Ber / GitHub-da Ýyldyz Ber"
+  githubBtn: "Goldaw Ber / GitHub-da Ýyldyz Ber",
+
+  // Support & Contact
+  supportFAQ: "Goldaw we soraglar",
+  supportTitle: "Goldaw we aragatnaşyk",
+  supportDesc: "Platforma hakda soraglaryňyz barmy ýa-da biziň bilen habarlaşmak isleýärsiňizmi? Aşakdaky formany ulanyp habar iberip bilersiňiz ýa-da Sorag-jogap bölümini gözden geçirip bilersiňiz.",
+  faqTitle: "Freygy-ýygydan soralýan soraglar",
+  contactFormTitle: "Bize habar iber",
+  nameLabel: "Adyňyz we familiýaňyz",
+  emailLabel: "E-poçta salgyňyz",
+  subjectLabel: "Mowzuk",
+  messageLabel: "Habaryňyz",
+  sendMessage: "Habar iber",
+  sendingMessage: "Iberýän ...",
+  messageSent: "Habaryňyz iberildi",
+  messageSentDesc: "Aragatnaşyk haýyşyňyz üstünlikli kabul edildi. E-poçta salgyňyz arkaly mümkin boldugyça gysga wagtda size gaýdyp geleris.",
+  writeNewMessage: "Täze habar ýazyň"
 };
