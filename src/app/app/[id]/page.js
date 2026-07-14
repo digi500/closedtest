@@ -353,13 +353,30 @@ Thank you so much! Post yours below and I will test back.`;
                   </div>
                 </div>
               ) : (
-                <div style={{ backgroundColor: 'rgba(16, 185, 129, 0.05)', border: '1px solid #10b981', borderRadius: '8px', padding: '1.5rem', textAlign: 'center' }}>
-                  <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem', color: '#10b981' }}>
+                <div style={{ backgroundColor: 'rgba(16, 185, 129, 0.05)', border: '1px solid #10b981', borderRadius: '8px', padding: '1.5rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem' }}>
+                  <h3 style={{ fontSize: '1.1rem', marginBottom: '0.25rem', color: '#10b981' }}>
                     {t('testingFinished')}
                   </h3>
-                  <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
+                  <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>
                     {t('testingFinishedDesc')}
                   </p>
+                  <button 
+                    onClick={handleDownloadClick} 
+                    className="primary" 
+                    style={{ 
+                      fontSize: '0.95rem', 
+                      padding: '0.75rem 1.5rem', 
+                      backgroundColor: '#10b981', 
+                      borderColor: '#10b981',
+                      color: '#ffffff',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '0.5rem',
+                      fontWeight: '600'
+                    }}
+                  >
+                    🚀 {language === 'tr' ? 'Google Play\'den İndir' : 'Download from Google Play'}
+                  </button>
                 </div>
               )}
             </div>
