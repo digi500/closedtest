@@ -241,6 +241,7 @@ function LanguageDropdown({ value, onChange }) {
                     cursor: 'pointer',
                     display: 'flex',
                     alignItems: 'center',
+                    justifyContent: 'flex-start',
                     transition: 'background 0.15s ease',
                     outline: 'none'
                   }}
