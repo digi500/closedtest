@@ -70,6 +70,26 @@ export default function AppDetail() {
     }
   }, [app, language]);
 
+  // Silently check in the background if the app went live on the Google Play Store
+  useEffect(() => {
+    if (app && app.id && app.status === 'testing') {
+      const checkLiveStatus = async () => {
+        try {
+          const res = await fetch(`/api/check-published?id=${app.id}`);
+          const data = await res.json();
+          if (data && data.published) {
+            setApp(prev => ({ ...prev, status: 'published' }));
+          }
+        } catch (e) {
+          console.error("Failed to auto-check published status:", e);
+        }
+      };
+      // Check after a tiny delay so page loading is smooth
+      const timer = setTimeout(checkLiveStatus, 1500);
+      return () => clearTimeout(timer);
+    }
+  }, [app?.id, app?.status]);
+
   const handleGroupClick = async () => {
     if (!app) return;
     await db.incrementCount(app.id, 'group_join_count');
