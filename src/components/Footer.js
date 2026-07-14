@@ -1,9 +1,10 @@
 'use client';
 
+import Link from 'next/link';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function Footer() {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
 
   return (
     <footer style={{
@@ -21,7 +22,23 @@ export default function Footer() {
         <p style={{ marginBottom: '1rem', fontSize: '0.8rem' }}>
           {t('footerSubText')}
         </p>
-        <div>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
+          <Link
+            href="/support"
+            className="btn"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              color: 'var(--text-color)',
+              border: '1px solid var(--border-color)',
+              padding: '0.4rem 0.8rem',
+              borderRadius: '6px',
+              backgroundColor: 'var(--card-bg)'
+            }}
+          >
+            💬 {language === 'tr' ? 'Destek & SSS' : 'Support & FAQ'}
+          </Link>
           <a
             href="https://github.com/digi500/closedtest"
             target="_blank"

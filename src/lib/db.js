@@ -500,5 +500,41 @@ export const db = {
       return likedAppIds.includes(appId);
     }
     return false;
+  },
+
+  async addContactMessage(name, email, subject, message) {
+    const payload = {
+      name,
+      email,
+      subject,
+      message,
+      created_at: new Date().toISOString()
+    };
+
+    if (isSupabaseConfigured()) {
+      try {
+        const { data, error } = await supabase
+          .from('contact_messages')
+          .insert([payload])
+          .select()
+          .single();
+        if (!error) return data;
+      } catch (e) {
+        console.error('Supabase addContactMessage error:', e);
+      }
+    }
+
+    // Mock Fallback
+    if (typeof window !== 'undefined') {
+      const messages = JSON.parse(localStorage.getItem('closedtest_contact_messages') || '[]');
+      const createdMessage = {
+        ...payload,
+        id: 'msg-' + Math.random().toString(36).substr(2, 9)
+      };
+      messages.push(createdMessage);
+      localStorage.setItem('closedtest_contact_messages', JSON.stringify(messages));
+      return createdMessage;
+    }
+    return payload;
   }
 };
