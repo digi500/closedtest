@@ -82,48 +82,17 @@ export default function AppDetail() {
       const targetLang = language;
       const desc = app.description;
       
-      // Split description by paragraphs to preserve layout and stay under character limits
-      const paragraphs = desc.split('\n');
-      const translatedParagraphs = [];
+      // Use the free Google Translate API which natively supports auto-detection and high character limits
+      const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLang}&dt=t&q=${encodeURIComponent(desc)}`);
+      const data = await res.json();
       
-      for (let p of paragraphs) {
-        if (!p.trim()) {
-          translatedParagraphs.push('');
-          continue;
-        }
-        
-        // If a single paragraph is longer than 450 chars, split it by sentence delimiters
-        if (p.length > 450) {
-          const sentences = p.match(/[^.!?]+[.!?]+(\s|$)/g) || [p];
-          let currentChunk = '';
-          const translatedSentences = [];
-          
-          for (let s of sentences) {
-            if ((currentChunk + s).length > 450) {
-              if (currentChunk) {
-                const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(currentChunk.trim())}&langpair=auto|${targetLang}`);
-                const data = await res.json();
-                translatedSentences.push(data?.responseData?.translatedText || currentChunk);
-              }
-              currentChunk = s;
-            } else {
-              currentChunk += s;
-            }
-          }
-          if (currentChunk) {
-            const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(currentChunk.trim())}&langpair=auto|${targetLang}`);
-            const data = await res.json();
-            translatedSentences.push(data?.responseData?.translatedText || currentChunk);
-          }
-          translatedParagraphs.push(translatedSentences.join(' '));
-        } else {
-          const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(p.trim())}&langpair=auto|${targetLang}`);
-          const data = await res.json();
-          translatedParagraphs.push(data?.responseData?.translatedText || p);
-        }
+      if (data && data[0]) {
+        // Combine all translated parts/sentences
+        const translatedText = data[0].map(item => item[0]).join('');
+        setTranslatedDesc(translatedText);
+      } else {
+        alert(language === 'tr' ? 'Çeviri yapılamadı.' : 'Translation failed.');
       }
-      
-      setTranslatedDesc(translatedParagraphs.join('\n'));
     } catch (err) {
       console.error(err);
       alert(language === 'tr' ? 'Bağlantı hatası oluştu.' : 'Connection error occurred.');
