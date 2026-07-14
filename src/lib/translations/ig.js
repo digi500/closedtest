@@ -93,5 +93,21 @@ export const ig = {
   // Footer
   footerText: "Mgbanwe nnwale mechiri emechi maka ndị mmepe.",
   footerSubText: "Ihe ikpo okwu a mepere emepe kpamkpam yana ndị mmepe afọ ofufo mepụtara ya.",
-  githubBtn: "Nye onyinye / Nye kpakpando na GitHub"
+  githubBtn: "Nye onyinye / Nye kpakpando na GitHub",
+
+  // Support & Contact
+  supportFAQ: "Nkwado & FAQ",
+  supportTitle: "Nkwado & Kpọtụrụ",
+  supportDesc: "Ị nwere ajụjụ gbasara ikpo okwu ma ọ bụ chọọ ịkpọtụrụ anyị? Ị nwere ike izipu ozi site na iji ụdị dị n'okpuru ma ọ bụ nyochaa ngalaba FAQ.",
+  faqTitle: "Ajụjụ A na-ajụkarị",
+  contactFormTitle: "Zitere anyị ozi",
+  nameLabel: "Aha gị na Aha nna gị",
+  emailLabel: "Adreesị ozi-e gị",
+  subjectLabel: "Isiokwu",
+  messageLabel: "Ozi gị",
+  sendMessage: "Ziga ozi",
+  sendingMessage: "Na-eziga...",
+  messageSent: "E zipụla ozi gị!",
+  messageSentDesc: "Anatala arịrịọ kọntaktị gị nke ọma. Anyị ga-eji adreesị ozi-e gị laghachite gị ozugbo enwere ike.",
+  writeNewMessage: "Dee ozi ọhụrụ"
 };

@@ -93,5 +93,21 @@ export const hu = {
   // Footer
   footerText: "Zárt tesztelési csereplatform fejlesztőknek.",
   footerSubText: "Ez a platform teljesen nyílt forráskódú, és önkéntes fejlesztők készítik.",
-  githubBtn: "Közreműködés / Csillag adása GitHubon"
+  githubBtn: "Közreműködés / Csillag adása GitHubon",
+
+  // Support & Contact
+  supportFAQ: "Támogatás és GYIK",
+  supportTitle: "Támogatás és kapcsolatfelvétel",
+  supportDesc: "Kérdése van a platformmal kapcsolatban, vagy kapcsolatba szeretne lépni velünk? Üzenetet küldhet az alábbi űrlap segítségével, vagy tekintse át a GYIK részt.",
+  faqTitle: "Gyakran Ismételt Kérdések",
+  contactFormTitle: "Küldjön nekünk üzenetet",
+  nameLabel: "Az Ön neve és vezetékneve",
+  emailLabel: "Az Ön e-mail címe",
+  subjectLabel: "Tárgy",
+  messageLabel: "Az Ön üzenete",
+  sendMessage: "Üzenet küldése",
+  sendingMessage: "Küldés...",
+  messageSent: "Üzenetét elküldtük!",
+  messageSentDesc: "Kapcsolatfelvételi kérelmét sikeresen megkaptuk. A lehető leghamarabb felvesszük Önnel a kapcsolatot e-mail címén keresztül.",
+  writeNewMessage: "Új üzenet írása"
 };

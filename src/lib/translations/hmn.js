@@ -93,5 +93,21 @@ export const hmn = {
   // Footer
   footerText: "Lub rooj sib pauv ntsuam xyuas kaw rau cov neeg tsim khoom.",
   footerSubText: "Qhov platform no yog qhov qhib-qhov chaw thiab tsim los ntawm cov neeg tsim khoom pab dawb.",
-  githubBtn: "Koom tes / Muab lub hnub qub rau GitHub"
+  githubBtn: "Koom tes / Muab lub hnub qub rau GitHub",
+
+  // Support & Contact
+  supportFAQ: "Txhawb & FAQ",
+  supportTitle: "Txhawb & Tiv tauj",
+  supportDesc: "Koj puas muaj lus nug txog lub platform lossis xav tiv tauj peb? Koj tuaj yeem xa lus siv daim foos hauv qab no lossis tshuaj xyuas ntu FAQ.",
+  faqTitle: "Cov lus nug nquag",
+  contactFormTitle: "Xa lus rau peb",
+  nameLabel: "Koj Lub Npe thiab Lub Npe",
+  emailLabel: "Koj Email Chaw Nyob",
+  subjectLabel: "Kawm paub",
+  messageLabel: "Koj cov lus",
+  sendMessage: "Xa Xov",
+  sendingMessage: "Xa...",
+  messageSent: "Koj cov lus tau xa!",
+  messageSentDesc: "Koj qhov kev thov tiv tauj tau txais tiav lawm. Peb yuav xa rov qab rau koj ntawm koj tus email chaw nyob sai li sai tau.",
+  writeNewMessage: "Sau Xov Xwm Tshiab"
 };

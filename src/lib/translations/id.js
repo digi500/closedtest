@@ -93,5 +93,21 @@ export const id = {
   // Footer
   footerText: "Platform saling bantu uji coba tertutup untuk para pengembang.",
   footerSubText: "Platform ini sepenuhnya sumber terbuka dan dikembangkan oleh pengembang sukarela.",
-  githubBtn: "Berkontribusi / Berikan Bintang di GitHub"
+  githubBtn: "Berkontribusi / Berikan Bintang di GitHub",
+
+  // Support & Contact
+  supportFAQ: "Dukungan & FAQ",
+  supportTitle: "Dukungan & Kontak",
+  supportDesc: "Apakah Anda memiliki pertanyaan tentang platform atau ingin menghubungi kami? Anda dapat mengirim pesan menggunakan formulir di bawah ini atau meninjau bagian FAQ.",
+  faqTitle: "Pertanyaan yang Sering Diajukan",
+  contactFormTitle: "Kirimi Kami Pesan",
+  nameLabel: "Nama dan Nama Belakang Anda",
+  emailLabel: "Alamat Email Anda",
+  subjectLabel: "Subyek",
+  messageLabel: "Pesan Anda",
+  sendMessage: "Kirim Pesan",
+  sendingMessage: "Mengirim...",
+  messageSent: "Pesan Anda Telah Terkirim!",
+  messageSentDesc: "Permintaan kontak Anda telah berhasil diterima. Kami akan menghubungi Anda kembali melalui alamat email Anda sesegera mungkin.",
+  writeNewMessage: "Tulis Pesan Baru"
 };

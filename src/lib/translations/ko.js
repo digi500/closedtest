@@ -93,5 +93,21 @@ export const ko = {
   // Footer
   footerText: "개발자를 위한 비공개 테스트 상호 교환 플랫폼입니다.",
   footerSubText: "이 플랫폼은 완전한 오픈 소스이며 자원 개발자들에 의해 개발되고 있습니다.",
-  githubBtn: "GitHub에서 기여 / 스타 누르기"
+  githubBtn: "GitHub에서 기여 / 스타 누르기",
+
+  // Support & Contact
+  supportFAQ: "지원 및 FAQ",
+  supportTitle: "지원 및 연락처",
+  supportDesc: "플랫폼에 대해 질문이 있거나 당사에 문의하고 싶으십니까? 아래 양식을 사용하여 메시지를 보내거나 FAQ 섹션을 검토할 수 있습니다.",
+  faqTitle: "자주 묻는 질문",
+  contactFormTitle: "메시지 보내기",
+  nameLabel: "당신의 이름과 성",
+  emailLabel: "귀하의 이메일 주소",
+  subjectLabel: "제목",
+  messageLabel: "귀하의 메시지",
+  sendMessage: "메시지 보내기",
+  sendingMessage: "보내는 중...",
+  messageSent: "귀하의 메시지가 전송되었습니다!",
+  messageSentDesc: "귀하의 연락 요청이 성공적으로 접수되었습니다. 최대한 빨리 귀하의 이메일 주소를 통해 연락드리겠습니다.",
+  writeNewMessage: "새 메시지 작성"
 };

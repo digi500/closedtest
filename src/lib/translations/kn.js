@@ -93,5 +93,21 @@ export const kn = {
   // Footer
   footerText: "ಡೆವಲಪರ್‌ಗಳಿಗಾಗಿ ಕ್ಲೋಸ್ಡ್ ಟೆಸ್ಟಿಂಗ್ ಎಕ್ಸ್‌ಚೇಂಜ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್.",
   footerSubText: "ಈ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಸಂಪೂರ್ಣವಾಗಿ ಓಪನ್ ಸೋರ್ಸ್ ಆಗಿದೆ ಮತ್ತು ಸ್ವಯಂಸೇವಕ ಡೆವಲಪರ್‌ಗಳಿಂದ ಅಭಿವೃದ್ಧಿಪಡಿಸಲ್ಪಟ್ಟಿದೆ.",
-  githubBtn: "ಸಹಕರಿಸಿ / GitHub ನಲ್ಲಿ ಸ್ಟಾರ್ ನೀಡಿ"
+  githubBtn: "ಸಹಕರಿಸಿ / GitHub ನಲ್ಲಿ ಸ್ಟಾರ್ ನೀಡಿ",
+
+  // Support & Contact
+  supportFAQ: "ಬೆಂಬಲ ಮತ್ತು FAQ || ಬೆಂಬಲ ಮತ್ತು ಸಂಪರ್ಕ || ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಕುರಿತು ನೀವು ಪ್ರಶ್ನೆಗಳನ್ನು ಹೊಂದಿದ್ದೀರಾ ಅಥವಾ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಲು ಬಯಸುವಿರಾ? ಕೆಳಗಿನ ಫಾರ್ಮ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ನೀವು ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಬಹುದು ಅಥವಾ FAQ ವಿಭಾಗವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು. || ಪದೇ ಪದೇ ಕೇಳುವ ಪ್ರಶ್ನೆಗಳು || ನಮಗೆ ಸಂದೇಶ ಕಳುಹಿಸು || ನಿಮ್ಮ ಹೆಸರು ಮತ್ತು ಉಪನಾಮ || ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸ || ವಿಷಯ || ನಿಮ್ಮ ಸಂದೇಶ || ಸಂದೇಶ ಕಳುಹಿಸು || ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ... || ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ! || ನಿಮ್ಮ ಸಂಪರ್ಕ ವಿನಂತಿಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸ್ವೀಕರಿಸಲಾಗಿದೆ. ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸದ ಮೂಲಕ ನಾವು ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತೇವೆ. || ಹೊಸ ಸಂದೇಶವನ್ನು ಬರೆಯಿರಿ",
+  supportTitle: "Destek & İletişim",
+  supportDesc: "Platform hakkında sorularınız mı var veya bizimle iletişime geçmek mi istiyorsunuz? Aşağıdaki formdan mesaj atabilir veya SSS bölümünü inceleyebilirsiniz.",
+  faqTitle: "Sıkça Sorulan Sorular",
+  contactFormTitle: "Bize Mesaj Gönderin",
+  nameLabel: "Adınız Soyadınız",
+  emailLabel: "E-posta Adresiniz",
+  subjectLabel: "Konu",
+  messageLabel: "Mesajınız",
+  sendMessage: "Mesaj Gönder",
+  sendingMessage: "Gönderiliyor...",
+  messageSent: "Mesajınız Gönderildi!",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

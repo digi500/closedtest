@@ -93,5 +93,21 @@ export const he = {
   // Footer
   footerText: "פלטפורמת שיתוף בדיקות סגורות למפתחים.",
   footerSubText: "פלטפורמה זו היא קוד פתוח לחלוטין ומפותחת על ידי מפתחים מתנדבים.",
-  githubBtn: "תרום / תן כוכב ב-GitHub"
+  githubBtn: "תרום / תן כוכב ב-GitHub",
+
+  // Support & Contact
+  supportFAQ: "תמיכה ושאלות נפוצות",
+  supportTitle: "תמיכה ויצירת קשר",
+  supportDesc: "יש לכם שאלות לגבי הפלטפורמה או רוצים ליצור איתנו קשר? אתה יכול לשלוח הודעה באמצעות הטופס למטה או לעיין בסעיף השאלות הנפוצות.",
+  faqTitle: "שאלות נפוצות",
+  contactFormTitle: "שלח לנו הודעה",
+  nameLabel: "שמך ושם משפחה שלך",
+  emailLabel: "כתובת הדוא\"ל שלך",
+  subjectLabel: "נושא",
+  messageLabel: "ההודעה שלך",
+  sendMessage: "שלח הודעה",
+  sendingMessage: "שולח...",
+  messageSent: "ההודעה שלך נשלחה!",
+  messageSentDesc: "בקשתך ליצירת קשר התקבלה בהצלחה. אנו נחזור אליך באמצעות כתובת הדואר האלקטרוני שלך בהקדם האפשרי.",
+  writeNewMessage: "כתוב הודעה חדשה"
 };

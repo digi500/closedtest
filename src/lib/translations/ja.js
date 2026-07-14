@@ -93,5 +93,21 @@ export const ja = {
   // Footer
   footerText: "開発者のためのクローズドテスト相互支援プラットフォーム。",
   footerSubText: "このプラットフォームは完全にオープンソースであり、ボランティア開発者によって開発されています。",
-  githubBtn: "GitHubで貢献 / スターをつける"
+  githubBtn: "GitHubで貢献 / スターをつける",
+
+  // Support & Contact
+  supportFAQ: "サポートとよくある質問",
+  supportTitle: "サポートと連絡先",
+  supportDesc: "プラットフォームについてご質問がありますか、またはお問い合わせをご希望ですか?以下のフォームを使用してメッセージを送信するか、FAQ セクションを確認してください。",
+  faqTitle: "よくある質問",
+  contactFormTitle: "メッセージを送ってください",
+  nameLabel: "あなたの名前と姓",
+  emailLabel: "あなたのメールアドレス",
+  subjectLabel: "件名",
+  messageLabel: "あなたのメッセージ",
+  sendMessage: "メッセージを送信",
+  sendingMessage: "送信中...",
+  messageSent: "メッセージは送信されました!",
+  messageSentDesc: "連絡リクエストは正常に受信されました。できるだけ早くあなたの電子メールアドレスに返信させていただきます。",
+  writeNewMessage: "新しいメッセージを書く"
 };

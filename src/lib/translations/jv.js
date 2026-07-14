@@ -93,5 +93,21 @@ export const jv = {
   // Footer
   footerText: "Platform bursa tes katutup kanggo pamekar.",
   footerSubText: "Iki platform open-source sagemblengna lan dikembangake dening pamekar sukarela.",
-  githubBtn: "Kontribusi / Wenehi Lintang ing GitHub"
+  githubBtn: "Kontribusi / Wenehi Lintang ing GitHub",
+
+  // Support & Contact
+  supportFAQ: "Dhukungan & FAQ",
+  supportTitle: "Dhukungan & Kontak",
+  supportDesc: "Apa sampeyan duwe pitakon babagan platform utawa pengin hubungi kita? Sampeyan bisa ngirim pesen nggunakake formulir ing ngisor iki utawa mriksa bagean FAQ.",
+  faqTitle: "Pitakonan sing kerep ditakoni",
+  contactFormTitle: "Ngirim pesen || Jenengmu lan Jenengmu",
+  nameLabel: "Alamat Email Panjenengan",
+  emailLabel: "Jejer",
+  subjectLabel: "pesenmu || Kirimi Pesen",
+  messageLabel: "Ngirimi...",
+  sendMessage: "Pesen Sampeyan Wis Dikirim!",
+  sendingMessage: "Panjaluk kontak sampeyan wis ditampa kanthi sukses. Kita bakal bali menyang sampeyan liwat alamat e-mail sanalika bisa.",
+  messageSent: "Tulis Pesen Anyar",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

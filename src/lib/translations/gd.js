@@ -96,18 +96,18 @@ export const gd = {
   githubBtn: "Cuir ris / Thoir Rionnag air GitHub",
 
   // Support & Contact
-  supportFAQ: "Taic & Ceistean Cumanta || Taic & Fios",
-  supportTitle: "A bheil ceistean agad mun àrd-ùrlar no a bheil thu airson fios a chuir thugainn? Faodaidh tu teachdaireachd a chuir a’ cleachdadh an fhoirm gu h-ìosal no ath-sgrùdadh a dhèanamh air an roinn Ceistean Cumanta.",
-  supportDesc: "Ceistean Bitheanta",
-  faqTitle: "| Cuir Teachdaireachd thugainn || D’ Ainm agus Sloinneadh || An Seòladh Post-d agad || Cuspair|| Am brath agad|| Cuir Teachdaireachd || A' cur...",
-  contactFormTitle: "Chaidh do theachdaireachd a chuir!",
-  nameLabel: "Chaidh d’ iarrtas conaltraidh fhaighinn gu soirbheachail. Gheibh sinn air ais thugad tron ​​t-seòladh post-d agad cho luath ‘s a ghabhas.",
-  emailLabel: "Sgrìobh Teachdaireachd Ùr",
-  subjectLabel: "Konu",
-  messageLabel: "Mesajınız",
-  sendMessage: "Mesaj Gönder",
-  sendingMessage: "Gönderiliyor...",
-  messageSent: "Mesajınız Gönderildi!",
-  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
-  writeNewMessage: "Yeni Mesaj Yaz"
+  supportFAQ: "Taic & Ceistean Cumanta",
+  supportTitle: "Taic & Fios",
+  supportDesc: "A bheil ceistean agad mun àrd-ùrlar no a bheil thu airson fios a chuir thugainn? Faodaidh tu teachdaireachd a chuir a’ cleachdadh an fhoirm gu h-ìosal no ath-sgrùdadh a dhèanamh air an roinn Ceistean Cumanta.",
+  faqTitle: "Ceistean Cumanta",
+  contactFormTitle: "Cuir Teachdaireachd thugainn",
+  nameLabel: "Do Ainm agus Sloinneadh",
+  emailLabel: "An Seòladh Post-d agad",
+  subjectLabel: "Cuspair",
+  messageLabel: "Do theachdaireachd",
+  sendMessage: "Cuir Teachdaireachd",
+  sendingMessage: "A' cur...",
+  messageSent: "Chaidh do theachdaireachd a chuir!",
+  messageSentDesc: "Chaidh d’ iarrtas conaltraidh fhaighinn gu soirbheachail. Gheibh sinn air ais thugad tron ​​t-seòladh post-d agad cho luath ‘s a ghabhas.",
+  writeNewMessage: "Sgrìobh Teachdaireachd Ùr"
 };

@@ -93,5 +93,21 @@ export const is = {
   // Footer
   footerText: "Lokaður prófunarskiptavettvangur fyrir þróunaraðila.",
   footerSubText: "Þessi vettvangur er að fullu með opnum upprunakóða og þróaður af sjálfboðaliðum.",
-  githubBtn: "Leggja til / Gefa stjörnu á GitHub"
+  githubBtn: "Leggja til / Gefa stjörnu á GitHub",
+
+  // Support & Contact
+  supportFAQ: "Stuðningur og algengar spurningar",
+  supportTitle: "Stuðningur og samband",
+  supportDesc: "Hefur þú spurningar um vettvanginn eða vilt hafa samband við okkur? Þú getur sent skilaboð með því að nota eyðublaðið hér að neðan eða skoðað FAQ hlutann.",
+  faqTitle: "Algengar spurningar",
+  contactFormTitle: "Sendu okkur skilaboð",
+  nameLabel: "Nafn þitt og eftirnafn",
+  emailLabel: "Netfangið þitt",
+  subjectLabel: "Efni",
+  messageLabel: "Skilaboðin þín",
+  sendMessage: "Senda skilaboð",
+  sendingMessage: "Sendir...",
+  messageSent: "Skilaboðin þín hafa verið send!",
+  messageSentDesc: "Samskiptabeiðni þín hefur verið móttekin. Við munum hafa samband við þig í gegnum netfangið þitt eins fljótt og auðið er.",
+  writeNewMessage: "Skrifaðu ný skilaboð"
 };
