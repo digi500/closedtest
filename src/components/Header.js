@@ -171,7 +171,7 @@ function LanguageDropdown({ value, onChange }) {
           outline: 'none',
         }}
       >
-        <span style={{ display: 'inline-block', width: '20px', textAlign: 'center' }}>
+        <span style={{ display: 'inline-block', width: '24px', textAlign: 'center', fontSize: '1.2rem', lineHeight: '1', verticalAlign: 'middle' }}>
           {selectedOption.flag}
         </span>
         <span>{selectedOption.name}</span>
@@ -256,7 +256,7 @@ function LanguageDropdown({ value, onChange }) {
                     }
                   }}
                 >
-                  <span style={{ display: 'inline-block', width: '20px', textAlign: 'center', marginRight: '0.5rem' }}>
+                  <span style={{ display: 'inline-block', width: '24px', textAlign: 'center', marginRight: '0.6rem', fontSize: '1.2rem', lineHeight: '1', verticalAlign: 'middle' }}>
                     {opt.flag}
                   </span>
                   <span>{opt.name}</span>
