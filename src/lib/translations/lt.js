@@ -109,5 +109,15 @@ export const lt = {
   sendingMessage: "Siunčiama...",
   messageSent: "Jūsų žinutė išsiųsta!",
   messageSentDesc: "Jūsų užklausa susisiekti buvo sėkmingai gauta. Mes kuo greičiau susisieksime su jumis jūsų el. pašto adresu.",
-  writeNewMessage: "Rašyti naują žinutę"
+  writeNewMessage: "Rašyti naują žinutę",
+
+  // Support FAQs
+  faq1Q: "Kas yra „Google Play 20“ bandytojo taisyklė?",
+  faq1A: "Naujoms individualioms kūrėjų paskyroms, atidarytoms po 2023 m. lapkričio mėn., „Google“ įpareigojo bent 14 dienų prieš paskelbiant jų programas atlikti uždarą testavimą su mažiausiai 20 bandomųjų naudotojų. Programos, kurios neatitinka šios taisyklės, negali būti paskelbtos.",
+  faq2Q: "Kaip veikia platforma? Ar mokama?",
+  faq2A: "Mūsų platforma yra visiškai nemokama ir pagrįsta bendradarbiavimu. Kūrėjai išbando vieni kitų programas. Kai išbandysite kitų žmonių programas, kiti kūrėjai taip pat išbandys jūsų programą su prestižu ir bendradarbiavimo tinklu, kurį įgysite.",
+  faq3Q: "Kaip išbandyti programą?",
+  faq3A: "Eikite į programos, kurią norite išbandyti, puslapį. Prisijunkite prie programos „Google“ grupės spustelėdami mygtuką 1 veiksme. Tada atsisiųskite programą į savo telefoną iš „Google Play“, spustelėdami atsisiuntimo mygtuką 2 veiksme ir neištrinkite jos iš savo telefono mažiausiai 14 dienų.",
+  faq4Q: "Kas nutinka, kai baigiasi mano programos testavimo procesas?",
+  faq4A: "Sėkmingai pasibaigus 14 dienų laikotarpiui, galite atnaujinti programą naudodami parinktį „Žymėti kaip paskelbtą“ kūrėjo skydelyje, esančiame išsamios programos informacijos puslapyje. Mūsų sistema tai taip pat patikrina per „Google Play“ parduotuvę. Po šio etapo testavimo veiksmai pašalinami ir pasirodo tiesioginio Google Play atsisiuntimo mygtukas."
 };

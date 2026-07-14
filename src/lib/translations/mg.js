@@ -109,5 +109,15 @@ export const mg = {
   sendingMessage: "Mandefa...",
   messageSent: "Nalefa ny hafatrao!",
   messageSentDesc: "Voaray soa aman-tsara ny fangatahanao amin'ny fifandraisana. Hiverina aminao izahay amin'ny alàlan'ny adiresy mailakao haingana araka izay azo atao.",
-  writeNewMessage: "Manorata Hafatra Vaovao"
+  writeNewMessage: "Manorata Hafatra Vaovao",
+
+  // Support FAQs
+  faq1Q: "Inona ny fitsipika Google Play 20 Tester?",
+  faq1A: "Ho an'ny kaonty mpamorona tsirairay vaovao nosokafana taorian'ny Novambra 2023, dia nodidian'i Google ny hanao fitiliana mihidy miaraka amin'ireo mpampiasa fitsapana 20 farafahakeliny mandritra ny 14 andro farafahakeliny alohan'ny hamoahana ny fangatahan'izy ireo. Ny fangatahana tsy mahafeno ity fitsipika ity dia tsy azo avoaka.",
+  faq2Q: "Ahoana no fiasan'ny Platform? Voaloa ve izany?",
+  faq2A: "Malalaka tanteraka ny sehatra misy anay ary mifototra amin'ny fiaraha-miasa. Mifampitsapa ny fampiharana ny developer. Rehefa mitsapa ny fangatahan'ny olon-kafa ianao, dia hitsapa ny fampiharana anao koa ny mpamorona hafa miaraka amin'ny tambajotra malaza sy fiaraha-miasa ho azonao.",
+  faq3Q: "Ahoana no hanandrana fampiharana iray?",
+  faq3A: "Mandehana any amin'ny pejin'ny fampiharana tianao hotsapaina. Midira ao amin'ny Google Group an'ny fampiharana amin'ny fipihana ny bokotra ao amin'ny dingana 1. Avy eo alao ny rindranasa amin'ny findainao avy amin'ny Google Play amin'ny fipihana ny bokotra fampidinana ao amin'ny Dingana 2 ary aza mamafa izany amin'ny findainao mandritra ny 14 andro farafahakeliny.",
+  faq4Q: "Inona no mitranga rehefa tapitra ny fizotry ny fitsapana ny fampiharana ahy?",
+  faq4A: "Rehefa vita soa aman-tsara ny fe-potoana 14 andro dia azonao atao ny manavao ny fampiharanao amin'ny safidy \"Marka ho Navoaka\" avy amin'ny tontolon'ny mpamorona eo amin'ny pejin'ny antsipirihan'ny fampiharana anao. Ny rafitray koa dia manamarina izany amin'ny alàlan'ny Google Play Store. Aorian'ity dingana ity dia esorina ny dingana fitsapana ary miseho ny bokotra fampidinana Google Play mivantana."
 };

@@ -109,5 +109,15 @@ export const mi = {
   sendingMessage: "Kei te tuku...",
   messageSent: "Kua Tukua To Karere!",
   messageSentDesc: "Kua tutuki pai to tono whakapā. Ka hoki atu matou ki a koe ma to wahitau imeera i te wa e taea ai.",
-  writeNewMessage: "Tuhia he Karere Hou"
+  writeNewMessage: "Tuhia he Karere Hou",
+
+  // Support FAQs
+  faq1Q: "He aha te Ture Whakamatau a Google Play 20?",
+  faq1A: "Mo nga kaute kaiwhakawhanake takitahi hou i whakatuwherahia i muri i te Whiringa-a-rangi 2023, kua whakamanahia e Google te whakahaere i nga whakamatautau kati me nga kaiwhakamahi whakamatautau 20 neke atu i te 14 nga ra i mua i te whakaputa i o raatau tono. Ko nga tono kaore i te whakaoti i tenei ture kaore e taea te whakaputa.",
+  faq2Q: "Me pehea te Mahi a te Papamahi? Kua utua?",
+  faq2A: "Ko ta matou papaahi he tino kore utu me te mahi tahi. Ka whakamatautau nga kaihanga i nga tono a tetahi. I a koe e whakamatautau ana i nga tono a etahi atu, ka whakamatau ano etahi atu kaiwhakawhanake i to tono me te mana rangatira me te whatunga mahi tahi ka whiwhi koe.",
+  faq3Q: "Me pehea taku whakamatautau i tetahi Taupānga?",
+  faq3A: "Haere ki te wharangi o te taupānga e hiahia ana koe ki te whakamatautau. Hono atu ki te Rōpū Google o te taupānga ma te paatene i te paatene i te Hipanga 1. Na ka tango i te tono ki to waea mai i a Google Play ma te paatene i te paatene tango i te Hipanga 2 kaua e mukua mai i to waea mo te 14 ra.",
+  faq4Q: "He aha te mea ka mutu te tukanga whakamatautau o taku tono?",
+  faq4A: "Ina oti pai te wa 14 ra, ka taea e koe te whakahou i to tono me te \"Mark as Published\" mai i te roopu kaiwhakawhanake i to wharangi taipitopito tono. Ka whakamanahia e ta maatau punaha tenei ma te Toa Play Google. I muri i tenei waahanga, ka tangohia nga waahanga whakamatautau ka puta te paatene tango tika a Google Play."
 };

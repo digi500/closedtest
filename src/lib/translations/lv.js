@@ -109,5 +109,15 @@ export const lv = {
   sendingMessage: "Sūta...",
   messageSent: "Jūsu ziņa ir nosūtīta!",
   messageSentDesc: "Jūsu saziņas pieprasījums ir veiksmīgi saņemts. Mēs sazināsimies ar jums, izmantojot jūsu e-pasta adresi, cik drīz vien iespējams.",
-  writeNewMessage: "Rakstīt jaunu ziņu"
+  writeNewMessage: "Rakstīt jaunu ziņu",
+
+  // Support FAQs
+  faq1Q: "Kas ir Google Play 20 testētāja noteikums?",
+  faq1A: "Jauniem individuālajiem izstrādātāju kontiem, kas atvērti pēc 2023. gada novembra, Google ir noteicis obligātu vismaz 14 dienas pirms lietojumprogrammu publicēšanas slēgtās testēšanas ar vismaz 20 testa lietotājiem. Pieteikumus, kas neizpilda šo noteikumu, nevar publicēt.",
+  faq2Q: "Kā platforma darbojas? Vai tas ir apmaksāts?",
+  faq2A: "Mūsu platforma ir pilnīgi bezmaksas un balstīta uz sadarbību. Izstrādātāji pārbauda viens otra lietojumprogrammas. Pārbaudot citu cilvēku lietojumprogrammas, arī citi izstrādātāji pārbaudīs jūsu lietojumprogrammu ar prestižu un sadarbības tīklu, ko iegūsit.",
+  faq3Q: "Kā testēt lietotni?",
+  faq3A: "Dodieties uz tās lietotnes lapu, kuru vēlaties pārbaudīt. Pievienojieties lietotnes Google grupai, noklikšķinot uz pogas 1. darbībā. Pēc tam lejupielādējiet lietojumprogrammu savā tālrunī no pakalpojuma Google Play, 2. darbībā noklikšķinot uz lejupielādes pogas, un neizdzēsiet to no sava tālruņa vismaz 14 dienas.",
+  faq4Q: "Kas notiek, kad beidzas manas lietojumprogrammas testēšanas process?",
+  faq4A: "Kad 14 dienu periods ir veiksmīgi pabeigts, varat atjaunināt savu lietojumprogrammu, izmantojot opciju Atzīmēt kā publicētu lietojumprogrammas informācijas lapas izstrādātāja panelī. Mūsu sistēma to arī pārbauda, ​​izmantojot Google Play veikalu. Pēc šī posma testēšanas darbības tiek noņemtas un tiek parādīta tiešās Google Play lejupielādes poga."
 };
