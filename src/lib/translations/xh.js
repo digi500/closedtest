@@ -93,5 +93,21 @@ export const xh = {
   // Footer
   footerText: "Iqonga lotshintshiselwano lovavanyo oluvaliweyo kubaphuhlisi.",
   footerSubText: "Le app ivulelekile ngokupheleleyo kwaye iphuhliswe ngabaphuhlisi bokuzithandela.",
-  githubBtn: "Nikela / Nikeza Inkwenkwezi ku-GitHub"
+  githubBtn: "Nikela / Nikeza Inkwenkwezi ku-GitHub",
+
+  // Support & Contact
+  supportFAQ: "Inkxaso & FAQ",
+  supportTitle: "Inkxaso & Qhagamshelana",
+  supportDesc: "Ngaba unemibuzo malunga neqonga okanye ufuna ukunxibelelana nathi? Ungathumela umyalezo usebenzisa le fomu ingezantsi okanye ujonge kwakhona icandelo le-FAQ.",
+  faqTitle: "Imibuzo ebuzwa qho",
+  contactFormTitle: "Sithumele uMyalezo",
+  nameLabel: "Igama lakho kunye nefani",
+  emailLabel: "Idilesi yakho yemeyile",
+  subjectLabel: "Umxholo",
+  messageLabel: "Umyalezo wakho",
+  sendMessage: "Thumela uMyalezo",
+  sendingMessage: "Iyathumela...",
+  messageSent: "Umyalezo wakho uthunyelwe!",
+  messageSentDesc: "Isicelo sakho soqhagamshelwano sifunyenwe ngempumelelo. Siza kubuyela kuwe ngedilesi ye-imeyile ngokukhawuleza.",
+  writeNewMessage: "Bhala uMyalezo Omtsha"
 };

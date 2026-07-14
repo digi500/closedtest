@@ -93,5 +93,21 @@ export const yo = {
   // Footer
   footerText: "Syeed paṣipaarọ idanwo pipade fun awọn olupilẹṣẹ.",
   footerSubText: "Syeed yii jẹ orisun-ṣiṣi patapata ati pe o jẹ idagbasoke nipasẹ awọn olupilẹṣẹ oluyọọda.",
-  githubBtn: "Ṣe alabapin / Fun Irawo lori GitHub"
+  githubBtn: "Ṣe alabapin / Fun Irawo lori GitHub",
+
+  // Support & Contact
+  supportFAQ: "Atilẹyin & FAQ",
+  supportTitle: "Atilẹyin & Olubasọrọ",
+  supportDesc: "Ṣe o ni awọn ibeere nipa pẹpẹ tabi fẹ lati kan si wa? O le fi ifiranṣẹ ranṣẹ nipa lilo fọọmu isalẹ tabi ṣe atunyẹwo apakan FAQ.",
+  faqTitle: "Awọn ibeere Nigbagbogbo || Firanṣẹ Wa",
+  contactFormTitle: "Orukọ Rẹ ati Orukọ Rẹ",
+  nameLabel: "Adirẹsi imeeli rẹ",
+  emailLabel: "Koko-ọrọ",
+  subjectLabel: "Ifiranṣẹ rẹ",
+  messageLabel: "Firanṣẹ Ifiranṣẹ",
+  sendMessage: "Fifiranṣẹ...",
+  sendingMessage: "A ti fi ifiranṣẹ rẹ ranṣẹ!",
+  messageSent: "Ibere ​​olubasọrọ rẹ ti gba ni aṣeyọri. A yoo pada si ọ nipasẹ adirẹsi imeeli rẹ ni kete bi o ti ṣee.",
+  messageSentDesc: "Kọ Ifiranṣẹ Tuntun",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

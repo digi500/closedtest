@@ -93,5 +93,21 @@ export const zu = {
   // Footer
   footerText: "Iplatifomu yokushintshana ngezivivinyo ezivaliwe yabathuthukisi.",
   footerSubText: "Lolu hlelo lokusebenza luvuleke ngokuphelele futhi luthuthukiswa ngabathuthukisi bokuzithandela.",
-  githubBtn: "Nikela / Nikeza Inkanyezi ku-GitHub"
+  githubBtn: "Nikela / Nikeza Inkanyezi ku-GitHub",
+
+  // Support & Contact
+  supportFAQ: "Ukusekela & Imibuzo Evame Ukubuzwa || Ukusekela & Xhumana",
+  supportTitle: "Ingabe unemibuzo mayelana nenkundla noma ufuna ukusithinta? Ungathumela umlayezo usebenzisa ifomu elingezansi noma ubuyekeze isigaba se-FAQ.",
+  supportDesc: "Imibuzo Evame Ukubuzwa",
+  faqTitle: "Sithumele Umlayezo",
+  contactFormTitle: "Igama Nesibongo Sakho",
+  nameLabel: "Ikheli lakho le-imeyili || Isihloko",
+  emailLabel: "Umlayezo wakho || Thumela Umlayezo || Iyathumela...",
+  subjectLabel: "Umyalezo wakho uthunyelwe!",
+  messageLabel: "Isicelo sakho sokuxhumana samukelwe ngempumelelo. Sizobuyela kuwe ngekheli lakho le-imeyili ngokushesha okukhulu.",
+  sendMessage: "Bhala Umlayezo Omusha",
+  sendingMessage: "Gönderiliyor...",
+  messageSent: "Mesajınız Gönderildi!",
+  messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

@@ -93,5 +93,21 @@ export const zh = {
   // Footer
   footerText: "专为开发者打造的封闭测试互助平台。",
   footerSubText: "该平台完全开源，由志愿开发者共同维护开发。",
-  githubBtn: "在 GitHub 上贡献代码 / 标星支持"
+  githubBtn: "在 GitHub 上贡献代码 / 标星支持",
+
+  // Support & Contact
+  supportFAQ: "支持与常见问题解答",
+  supportTitle: "支持与联系",
+  supportDesc: "您对该平台有疑问或想联系我们吗？您可以使用下面的表格发送消息或查看常见问题解答部分。",
+  faqTitle: "常见问题",
+  contactFormTitle: "给我们留言",
+  nameLabel: "您的名字和姓氏",
+  emailLabel: "您的电子邮件地址",
+  subjectLabel: "主题",
+  messageLabel: "您的留言",
+  sendMessage: "发送消息",
+  sendingMessage: "正在发送...",
+  messageSent: "您的消息已发送！",
+  messageSentDesc: "您的联系请求已成功收到。我们将尽快通过您的电子邮件地址与您联系。",
+  writeNewMessage: "写新消息"
 };

@@ -93,5 +93,21 @@ export const vi = {
   // Footer
   footerText: "Nền tảng trao đổi kiểm thử đóng cho các nhà phát triển.",
   footerSubText: "Nền tảng này hoàn toàn là nguồn mở và được phát triển bởi các nhà phát triển tình nguyện.",
-  githubBtn: "Đóng góp / Tặng sao trên GitHub"
+  githubBtn: "Đóng góp / Tặng sao trên GitHub",
+
+  // Support & Contact
+  supportFAQ: "Hỗ trợ & Câu hỏi thường gặp",
+  supportTitle: "Hỗ trợ & Liên hệ",
+  supportDesc: "Bạn có thắc mắc về nền tảng hoặc muốn liên hệ với chúng tôi? Bạn có thể gửi tin nhắn bằng cách sử dụng mẫu dưới đây hoặc xem lại phần Câu hỏi thường gặp.",
+  faqTitle: "Câu hỏi thường gặp",
+  contactFormTitle: "Gửi tin nhắn cho chúng tôi",
+  nameLabel: "Họ và tên của bạn",
+  emailLabel: "Địa chỉ Email của bạn",
+  subjectLabel: "Chủ đề",
+  messageLabel: "Tin nhắn của bạn",
+  sendMessage: "Gửi tin nhắn",
+  sendingMessage: "Đang gửi...",
+  messageSent: "Tin nhắn của bạn đã được gửi!",
+  messageSentDesc: "Yêu cầu liên hệ của bạn đã được nhận thành công. Chúng tôi sẽ liên hệ lại với bạn qua địa chỉ email của bạn sớm nhất có thể.",
+  writeNewMessage: "Viết tin nhắn mới"
 };

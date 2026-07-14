@@ -93,5 +93,21 @@ export const zhTW = {
   // Footer
   footerText: "專為開發者打造的封閉測試互助平台。",
   footerSubText: "該平台完全開源，由志願開發者共同維護開發。",
-  githubBtn: "在 GitHub 上貢獻程式碼 / 標星支持"
+  githubBtn: "在 GitHub 上貢獻程式碼 / 標星支持",
+
+  // Support & Contact
+  supportFAQ: "支援與常見問題解答",
+  supportTitle: "支援與聯絡",
+  supportDesc: "您對平台有疑問或想聯絡我們嗎？您可以使用下面的表格發送訊息或查看常見問題解答部分。",
+  faqTitle: "常見問題",
+  contactFormTitle: "給我們留言",
+  nameLabel: "您的名字和姓氏",
+  emailLabel: "您的電子郵件地址",
+  subjectLabel: "主題",
+  messageLabel: "您的留言",
+  sendMessage: "發送訊息",
+  sendingMessage: "正在發送...",
+  messageSent: "您的訊息已發送！",
+  messageSentDesc: "您的聯絡要求已成功收到。我們將盡快透過您的電子郵件地址與您聯繫。",
+  writeNewMessage: "寫新訊息"
 };
