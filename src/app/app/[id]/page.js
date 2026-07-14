@@ -22,7 +22,6 @@ export default function AppDetail() {
   const [copiedReddit, setCopiedReddit] = useState(false);
   const [translatedDesc, setTranslatedDesc] = useState('');
   const [isTranslating, setIsTranslating] = useState(false);
-  const [showOriginal, setShowOriginal] = useState(false);
 
   useEffect(() => {
     async function loadData() {
@@ -47,14 +46,9 @@ export default function AppDetail() {
     loadData();
   }, [id]);
 
-  // Reset showOriginal state when language is changed from the header dropdown menu
-  useEffect(() => {
-    setShowOriginal(false);
-  }, [language]);
-
   // Automatically translate the app description to the selected user language on load or language switch
   useEffect(() => {
-    if (app && app.description && language && !showOriginal) {
+    if (app && app.description && language) {
       const autoTranslate = async () => {
         setIsTranslating(true);
         try {
@@ -74,7 +68,7 @@ export default function AppDetail() {
       };
       autoTranslate();
     }
-  }, [app, language, showOriginal]);
+  }, [app, language]);
 
   const handleGroupClick = async () => {
     if (!app) return;
@@ -100,38 +94,7 @@ export default function AppDetail() {
     }
   };
 
-  const handleTranslate = async () => {
-    if (!app) return;
-    if (translatedDesc) {
-      setTranslatedDesc('');
-      setShowOriginal(true);
-      return;
-    }
-    
-    setShowOriginal(false);
-    setIsTranslating(true);
-    try {
-      const targetLang = language;
-      const desc = app.description;
-      
-      // Use the free Google Translate API which natively supports auto-detection and high character limits
-      const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLang}&dt=t&q=${encodeURIComponent(desc)}`);
-      const data = await res.json();
-      
-      if (data && data[0]) {
-        // Combine all translated parts/sentences
-        const translatedText = data[0].map(item => item[0]).join('');
-        setTranslatedDesc(translatedText);
-      } else {
-        alert(language === 'tr' ? 'Çeviri yapılamadı.' : 'Translation failed.');
-      }
-    } catch (err) {
-      console.error(err);
-      alert(language === 'tr' ? 'Bağlantı hatası oluştu.' : 'Connection error occurred.');
-    } finally {
-      setIsTranslating(false);
-    }
-  };
+
 
   const handleAddComment = async (e) => {
     e.preventDefault();
@@ -333,32 +296,10 @@ Thank you so much! Post yours below and I will test back.`;
             <div style={{ flex: '1', minWidth: '280px', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               {/* Description */}
               <div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>
+                <div style={{ marginBottom: '0.5rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '0.5rem' }}>
                   <h3 style={{ fontSize: '1.05rem', margin: 0 }}>
                     {t('descriptionTitle')}
                   </h3>
-                  <button 
-                    onClick={handleTranslate} 
-                    disabled={isTranslating}
-                    style={{
-                      background: 'var(--card-bg)',
-                      border: '1px solid var(--border-color)',
-                      padding: '0.25rem 0.5rem',
-                      borderRadius: '4px',
-                      fontSize: '0.75rem',
-                      cursor: 'pointer',
-                      color: 'var(--accent-color)',
-                      fontWeight: '600'
-                    }}
-                  >
-                    {isTranslating 
-                      ? (language === 'tr' ? 'Çevriliyor...' : 'Translating...') 
-                      : (translatedDesc 
-                          ? (language === 'tr' ? 'Orijinali Göster' : 'Show Original') 
-                          : (language === 'tr' ? '🌐 Türkçe\'ye Çevir' : '🌐 Translate to English')
-                        )
-                    }
-                  </button>
                 </div>
                 <p className="detail-desc" style={{ whiteSpace: 'pre-wrap' }}>
                   {translatedDesc || app.description}
