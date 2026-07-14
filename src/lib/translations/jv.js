@@ -109,5 +109,15 @@ export const jv = {
   sendingMessage: "Panjaluk kontak sampeyan wis ditampa kanthi sukses. Kita bakal bali menyang sampeyan liwat alamat e-mail sanalika bisa.",
   messageSent: "Tulis Pesen Anyar",
   messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
-  writeNewMessage: "Yeni Mesaj Yaz"
+  writeNewMessage: "Yeni Mesaj Yaz",
+
+  // Support FAQs
+  faq1Q: "Apa Aturan Penguji Google Play 20?",
+  faq1A: "Kanggo akun pangembang individu anyar sing dibukak sawise Nopember 2023, Google wis diwajibake nganakake tes tertutup karo paling ora 20 pangguna tes paling ora 14 dina sadurunge nerbitake aplikasi. Aplikasi sing ora ngrampungake aturan iki ora bisa diterbitake.",
+  faq2Q: "Kepiye Cara Kerja Platform? Apa mbayar?",
+  faq2A: "Platform kita gratis lan adhedhasar kerjasama. Pangembang nguji aplikasi saben liyane. Nalika sampeyan nyoba aplikasi wong liya, pangembang liyane uga bakal nyoba aplikasi sampeyan kanthi prestise lan jaringan kerjasama sing bakal sampeyan entuk.",
+  faq3Q: "Kepiye Cara Nguji Aplikasi?",
+  faq3A: "Pindhah menyang kaca app sing pengin dites. Gabung karo Grup Google app kanthi ngeklik tombol ing Langkah 1. Banjur download aplikasi menyang telpon saka Google Play kanthi ngeklik tombol download ing Langkah 2 lan aja mbusak saka telpon paling sethithik 14 dina.",
+  faq4Q: "Apa sing Terjadi Nalika Proses Pengujian Aplikasiku Mungkasi?",
+  faq4A: "Nalika periode 14 dina rampung kanthi sukses, sampeyan bisa nganyari aplikasi kanthi pilihan \"Tandai minangka Diterbitake\" saka panel pangembang ing kaca rincian aplikasi. Sistem kita uga verifikasi iki liwat Google Play Store. Sawise tahap iki, langkah-langkah testing dibusak lan tombol download Google Play langsung katon."
 };

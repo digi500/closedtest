@@ -109,5 +109,15 @@ export const ig = {
   sendingMessage: "Na-eziga...",
   messageSent: "E zipụla ozi gị!",
   messageSentDesc: "Anatala arịrịọ kọntaktị gị nke ọma. Anyị ga-eji adreesị ozi-e gị laghachite gị ozugbo enwere ike.",
-  writeNewMessage: "Dee ozi ọhụrụ"
+  writeNewMessage: "Dee ozi ọhụrụ",
+
+  // Support FAQs
+  faq1Q: "Kedu ihe bụ Google Play 20 Tester Rule?",
+  faq1A: "Maka akaụntụ onye nrụpụta ọhụrụ emepere ka ọnwa Nọvemba 2023 gachara, Google emeela ka ọ bụrụ iwu na ya na ndị ọrụ nyocha 20 mechiri emechi ma ọ dịkarịa ala ụbọchị iri na anọ tupu ha ebipụta ngwa ha. Enweghị ike ibipụta ngwa ndị na-emezughị iwu a.",
+  faq2Q: "Kedu ka Platform si arụ ọrụ? A na-akwụ ya?",
+  faq2A: "Anyị ikpo okwu bụ kpamkpam free na dabeere na imekọ ihe ọnụ. Ndị mmepe na-anwale ngwa ibe ha. Ka ị na-anwale ngwa ndị ọzọ, ndị mmepe ndị ọzọ ga-anwalekwa ngwa gị site na ugwu ugwu na netwọk mmekọrịta ị ga-enweta.",
+  faq3Q: "Kedu otu m ga-esi nwalee ngwa?",
+  faq3A: "Gaa na ibe ngwa nke ịchọrọ ịnwale. Soro Google Group nke ngwa ahụ site na ịpị bọtịnụ dị na Nzọụkwụ 1. wee budata ngwa ahụ na ekwentị gị site na Google Play site na ịpị bọtịnụ nbudata na Nzọụkwụ 2 ma ihichapụ ya na ekwentị gị ọbụlagodi ụbọchị iri na anọ.",
+  faq4Q: "Kedu ihe na-eme mgbe usoro nnwale ngwa m kwụsịrị?",
+  faq4A: "Mgbe oge nke ụbọchị iri na anọ gachara nke ọma, ị nwere ike imelite ngwa gị site na nhọrọ \"Mark dị ka ebipụtara\" site na ngalaba mmepụta na ibe nkọwa ngwa gị. Usoro anyị na-enyochakwa nke a site na Ụlọ Ahịa Google Play. Mgbe ogbo a gasịrị, a na-ewepụ usoro nnwale ahụ wee gosipụta bọtịnụ nbudata Google Play ozugbo."
 };

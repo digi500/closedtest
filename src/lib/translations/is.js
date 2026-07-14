@@ -109,5 +109,15 @@ export const is = {
   sendingMessage: "Sendir...",
   messageSent: "Skilaboðin þín hafa verið send!",
   messageSentDesc: "Samskiptabeiðni þín hefur verið móttekin. Við munum hafa samband við þig í gegnum netfangið þitt eins fljótt og auðið er.",
-  writeNewMessage: "Skrifaðu ný skilaboð"
+  writeNewMessage: "Skrifaðu ný skilaboð",
+
+  // Support FAQs
+  faq1Q: "Hver er Google Play 20 prófunarreglan?",
+  faq1A: "Fyrir nýja einstaka þróunarreikninga sem opnaðir eru eftir nóvember 2023 hefur Google gert það skylt að framkvæma lokaðar prófanir með að minnsta kosti 20 prófnotendum í að minnsta kosti 14 daga áður en forritin þeirra eru birt. Ekki er hægt að birta umsóknir sem uppfylla ekki þessa reglu.",
+  faq2Q: "Hvernig virkar pallurinn? Er það borgað?",
+  faq2A: "Vettvangurinn okkar er algjörlega ókeypis og byggður á samvinnu. Hönnuðir prófa forrit hvers annars. Þegar þú prófar forrit annarra munu aðrir forritarar líka prófa forritið þitt með því áliti og samstarfsneti sem þú munt öðlast.",
+  faq3Q: "Hvernig prófa ég app?",
+  faq3A: "Farðu á síðu forritsins sem þú vilt prófa. Skráðu þig í Google hóp appsins með því að smella á hnappinn í skrefi 1. Sæktu síðan forritið í símann þinn af Google Play með því að smella á niðurhalshnappinn í skrefi 2 og ekki eyða því úr símanum þínum í að minnsta kosti 14 daga.",
+  faq4Q: "Hvað gerist þegar prófunarferli umsóknar minnar lýkur?",
+  faq4A: "Þegar 14 daga tímabilinu er lokið geturðu uppfært umsóknina þína með „Merkja sem birt“ valmöguleikann frá þróunarspjaldinu á umsóknarupplýsingasíðunni þinni. Kerfið okkar staðfestir þetta einnig í gegnum Google Play Store. Eftir þetta stig eru prófunarskrefin fjarlægð og beinn niðurhalshnappur Google Play birtist."
 };

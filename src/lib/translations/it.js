@@ -109,5 +109,15 @@ export const it = {
   sendingMessage: "Invio...",
   messageSent: "Il tuo messaggio è stato inviato!",
   messageSentDesc: "La tua richiesta di contatto è stata ricevuta con successo. Ti ricontatteremo tramite il tuo indirizzo email il più presto possibile.",
-  writeNewMessage: "Scrivi nuovo messaggio"
+  writeNewMessage: "Scrivi nuovo messaggio",
+
+  // Support FAQs
+  faq1Q: "Cos'è la regola dei tester di Google Play 20?",
+  faq1A: "Per i nuovi account sviluppatore individuali aperti dopo novembre 2023, Google ha reso obbligatorio condurre test chiusi con almeno 20 utenti di prova per almeno 14 giorni prima di pubblicare le loro applicazioni. Le domande che non rispettano questa regola non potranno essere pubblicate.",
+  faq2Q: "Come funziona la piattaforma? È pagato?",
+  faq2A: "La nostra piattaforma è completamente gratuita e basata sulla cooperazione. Gli sviluppatori testano le rispettive applicazioni. Man mano che testerai le applicazioni di altre persone, anche altri sviluppatori testeranno la tua applicazione con il prestigio e la rete di cooperazione che otterrai.",
+  faq3Q: "Come posso testare un'app?",
+  faq3A: "Vai alla pagina dell'app che desideri testare. Unisciti al gruppo Google dell'app facendo clic sul pulsante nel passaggio 1. Quindi scarica l'applicazione sul tuo telefono da Google Play facendo clic sul pulsante di download nel passaggio 2 e non eliminarla dal telefono per almeno 14 giorni.",
+  faq4Q: "Cosa succede al termine del processo di test della mia applicazione?",
+  faq4A: "Una volta completato correttamente il periodo di 14 giorni, puoi aggiornare la tua applicazione con l'opzione \"Contrassegna come pubblicata\" dal pannello degli sviluppatori nella pagina dei dettagli dell'applicazione. Il nostro sistema lo verifica anche tramite Google Play Store. Dopo questa fase, i passaggi di test vengono rimossi e viene visualizzato il pulsante di download diretto di Google Play."
 };

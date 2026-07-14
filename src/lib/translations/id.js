@@ -109,5 +109,15 @@ export const id = {
   sendingMessage: "Mengirim...",
   messageSent: "Pesan Anda Telah Terkirim!",
   messageSentDesc: "Permintaan kontak Anda telah berhasil diterima. Kami akan menghubungi Anda kembali melalui alamat email Anda sesegera mungkin.",
-  writeNewMessage: "Tulis Pesan Baru"
+  writeNewMessage: "Tulis Pesan Baru",
+
+  // Support FAQs
+  faq1Q: "Apa Aturan Penguji Google Play 20?",
+  faq1A: "Untuk akun pengembang perorangan baru yang dibuka setelah November 2023, Google mewajibkan pengujian tertutup dengan setidaknya 20 pengguna pengujian selama minimal 14 hari sebelum memublikasikan aplikasi mereka. Lamaran yang tidak memenuhi aturan ini tidak dapat dipublikasikan.",
+  faq2Q: "Bagaimana Cara Kerja Platformnya? Apakah itu berbayar?",
+  faq2A: "Platform kami sepenuhnya gratis dan berdasarkan kerja sama. Pengembang saling menguji aplikasi masing-masing. Saat Anda menguji aplikasi orang lain, pengembang lain juga akan menguji aplikasi Anda dengan prestise dan jaringan kerjasama yang akan Anda peroleh.",
+  faq3Q: "Bagaimana Saya Menguji Aplikasi?",
+  faq3A: "Buka halaman aplikasi yang ingin Anda uji. Bergabunglah dengan Grup Google aplikasi dengan mengeklik tombol di Langkah 1. Kemudian unduh aplikasi ke ponsel Anda dari Google Play dengan mengeklik tombol unduh di Langkah 2 dan jangan menghapusnya dari ponsel Anda setidaknya selama 14 hari.",
+  faq4Q: "Apa Yang Terjadi Jika Proses Pengujian Aplikasi Saya Berakhir?",
+  faq4A: "Ketika periode 14 hari berhasil diselesaikan, Anda dapat memperbarui aplikasi Anda dengan opsi \"Tandai sebagai Diterbitkan\" dari panel pengembang di halaman detail aplikasi Anda. Sistem kami juga memverifikasi ini melalui Google Play Store. Setelah tahap ini, langkah pengujian dihilangkan dan tombol unduh langsung Google Play muncul."
 };
