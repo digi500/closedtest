@@ -1,6 +1,7 @@
 import "./globals.css";
 import Footer from "../components/Footer";
 import { LanguageProvider } from "../context/LanguageContext";
+import { Analytics } from "@vercel/analytics/react";
 
 const langCodes = [
   "tr", "en", "en-GB", "en-AU", "pt-BR", "pt-PT", "es", "es-MX", "de", "fr",
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
           <div style={{ flex: 1 }}>{children}</div>
           <Footer />
         </LanguageProvider>
+        <Analytics />
       </body>
     </html>
   );
