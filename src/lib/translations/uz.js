@@ -109,5 +109,15 @@ export const uz = {
   sendingMessage: "Yuborilmoqda...",
   messageSent: "Sizning xabaringiz yuborildi!",
   messageSentDesc: "Sizning kontakt so'rovingiz muvaffaqiyatli qabul qilindi. Biz sizga elektron pochta manzilingiz orqali imkon qadar tezroq javob beramiz.",
-  writeNewMessage: "Yangi xabar yozish"
+  writeNewMessage: "Yangi xabar yozish",
+
+  // Support FAQs
+  faq1Q: "Google Play 20 tester qoidasi nima?",
+  faq1A: "2023-yil noyabridan keyin ochilgan yangi individual ishlab chiquvchi akkauntlari uchun Google kamida 20 ta test foydalanuvchisi bilan ilovalarini chop etishdan oldin kamida 14 kun davomida yopiq test oʻtkazishni majburiy qilib qoʻydi. Ushbu qoidaga rioya qilmagan ilovalar chop etilmaydi.",
+  faq2Q: "Platforma qanday ishlaydi? To'langanmi?",
+  faq2A: "Bizning platformamiz mutlaqo bepul va hamkorlikka asoslangan. Ishlab chiquvchilar bir-birlarining ilovalarini sinab ko'rishadi. Boshqa odamlarning ilovalarini sinab ko'rsangiz, boshqa ishlab chiquvchilar ham sizning ilovangizni obro' va hamkorlik tarmog'i bilan sinab ko'rishadi.",
+  faq3Q: "Ilovani qanday sinab ko'rishim mumkin?",
+  faq3A: "Sinab ko'rmoqchi bo'lgan ilovaning sahifasiga o'ting. 1-qadamdagi tugmani bosish orqali ilovaning Google guruhiga qoʻshiling. Keyin 2-bosqichdagi yuklab olish tugmasini bosish orqali ilovani Google Play’dan telefoningizga yuklab oling va uni kamida 14 kun davomida telefoningizdan oʻchirmang.",
+  faq4Q: "Mening arizamni sinovdan o'tkazish jarayoni tugagach nima bo'ladi?",
+  faq4A: "14 kunlik muddat muvaffaqiyatli yakunlangach, ilovangiz tafsilotlari sahifasidagi ishlab chiquvchilar panelidan “Nashr etilgan deb belgilash” opsiyasi bilan ilovangizni yangilashingiz mumkin. Bizning tizimimiz buni Google Play Store orqali ham tekshiradi. Ushbu bosqichdan so'ng, sinov bosqichlari olib tashlanadi va to'g'ridan-to'g'ri Google Play yuklab olish tugmasi paydo bo'ladi."
 };

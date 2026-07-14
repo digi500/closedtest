@@ -109,5 +109,15 @@ export const vi = {
   sendingMessage: "Đang gửi...",
   messageSent: "Tin nhắn của bạn đã được gửi!",
   messageSentDesc: "Yêu cầu liên hệ của bạn đã được nhận thành công. Chúng tôi sẽ liên hệ lại với bạn qua địa chỉ email của bạn sớm nhất có thể.",
-  writeNewMessage: "Viết tin nhắn mới"
+  writeNewMessage: "Viết tin nhắn mới",
+
+  // Support FAQs
+  faq1Q: "Quy tắc dành cho người thử nghiệm Google Play 20 là gì?",
+  faq1A: "Đối với các tài khoản nhà phát triển cá nhân mới được mở sau tháng 11 năm 2023, Google đã bắt buộc phải tiến hành thử nghiệm kín với ít nhất 20 người dùng thử nghiệm trong ít nhất 14 ngày trước khi xuất bản ứng dụng của họ. Các ứng dụng không hoàn thành quy tắc này sẽ không thể được xuất bản.",
+  faq2Q: "Nền tảng hoạt động như thế nào? Nó có được trả tiền không?",
+  faq2A: "Nền tảng của chúng tôi hoàn toàn miễn phí và dựa trên sự hợp tác. Các nhà phát triển thử nghiệm các ứng dụng của nhau. Khi bạn thử nghiệm ứng dụng của người khác, các nhà phát triển khác cũng sẽ thử nghiệm ứng dụng của bạn với mạng lưới hợp tác và uy tín mà bạn sẽ có được.",
+  faq3Q: "Làm cách nào để kiểm tra một ứng dụng?",
+  faq3A: "Đi đến trang của ứng dụng bạn muốn kiểm tra. Tham gia Nhóm Google của ứng dụng bằng cách nhấp vào nút ở Bước 1. Sau đó tải ứng dụng xuống điện thoại của bạn từ Google Play bằng cách nhấp vào nút tải xuống ở Bước 2 và không xóa ứng dụng đó khỏi điện thoại của bạn trong ít nhất 14 ngày.",
+  faq4Q: "Điều gì xảy ra khi quá trình thử nghiệm ứng dụng của tôi kết thúc?",
+  faq4A: "Khi khoảng thời gian 14 ngày hoàn tất thành công, bạn có thể cập nhật ứng dụng của mình bằng tùy chọn \"Đánh dấu là đã xuất bản\" từ bảng điều khiển dành cho nhà phát triển trên trang chi tiết ứng dụng của bạn. Hệ thống của chúng tôi cũng xác minh điều này thông qua Cửa hàng Google Play. Sau giai đoạn này, các bước kiểm tra sẽ bị xóa và nút tải xuống trực tiếp Google Play sẽ xuất hiện."
 };

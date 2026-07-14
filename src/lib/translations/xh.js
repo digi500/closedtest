@@ -109,5 +109,15 @@ export const xh = {
   sendingMessage: "Iyathumela...",
   messageSent: "Umyalezo wakho uthunyelwe!",
   messageSentDesc: "Isicelo sakho soqhagamshelwano sifunyenwe ngempumelelo. Siza kubuyela kuwe ngedilesi ye-imeyile ngokukhawuleza.",
-  writeNewMessage: "Bhala uMyalezo Omtsha"
+  writeNewMessage: "Bhala uMyalezo Omtsha",
+
+  // Support FAQs
+  faq1Q: "Yintoni uMthetho woMvavanyi we-Google Play 20?",
+  faq1A: "Kwiiakhawunti zomphuhlisi ngamnye ezivulwe emva kukaNovemba ka-2023, uGoogle ukwenze kwanyanzeleka ukuba kuqhutywe uvavanyo oluvaliweyo kunye nabasebenzisi bovavanyo abangama-20 ubuncinci kangangeentsuku ezili-14 phambi kokuba bapapashe izicelo zabo. Izicelo ezingawugqibiyo lo mgaqo azinakupapashwa.",
+  faq2Q: "Lisebenza Njani IQonga? Ngaba ihlawulwe?",
+  faq2A: "Iqonga lethu likhululekile ngokupheleleyo kwaye lisekelwe kwintsebenziswano. Abaphuhlisi bavavanya izicelo zomnye nomnye. Njengoko uvavanya usetyenziso lwabanye abantu, abanye abaphuhlisi baya kuvavanya isicelo sakho ngodumo kunye nenethiwekhi yentsebenziswano oya kuyifumana.",
+  faq3Q: "Ndiyivavanya njani i-App?",
+  faq3A: "Yiya kwiphepha le-app ofuna ukuyivavanya. Joyina usetyenziso lweQela likaGoogle ngokucofa iqhosha kwiNyathelo 1. Emva koko khuphela usetyenziso kwifowuni yakho kuGoogle Play ngokucofa iqhosha lokukhuphela kwiNyathelo 2 kwaye ungayicimi kwifowuni yakho ubuncinci iintsuku ezili-14.",
+  faq4Q: "Kwenzeka Ntoni Xa Inkqubo Yam Yovavanyo Iphela?",
+  faq4A: "Xa ixesha leentsuku ezili-14 ligqityiwe ngempumelelo, ungasihlaziya isicelo sakho ngokhetho luka \"Phapha njengokupapashiwe\" kwiqela lophuhlisi kwiphepha lakho leenkcukacha zesicelo. Inkqubo yethu ikwaqinisekisa oku ngeGoogle Play Store. Emva kwesi sigaba, amanyathelo okuvavanya asusiwe kwaye iqhosha lokukhuphela ngqo likaGoogle Play livela."
 };

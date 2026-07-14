@@ -109,5 +109,15 @@ export const yo = {
   sendingMessage: "A ti fi ifiranṣẹ rẹ ranṣẹ!",
   messageSent: "Ibere ​​olubasọrọ rẹ ti gba ni aṣeyọri. A yoo pada si ọ nipasẹ adirẹsi imeeli rẹ ni kete bi o ti ṣee.",
   messageSentDesc: "Kọ Ifiranṣẹ Tuntun",
-  writeNewMessage: "Yeni Mesaj Yaz"
+  writeNewMessage: "Yeni Mesaj Yaz",
+
+  // Support FAQs
+  faq1Q: "Kini Ofin Oluyẹwo 20 Google Play?",
+  faq1A: "Fun awọn akọọlẹ idagbasoke olukaluku tuntun ti o ṣii lẹhin Oṣu kọkanla ọdun 2023, Google ti jẹ ki o jẹ dandan lati ṣe idanwo pipade pẹlu o kere ju awọn olumulo idanwo 20 fun o kere ju awọn ọjọ 14 ṣaaju titẹjade awọn ohun elo wọn. Awọn ohun elo ti ko pari ofin yii ko le ṣe atẹjade.",
+  faq2Q: "Bawo ni Platform Ṣiṣẹ? Ṣe o sanwo?",
+  faq2A: "Syeed wa jẹ ọfẹ patapata ati da lori ifowosowopo. Awọn olupilẹṣẹ ṣe idanwo awọn ohun elo ara wọn. Bi o ṣe n ṣe idanwo awọn ohun elo eniyan miiran, awọn olupilẹṣẹ miiran yoo tun ṣe idanwo ohun elo rẹ pẹlu ọlá ati nẹtiwọọki ifowosowopo ti iwọ yoo jere.",
+  faq3Q: "Bawo ni MO Ṣe Ṣe idanwo Ohun elo kan?",
+  faq3A: "Lọ si oju-iwe ti app ti o fẹ ṣe idanwo. Darapọ mọ Ẹgbẹ Google ti app nipa tite bọtini ni Igbesẹ 1. Lẹhinna ṣe igbasilẹ ohun elo naa si foonu rẹ lati Google Play nipa tite bọtini igbasilẹ ni Igbesẹ 2 ati ma ṣe paarẹ lati foonu rẹ fun o kere ju ọjọ 14.",
+  faq4Q: "Kini yoo ṣẹlẹ Nigbati Ilana Idanwo Ohun elo Mi Ba pari?",
+  faq4A: "Nigbati akoko 14-ọjọ ba ti pari ni aṣeyọri, o le ṣe imudojuiwọn ohun elo rẹ pẹlu aṣayan “Samisi bi Ti Atẹjade” lati ọdọ ẹgbẹ oluṣe idagbasoke lori oju-iwe alaye ohun elo rẹ. Eto wa tun jẹrisi eyi nipasẹ Ile itaja Google Play. Lẹhin ipele yii, awọn igbesẹ idanwo ti yọkuro ati bọtini igbasilẹ Google Play taara yoo han."
 };
