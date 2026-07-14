@@ -109,5 +109,15 @@ export const gn = {
   sendingMessage: "Omondo...",
   messageSent: "¡Oñemondóma Nde Marandu!",
   messageSentDesc: "Oñemoguahẽ porã ne mba’ejerure ñe’ẽmondo rehegua. Roñe’ẽ jeýta nendive nde dirección de correo electrónico rupive pya’e ikatuháicha.",
-  writeNewMessage: "Ehai Marandu Pyahu"
+  writeNewMessage: "Ehai Marandu Pyahu",
+
+  // Support FAQs
+  faq1Q: "Mba’épa pe Google Play 20 Tester Regla?",
+  faq1A: "For new individual developer accounts opened after November 2023, Google has made it mandatory to conduct closed testing with at least 20 test users for at least 14 days before publishing their applications. Umi solicitud nomohu'ãiva ko norma ndikatúi oñemoherakuã.",
+  faq2Q: "Mbaʼéichapa ombaʼapo pe platafórma? ¿Ojepagápa?",
+  faq2A: "Ore plataforma ha’e completamente gratuita ha oñemopyenda cooperación-pe. Umi moheñóiharakuéra oproba ojupe umi aplicación. As you test other people's applications, other developers will also test your application with the prestige and cooperation network you will gain.",
+  faq3Q: "Mba’éichapa ikatu aproba peteĩ App?",
+  faq3A: "Eike pe páhinape pe aplikasión reprobasévape. Join the app's Google Group by clicking the button in Step 1. Then download the application to your phone from Google Play by clicking the download button in Step 2 and do not delete it from your phone for at least 14 days.",
+  faq4Q: "Mba’épa Oiko Opa vove Che Aplicación Proceso de Prueba?",
+  faq4A: "When the 14-day period is completed successfully, you can update your application with the \"Mark as Published\" option from the developer panel on your application detail page. Ore sistema avei omoañete upéva Google Play Store rupive. Ko etapa rire, ojeipe’a umi paso prueba rehegua ha ojekuaa pe botón descarga directa Google Play rehegua."
 };

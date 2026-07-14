@@ -109,5 +109,15 @@ export const gd = {
   sendingMessage: "A' cur...",
   messageSent: "Chaidh do theachdaireachd a chuir!",
   messageSentDesc: "Chaidh d’ iarrtas conaltraidh fhaighinn gu soirbheachail. Gheibh sinn air ais thugad tron ​​t-seòladh post-d agad cho luath ‘s a ghabhas.",
-  writeNewMessage: "Sgrìobh Teachdaireachd Ùr"
+  writeNewMessage: "Sgrìobh Teachdaireachd Ùr",
+
+  // Support FAQs
+  faq1Q: "Dè a th’ ann an Riaghailt Tester Google Play 20?",
+  faq1A: "Airson cunntasan leasaiche fa leth ùra a chaidh fhosgladh às deidh Samhain 2023, tha Google air a dhèanamh èigneachail deuchainnean dùinte a dhèanamh le co-dhiù 20 neach-cleachdaidh deuchainn airson co-dhiù 14 latha mus foillsich iad na tagraidhean aca. Chan urrainnear tagraidhean nach coilean an riaghailt seo fhoillseachadh.",
+  faq2Q: "Ciamar a tha an Àrd-ùrlar ag obair? A bheil e air a phàigheadh?",
+  faq2A: "Tha an àrd-ùrlar againn gu tur an-asgaidh agus stèidhichte air co-obrachadh. Bidh luchd-leasachaidh a’ dèanamh deuchainn air tagraidhean a chèile. Mar a nì thu deuchainn air tagraidhean dhaoine eile, nì luchd-leasachaidh eile deuchainn air an tagradh agad leis an lìonra cliù is co-obrachaidh a gheibh thu.",
+  faq3Q: "Ciamar a nì mi deuchainn air app?",
+  faq3A: "Rach gu duilleag an aplacaid a tha thu airson deuchainn. Thig còmhla ri Buidheann Google na h-aplacaid le bhith a’ briogadh air a’ phutan ann an Ceum 1. An uairsin luchdaich sìos an aplacaid chun fhòn agad bho Google Play le bhith a’ briogadh air a’ phutan luchdaich sìos ann an Ceum 2 agus na cuir às don fhòn agad airson co-dhiù 14 latha.",
+  faq4Q: "Dè a thachras nuair a thig pròiseas dearbhaidh an tagraidh agam gu crìch?",
+  faq4A: "Nuair a bhios an ùine 14-latha deiseil gu soirbheachail, faodaidh tu an tagradh agad ùrachadh leis an roghainn “Mark as Published” bho phannal an leasaiche air duilleag mion-fhiosrachadh an tagraidh agad. Bidh an siostam againn cuideachd a’ dearbhadh seo tro Google Play Store. Às deidh na h-ìre seo, thèid na ceumannan deuchainn a thoirt air falbh agus nochdaidh am putan luchdachadh sìos dìreach Google Play."
 };

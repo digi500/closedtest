@@ -109,5 +109,15 @@ export const ga = {
   sendingMessage: "Gönderiliyor...",
   messageSent: "Mesajınız Gönderildi!",
   messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
-  writeNewMessage: "Yeni Mesaj Yaz"
+  writeNewMessage: "Yeni Mesaj Yaz",
+
+  // Support FAQs
+  faq1Q: "Cad é Riail Tástála Google Play 20? || Maidir le cuntais fhorbróra aonair nua a osclaíodh i ndiaidh mhí na Samhna 2023, tá sé éigeantach do Google tástáil dhúnta a dhéanamh le 20 úsáideoir tástála ar a laghad ar feadh 14 lá ar a laghad sula bhfoilsítear a bhfeidhmchláir. Ní féidir iarratais nach gcomhlíonann an riail seo a fhoilsiú. || Conas a Oibríonn an tArdán? An bhfuil sé íoctha? || Tá ár n-ardán go hiomlán saor in aisce agus bunaithe ar chomhar. Déanann forbróirí tástáil ar iarratais a chéile. De réir mar a dhéanann tú tástáil ar fheidhmchláir daoine eile, déanfaidh forbróirí eile d’iarratas a thástáil leis an ghréasán gradam agus comhoibrithe a gheobhaidh tú. || Conas a Thástáil Aip? || Téigh go dtí leathanach na haipe is mian leat a thástáil. Cláraigh le Grúpa Google na haipe trí chliceáil ar an gcnaipe i gCéim 1. Ansin íoslódáil an feidhmchlár chuig do ghuthán ó Google Play trí chliceáil ar an gcnaipe íoslódála i gCéim 2 agus ná scrios ó do ghuthán ar feadh 14 lá ar a laghad. || Cad a Tharlaíonn Nuair a Chríochnaíonn Próiseas Tástála M'Iarratas? || Nuair a bheidh an tréimhse 14 lá críochnaithe go rathúil, is féidir leat d’iarratas a nuashonrú leis an rogha “Marcáil mar Foilsithe” ón bpainéal forbróra ar leathanach sonraí d’iarratais. Fíoraíonn ár gcóras é seo freisin tríd an Google Play Store. Tar éis na céime seo, baintear na céimeanna tástála agus feictear an cnaipe íoslódála díreach Google Play.",
+  faq1A: "Google, Kasım 2023'ten sonra açılan yeni bireysel geliştirici hesapları için uygulamalarını yayına almadan önce en az 20 test kullanıcısı ile en az 14 gün boyunca aralıksız kapalı test yapma zorunluluğu getirmiştir. Bu kuralı tamamlamayan uygulamalar yayına alınamaz.",
+  faq2Q: "Platform Nasıl Çalışıyor? Ücretli mi?",
+  faq2A: "Platformumuz tamamen ücretsiz ve yardımlaşma (cooperative) esasına dayanır. Geliştiriciler birbirlerinin uygulamalarını test ederler. Siz başkalarının uygulamalarını test ettikçe kazanacağınız prestij ve yardımlaşma ağı ile diğer geliştiriciler de sizin uygulamanızı test eder.",
+  faq3Q: "Bir Uygulamayı Nasıl Test Ederim?",
+  faq3A: "Test etmek istediğiniz uygulamanın sayfasına gidin. 1. Adımdaki butona tıklayarak uygulamanın Google Grubuna katılın. Ardından 2. Adımdaki indirme butonuna tıklayarak uygulamayı Google Play'den telefonunuza indirin ve en az 14 gün boyunca telefonunuzdan silmeyin.",
+  faq4Q: "Uygulamamın Test Süreci Bitince Ne Olur?",
+  faq4A: "14 günlük süreç başarıyla tamamlandığında, uygulama detay sayfanızda bulunan geliştirici panelinden uygulamanızı \"Yayınlandı Olarak İşaretle\" seçeneğiyle güncelleyebilirsiniz. Sistemimiz bunu Google Play Store üzerinden de doğrular. Bu aşamadan sonra test adımları kalkar ve doğrudan Google Play indirme butonu görünür."
 };

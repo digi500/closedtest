@@ -109,5 +109,15 @@ export const gl = {
   sendingMessage: "Enviando...",
   messageSent: "A túa mensaxe foi enviada!",
   messageSentDesc: "A túa solicitude de contacto foi recibida correctamente. Porémonos en contacto contigo a través do teu enderezo de correo electrónico o antes posible.",
-  writeNewMessage: "Escribe unha nova mensaxe"
+  writeNewMessage: "Escribe unha nova mensaxe",
+
+  // Support FAQs
+  faq1Q: "Que é a regra do probador de Google Play 20?",
+  faq1A: "Para as novas contas individuais de programador abertas despois de novembro de 2023, Google fixo obrigatorio realizar probas pechadas con polo menos 20 usuarios de proba durante polo menos 14 días antes de publicar as súas aplicacións. Non se poderán publicar as solicitudes que non cumpran esta norma.",
+  faq2Q: "Como funciona a plataforma? É de pago?",
+  faq2A: "A nosa plataforma é totalmente gratuíta e baseada na cooperación. Os desenvolvedores proban as aplicacións dos outros. Mentres probas aplicacións doutras persoas, outros desenvolvedores tamén probarán a túa aplicación coa rede de prestixio e cooperación que gañarás.",
+  faq3Q: "Como podo probar unha aplicación?",
+  faq3A: "Vai á páxina da aplicación que queres probar. Únete ao grupo de Google da aplicación facendo clic no botón do paso 1. Despois descarga a aplicación no teu teléfono desde Google Play facendo clic no botón de descarga do paso 2 e non a elimines do teu teléfono durante polo menos 14 días.",
+  faq4Q: "Que ocorre cando remata o proceso de proba da miña solicitude?",
+  faq4A: "Cando o período de 14 días se complete correctamente, podes actualizar a túa aplicación coa opción \"Marcar como publicada\" no panel de desenvolvedores na páxina de detalles da túa aplicación. O noso sistema tamén verifica isto a través da Google Play Store. Despois desta fase, elimínanse os pasos da proba e aparece o botón de descarga directa de Google Play."
 };
