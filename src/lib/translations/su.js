@@ -93,5 +93,21 @@ export const su = {
   // Footer
   footerText: "Plattform bursa tés katutup pikeun pamekar.",
   footerSubText: "Ieu platform open-source sagemblengna tur dimekarkeun ku pamekar sukarela.",
-  githubBtn: "Kontribusi / Pasihan Béntang dina GitHub"
+  githubBtn: "Kontribusi / Pasihan Béntang dina GitHub",
+
+  // Support & Contact
+  supportFAQ: "Rojongan & FAQ",
+  supportTitle: "Rojongan & Kontak",
+  supportDesc: "Naha anjeun gaduh patarosan ngeunaan platform atanapi hoyong ngahubungi kami? Anjeun tiasa ngirim pesen nganggo formulir di handap atanapi marios bagian FAQ.",
+  faqTitle: "Patarosan anu sering ditaroskeun",
+  contactFormTitle: "Kirim pesen ka Kami",
+  nameLabel: "Ngaran anjeun jeung Ngaran kulawarga",
+  emailLabel: "Alamat Surélék Anjeun",
+  subjectLabel: "Jejer",
+  messageLabel: "Pesen anjeun",
+  sendMessage: "Kirim Pesen",
+  sendingMessage: "Ngirim...",
+  messageSent: "Pesen anjeun parantos dikirim!",
+  messageSentDesc: "Paménta kontak anjeun parantos suksés ditampi. Kami bakal uih deui ka anjeun liwat alamat e-mail anjeun pas mungkin.",
+  writeNewMessage: "Tulis Pesen Anyar"
 };

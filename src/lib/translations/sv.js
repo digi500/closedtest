@@ -93,5 +93,21 @@ export const sv = {
   // Footer
   footerText: "Plattform för utbyte av stängda tester för utvecklare.",
   footerSubText: "Denna plattform är helt och hållet öppen källkod och utvecklas av frivilliga utvecklare.",
-  githubBtn: "Bidra / Ge en stjärna på GitHub"
+  githubBtn: "Bidra / Ge en stjärna på GitHub",
+
+  // Support & Contact
+  supportFAQ: "Support & FAQ",
+  supportTitle: "Support och kontakt",
+  supportDesc: "Har du frågor om plattformen eller vill kontakta oss? Du kan skicka ett meddelande genom att använda formuläret nedan eller läsa avsnittet med vanliga frågor.",
+  faqTitle: "Vanliga frågor",
+  contactFormTitle: "Skicka ett meddelande till oss",
+  nameLabel: "Ditt namn och efternamn",
+  emailLabel: "Din e-postadress",
+  subjectLabel: "Ämne",
+  messageLabel: "Ditt meddelande",
+  sendMessage: "Skicka meddelande",
+  sendingMessage: "Skickar...",
+  messageSent: "Ditt meddelande har skickats!",
+  messageSentDesc: "Din kontaktförfrågan har tagits emot framgångsrikt. Vi återkommer till dig via din e-postadress så snart som möjligt.",
+  writeNewMessage: "Skriv nytt meddelande"
 };
