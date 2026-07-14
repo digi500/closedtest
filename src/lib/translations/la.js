@@ -109,5 +109,15 @@ export const la = {
   sendingMessage: "Mittens...",
   messageSent: "Tuum missum est?",
   messageSentDesc: "Petitio tua notorum feliciter recepta est. Recipiemus ad te per tuam electronicam quam primum.",
-  writeNewMessage: "Scribere nova Nuntius"
+  writeNewMessage: "Scribere nova Nuntius",
+
+  // Support FAQs
+  faq1Q: "Quid est Google Play 20 Regula Tester?",
+  faq1A: "Novae enim rationes singulorum electronicarum post Novembrem 2023 apertae sunt, Google rem faciendam mandare fecit cum probatio clausa cum saltem XX usoribus testiculis saltem XIV dies antequam eorum applicationes divulgarent. Applicationes quae hanc regulam non complent evulgari non possunt.",
+  faq2Q: "Quomodo in rostris opus agit? Num solvit?",
+  faq2A: "Nostrum tribunal est omnino liberum et in cooperatione fundatur. Tincidunt applicationes alterius probandi. Sicut aliorum applicationes probas, aliae tincidunt etiam applicationem tuam probabunt cum praestantia et retis cooperationis impetrabis.",
+  faq3Q: "Quomodo testor an App?",
+  faq3A: "Vade ad paginam app quod probare velis. Iunge app Google Societas strepitando puga in Gradu 1. Tum depone applicationem telephono tuo ex Google Play strepitando bullam download in Gradu II et eam ne deleas e telephonio saltem per dies quattuor.",
+  faq4Q: "Quid accidit cum Application Meus processus Finit probatio?",
+  faq4A: "Cum dies XIV-dies feliciter expletur, applicationem tuam cum \"Mark as Published\" renovare potes, optionis e tabula electronica in pagina applicationis detail tuam. Nostra quoque ratio hanc viam per Google Play Store probat. Post hanc scaenam, vestigia probatio tolluntur et directa Google Play electronica button apparet."
 };

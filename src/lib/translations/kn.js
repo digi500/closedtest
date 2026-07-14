@@ -109,5 +109,15 @@ export const kn = {
   sendingMessage: "Gönderiliyor...",
   messageSent: "Mesajınız Gönderildi!",
   messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
-  writeNewMessage: "Yeni Mesaj Yaz"
+  writeNewMessage: "Yeni Mesaj Yaz",
+
+  // Support FAQs
+  faq1Q: "Google Play 20 ಟೆಸ್ಟರ್ ನಿಯಮ ಏನು? || ನವೆಂಬರ್ 2023 ರ ನಂತರ ತೆರೆಯಲಾದ ಹೊಸ ವೈಯಕ್ತಿಕ ಡೆವಲಪರ್ ಖಾತೆಗಳಿಗಾಗಿ, ತಮ್ಮ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಪ್ರಕಟಿಸುವ ಮೊದಲು ಕನಿಷ್ಠ 14 ದಿನಗಳ ಕಾಲ ಕನಿಷ್ಠ 20 ಪರೀಕ್ಷಾ ಬಳಕೆದಾರರೊಂದಿಗೆ ಮುಚ್ಚಿದ ಪರೀಕ್ಷೆಯನ್ನು ನಡೆಸುವುದನ್ನು Google ಕಡ್ಡಾಯಗೊಳಿಸಿದೆ. ಈ ನಿಯಮವನ್ನು ಪೂರ್ಣಗೊಳಿಸದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಪ್ರಕಟಿಸಲಾಗುವುದಿಲ್ಲ. || ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ? ಪಾವತಿಸಲಾಗಿದೆಯೇ? || ನಮ್ಮ ವೇದಿಕೆಯು ಸಂಪೂರ್ಣವಾಗಿ ಉಚಿತವಾಗಿದೆ ಮತ್ತು ಸಹಕಾರವನ್ನು ಆಧರಿಸಿದೆ. ಡೆವಲಪರ್‌ಗಳು ಪರಸ್ಪರರ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಪರೀಕ್ಷಿಸುತ್ತಾರೆ. ನೀವು ಇತರ ಜನರ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಪರೀಕ್ಷಿಸಿದಂತೆ, ಇತರ ಡೆವಲಪರ್‌ಗಳು ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಪ್ರತಿಷ್ಠೆ ಮತ್ತು ನೀವು ಗಳಿಸುವ ಸಹಕಾರ ನೆಟ್‌ವರ್ಕ್‌ನೊಂದಿಗೆ ಪರೀಕ್ಷಿಸುತ್ತಾರೆ. || ನಾನು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಹೇಗೆ ಪರೀಕ್ಷಿಸುವುದು? || ನೀವು ಪರೀಕ್ಷಿಸಲು ಬಯಸುವ ಅಪ್ಲಿಕೇಶನ್‌ನ ಪುಟಕ್ಕೆ ಹೋಗಿ. ಹಂತ 1 ರಲ್ಲಿನ ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ಅಪ್ಲಿಕೇಶನ್‌ನ Google ಗುಂಪಿಗೆ ಸೇರಿಕೊಳ್ಳಿ. ನಂತರ ಹಂತ 2 ರಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ Google Play ನಿಂದ ನಿಮ್ಮ ಫೋನ್‌ಗೆ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಕನಿಷ್ಠ 14 ದಿನಗಳವರೆಗೆ ಅದನ್ನು ನಿಮ್ಮ ಫೋನ್‌ನಿಂದ ಅಳಿಸಬೇಡಿ. || ನನ್ನ ಅಪ್ಲಿಕೇಶನ್‌ನ ಪರೀಕ್ಷಾ ಪ್ರಕ್ರಿಯೆಯು ಕೊನೆಗೊಂಡಾಗ ಏನಾಗುತ್ತದೆ? || 14-ದಿನದ ಅವಧಿಯು ಯಶಸ್ವಿಯಾಗಿ ಪೂರ್ಣಗೊಂಡಾಗ, ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ವಿವರ ಪುಟದಲ್ಲಿರುವ ಡೆವಲಪರ್ ಪ್ಯಾನೆಲ್‌ನಿಂದ \"ಪ್ರಕಟಿತ ಎಂದು ಗುರುತಿಸಿ\" ಆಯ್ಕೆಯೊಂದಿಗೆ ನಿಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನೀವು ನವೀಕರಿಸಬಹುದು. ನಮ್ಮ ಸಿಸ್ಟಂ ಇದನ್ನು Google Play Store ಮೂಲಕ ಪರಿಶೀಲಿಸುತ್ತದೆ. ಈ ಹಂತದ ನಂತರ, ಪರೀಕ್ಷಾ ಹಂತಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ ಮತ್ತು ನೇರ Google Play ಡೌನ್‌ಲೋಡ್ ಬಟನ್ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ.",
+  faq1A: "Google, Kasım 2023'ten sonra açılan yeni bireysel geliştirici hesapları için uygulamalarını yayına almadan önce en az 20 test kullanıcısı ile en az 14 gün boyunca aralıksız kapalı test yapma zorunluluğu getirmiştir. Bu kuralı tamamlamayan uygulamalar yayına alınamaz.",
+  faq2Q: "Platform Nasıl Çalışıyor? Ücretli mi?",
+  faq2A: "Platformumuz tamamen ücretsiz ve yardımlaşma (cooperative) esasına dayanır. Geliştiriciler birbirlerinin uygulamalarını test ederler. Siz başkalarının uygulamalarını test ettikçe kazanacağınız prestij ve yardımlaşma ağı ile diğer geliştiriciler de sizin uygulamanızı test eder.",
+  faq3Q: "Bir Uygulamayı Nasıl Test Ederim?",
+  faq3A: "Test etmek istediğiniz uygulamanın sayfasına gidin. 1. Adımdaki butona tıklayarak uygulamanın Google Grubuna katılın. Ardından 2. Adımdaki indirme butonuna tıklayarak uygulamayı Google Play'den telefonunuza indirin ve en az 14 gün boyunca telefonunuzdan silmeyin.",
+  faq4Q: "Uygulamamın Test Süreci Bitince Ne Olur?",
+  faq4A: "14 günlük süreç başarıyla tamamlandığında, uygulama detay sayfanızda bulunan geliştirici panelinden uygulamanızı \"Yayınlandı Olarak İşaretle\" seçeneğiyle güncelleyebilirsiniz. Sistemimiz bunu Google Play Store üzerinden de doğrular. Bu aşamadan sonra test adımları kalkar ve doğrudan Google Play indirme butonu görünür."
 };

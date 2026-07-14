@@ -109,5 +109,15 @@ export const lb = {
   sendingMessage: "Geschéckt ...",
   messageSent: "Äre Message gouf geschéckt!",
   messageSentDesc: "Your contact request has been received successfully. We will get back to you via your e-mail address as soon as possible.",
-  writeNewMessage: "Schreiwen Neie Message"
+  writeNewMessage: "Schreiwen Neie Message",
+
+  // Support FAQs
+  faq1Q: "Wat ass d'Google Play 20 Tester Regel?",
+  faq1A: "Fir nei individuell Entwécklerkonten, déi nom November 2023 opgemaach goufen, huet Google et obligatoresch gemaach fir zouenen Tester mat op d'mannst 20 Testbenotzer op d'mannst 14 Deeg virum Verëffentlechung vun hiren Uwendungen. Uwendungen déi dës Regel net ausfëllen kënnen net publizéiert ginn.",
+  faq2Q: "Wéi funktionnéiert d'Plattform? Gëtt et bezuelt?",
+  faq2A: "Eis Plattform ass komplett gratis a baséiert op Kooperatioun. Entwéckler testen all aner Uwendungen. Wéi Dir d'Applikatioune vun anere Leit testt, testen aner Entwéckler och Är Applikatioun mam Prestige- a Kooperatiounsnetz deen Dir kritt.",
+  faq3Q: "Wéi testen ech eng App?",
+  faq3A: "Gitt op d'Säit vun der App déi Dir wëllt testen. Maacht mat bei der Google Group vun der App andeems Dir op de Knäppchen am Schrëtt 1 klickt. Luet dann d'Applikatioun op Ärem Telefon vu Google Play erof andeems Dir op den Download Knäppchen am Schrëtt 2 klickt a läscht se net vun Ärem Telefon fir op d'mannst 14 Deeg.",
+  faq4Q: "Wat geschitt wann den Testprozess vu menger Applikatioun eriwwer ass?",
+  faq4A: "Wann d'14-Deeg Period erfollegräich ofgeschloss ass, kënnt Dir Är Uwendung mat der Optioun \"Markéieren als Verëffentlecht\" vum Entwécklerpanel op Ärer Demande Detailer Säit aktualiséieren. Eise System verifizéiert dëst och iwwer de Google Play Store. No dëser Etapp ginn d'Testschrëtt geläscht an den direkten Google Play Download Knäppchen erschéngt."
 };
