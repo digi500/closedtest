@@ -109,5 +109,15 @@ export const tk = {
   sendingMessage: "Iberýän ...",
   messageSent: "Habaryňyz iberildi",
   messageSentDesc: "Aragatnaşyk haýyşyňyz üstünlikli kabul edildi. E-poçta salgyňyz arkaly mümkin boldugyça gysga wagtda size gaýdyp geleris.",
-  writeNewMessage: "Täze habar ýazyň"
+  writeNewMessage: "Täze habar ýazyň",
+
+  // Support FAQs
+  faq1Q: "Google Play 20 synag düzgüni näme?",
+  faq1A: "2023-nji ýylyň noýabr aýyndan soň açylan täze şahsy dörediji hasaplar üçin, Google arzalaryny çap etmezden azyndan 14 günüň dowamynda azyndan 20 synag ulanyjy bilen ýapyk synag geçirmegi hökmany etdi. Bu düzgüni ýerine ýetirmeýän programmalar çap edilip bilinmez.",
+  faq2Q: "Platforma nähili işleýär? Töledimi?",
+  faq2A: "Biziň platformamyz doly mugt we hyzmatdaşlyga esaslanýar. Döredijiler biri-biriniň programmalaryny barlaýarlar. Beýleki adamlaryň arzalaryny synap göreniňizde, beýleki işläp düzüjiler hem abraýyňyzy we hyzmatdaşlyk ulgamyňyz bilen arzaňyzy synap görerler.",
+  faq3Q: "Programmany nädip barlamaly?",
+  faq3A: "Synag isleýän programmaňyzyň sahypasyna giriň. 1-nji ädimdäki düwmä basyp, programmanyň Google toparyna goşulyň. Soňra programmany 2-nji ädimdäki göçürip almak düwmesine basyp, Google Play-den telefonyňyza göçürip alyň we azyndan 14 gün telefonyňyzdan pozmaň.",
+  faq4Q: "Arzamyň synag prosesi gutaranda näme bolýar?",
+  faq4A: "14 günlük möhlet üstünlikli tamamlanandan soň, programmaňyzyň jikme-jiklik sahypasyndaky dörediji panelden \"Çap edilen ýaly belläň\" opsiýasy bilen programmaňyzy täzeläp bilersiňiz. Ulgamymyz muny Google Play Dükany arkaly hem tassyklaýar. Bu etapdan soň synag ädimleri aýrylýar we göni Google Play göçürip almak düwmesi peýda bolýar."
 };

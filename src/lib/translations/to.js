@@ -109,5 +109,15 @@ export const to = {
   sendingMessage: "Fekau'i atu...",
   messageSent: "Your Message Has Been Sent!",
   messageSentDesc: "Kuo lava lelei ho'o kole fetu'utaki. Te mau toe foki atu kiate koe 'o fakafou 'i ho'o tu'asila 'imeili 'i he vave taha.",
-  writeNewMessage: "Tohi Fekau Fo'ou"
+  writeNewMessage: "Tohi Fekau Fo'ou",
+
+  // Support FAQs
+  faq1Q: "Ko e hā ʻa e Google Play 20 Tuʻutuʻuni ʻo e Sivi?",
+  faq1A: "Ki he ngaahi 'akauni fo'ou 'a e developer fakafo'ituitui 'oku fakaava hili 'a Nōvema 2023, Kuo 'ai 'e he Google ke fakahoko 'a e sivi tapuni mo e kau faka'aonga'i sivi 'o e 20 'o 'ikai si'i hifo 'i he 'aho 'e 14 kimu'a pea toki pulusi 'enau ngaahi tohi kole. Ko e ngaahi tohi kole ʻoku ʻikai ke nau fakakakato ʻa e tuʻutuʻuni ko ʻení ʻe ʻikai lava ke pulusi.",
+  faq2Q: "‘Oku Ngāue Fēfē ‘a e Peletifōmú? ‘Oku totongi?",
+  faq2A: "Ko 'etau tu'unga 'oku ta'etotongi kakato pea makatu'unga 'i he fengaue'aki. 'Oku sivi'i 'e he kau developers 'a e ngaahi polokalama 'a e taha mo e taha. 'I ho'o sivi'i 'a e ngaahi polokalama 'a e kakai kehe, 'e sivi'i foki 'e he kau developers kehe ho'o tohi kole 'aki 'a e ongoongoa mo e netiueka fengaue'aki te ke ma'u.",
+  faq3Q: "Te u Siviʻi Fēfē ha App?",
+  faq3A: "Alu ki he peesi 'o e app 'oku ke fie sivi'i. Kau ki he Google Group 'a e app 'aki hono lomi'i 'a e button 'i he Sitepu 1. Hili ia pea download 'a e polokalama ki ho'o telefoni mei he Google Play 'aki hono lomi'i 'a e button download 'i he Sitepu 2 pea 'oua na'a ke tamate'i ia mei ho'o telefoni 'i he 'aho 'e 14.",
+  faq4Q: "Ko e Hā ʻe Hoko ʻi he ʻOsi ʻa e Founga Sivi ʻo ʻEku Tohi Kolé?",
+  faq4A: "'I he taimi 'oku fakakakato lelei ai 'a e vaha'a taimi 'aho 'e 14, 'e lava ke ke fakafo'ou ho'o tohi kole 'aki 'a e fili \"Faka'ilonga'i 'o hange ko e pulusi\" mei he panel 'o e developer 'i ho'o peesi fakaikiiki 'o e tohi kole. 'Oku fakamo'oni'i foki 'e he'etau sisitemi 'eni 'o fakafou 'i he Google Play Store. Hili 'a e siteisi ko 'eni, 'Oku to'o 'a e ngaahi sitepu 'o e sivi pea 'oku 'asi mai 'a e button download fakahangatonu 'o e Google Play."
 };

@@ -109,5 +109,15 @@ export const tl = {
   sendingMessage: "Ipinapadala...",
   messageSent: "Naipadala na ang Iyong Mensahe!",
   messageSentDesc: "Matagumpay na natanggap ang iyong kahilingan sa pakikipag-ugnayan. Babalikan ka namin sa pamamagitan ng iyong e-mail address sa lalong madaling panahon.",
-  writeNewMessage: "Sumulat ng Bagong Mensahe"
+  writeNewMessage: "Sumulat ng Bagong Mensahe",
+
+  // Support FAQs
+  faq1Q: "Ano ang Google Play 20 Tester Rule?",
+  faq1A: "Para sa mga bagong indibidwal na developer account na binuksan pagkatapos ng Nobyembre 2023, ginawang mandatory ng Google na magsagawa ng saradong pagsubok sa hindi bababa sa 20 na pagsubok na user nang hindi bababa sa 14 na araw bago i-publish ang kanilang mga application. Hindi mai-publish ang mga application na hindi nakakumpleto sa panuntunang ito.",
+  faq2Q: "Paano Gumagana ang Platform? May bayad ba?",
+  faq2A: "Ang aming platform ay ganap na libre at batay sa pakikipagtulungan. Sinusubukan ng mga developer ang mga aplikasyon ng bawat isa. Habang sinusubok mo ang mga aplikasyon ng ibang tao, susubukan din ng ibang mga developer ang iyong aplikasyon gamit ang prestihiyo at network ng pakikipagtulungan na makukuha mo.",
+  faq3Q: "Paano Ko Susubukan ang isang App?",
+  faq3A: "Pumunta sa page ng app na gusto mong subukan. Sumali sa Google Group ng app sa pamamagitan ng pag-click sa button sa Step 1. Pagkatapos ay i-download ang application sa iyong telepono mula sa Google Play sa pamamagitan ng pag-click sa download button sa Step 2 at huwag itong tanggalin sa iyong telepono nang hindi bababa sa 14 na araw.",
+  faq4Q: "Ano ang Mangyayari Kapag Natapos ang Proseso ng Pagsubok ng Aking Aplikasyon?",
+  faq4A: "Kapag matagumpay na nakumpleto ang 14 na araw, maaari mong i-update ang iyong aplikasyon gamit ang opsyong \"Markahan bilang Na-publish\" mula sa panel ng developer sa pahina ng detalye ng iyong aplikasyon. Bine-verify din ito ng aming system sa pamamagitan ng Google Play Store. Pagkatapos ng yugtong ito, aalisin ang mga hakbang sa pagsubok at lalabas ang direktang button sa pag-download ng Google Play."
 };
