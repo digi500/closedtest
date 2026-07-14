@@ -56,9 +56,17 @@ export default function SupportPage() {
 
     setLoading(true);
     try {
-      await db.addContactMessage(formData.name, formData.email, formData.subject, formData.message);
-      setSuccess(true);
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
+      if (res.ok) {
+        setSuccess(true);
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        throw new Error('API request failed');
+      }
     } catch (err) {
       alert(language === 'tr' ? 'Mesaj iletilirken bir hata oluştu.' : 'An error occurred while sending your message.');
     } finally {
@@ -141,12 +149,6 @@ export default function SupportPage() {
                 )}
               </div>
             ))}
-
-            <div style={{ marginTop: '1.5rem', padding: '1rem', border: '1px dashed var(--border-color)', borderRadius: '8px', textAlign: 'center' }}>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-                {language === 'tr' ? 'Doğrudan e-posta adresi:' : 'Direct contact email:'} <strong style={{ color: 'var(--accent-color)' }}>support@closedtest.com</strong>
-              </p>
-            </div>
           </div>
 
           {/* Contact Form Area (Right Column) */}
