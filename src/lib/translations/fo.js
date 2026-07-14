@@ -93,5 +93,21 @@ export const fo = {
   // Footer
   footerText: "Pallur til lokaðar royndir fyri mennarar.",
   footerSubText: "Hesin pallur er fult open-source og mentur av sjálvbodnum mennarum.",
-  githubBtn: "Stuðla / Gev Stjörnu á GitHub"
+  githubBtn: "Stuðla / Gev Stjörnu á GitHub",
+
+  // Support & Contact
+  supportFAQ: "Stuðul & vanligir spurningar",
+  supportTitle: "Stuðul & Samband",
+  supportDesc: "Hevur tú spurningar um pallin ella vilt tú seta teg í samband við okkum? Tú kanst senda boð við oyðublaðnum niðanfyri ella kanna FAQ-partin.",
+  faqTitle: "Ofta spurdir spurningar",
+  contactFormTitle: "Send okkum eini boð",
+  nameLabel: "Títt navn og eftirnavn",
+  emailLabel: "Tín teldupostadressa",
+  subjectLabel: "Evni",
+  messageLabel: "Tíni boð",
+  sendMessage: "Send Boð",
+  sendingMessage: "Senda...",
+  messageSent: "Tíni boð eru send!",
+  messageSentDesc: "Tín kontaktumbøn er móttikin. Vit venda aftur til tín umvegis tína teldupostadressu skjótast gjørligt.",
+  writeNewMessage: "Skriva nýggj boð"
 };

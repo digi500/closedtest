@@ -93,5 +93,21 @@ export const az = {
   // Footer
   footerText: "Tərtibatçılar üçün qapalı test mübadilə platforması.",
   footerSubText: "Bu platforma tamamilə açıq mənbəlidir və könüllü tərtibatçılar tərəfindən hazırlanır.",
-  githubBtn: "Töhfə ver / GitHub-da Ulduz Ver"
+  githubBtn: "Töhfə ver / GitHub-da Ulduz Ver",
+
+  // Support & Contact
+  supportFAQ: "Dəstək və FAQ",
+  supportTitle: "Dəstək və Əlaqə",
+  supportDesc: "Platforma haqqında suallarınız var və ya bizimlə əlaqə saxlamaq istəyirsiniz? Aşağıdakı formadan istifadə edərək mesaj göndərə və ya FAQ bölməsini nəzərdən keçirə bilərsiniz.",
+  faqTitle: "Tez-tez verilən suallar",
+  contactFormTitle: "Bizə Mesaj Göndərin",
+  nameLabel: "Adınız və Soyadınız",
+  emailLabel: "E-poçt ünvanınız",
+  subjectLabel: "Mövzu",
+  messageLabel: "Mesajınız",
+  sendMessage: "Mesaj Göndər",
+  sendingMessage: "Göndərilir...",
+  messageSent: "Mesajınız Göndərildi!",
+  messageSentDesc: "Əlaqə sorğunuz uğurla qəbul edildi. Ən qısa zamanda e-poçt ünvanınız vasitəsilə sizinlə əlaqə saxlayacağıq.",
+  writeNewMessage: "Yeni Mesaj Yaz"
 };

@@ -93,5 +93,20 @@ export const eo = {
   // Footer
   footerText: "Ferma testa interŝanĝa platformo por programistoj.",
   footerSubText: "Ĉi tiu platformo estas tute malfermfonta kaj disvolvita de volontulaj programistoj.",
-  githubBtn: "Kontribui / Doni Stelon en GitHub"
-};
+  githubBtn: "Kontribui / Doni Stelon en GitHub",
+
+  // Support & Contact
+  supportFAQ: "Subteno & Oftaj Demandoj",
+  supportTitle: "Subteno & Kontakto",
+  supportDesc: "Ĉu vi havas demandojn pri la platformo aŭ volas kontakti nin? Vi povas sendi mesaĝon uzante la suban formularon aŭ revizii la sekcion pri Demandoj.",
+  faqTitle: "Oftaj Demandoj",
+  contactFormTitle: "Sendu al Ni Mesaĝon",
+  nameLabel: "Via Nomo kaj Familia nomo",
+  emailLabel: "Via Retpoŝta Adreso",
+  subjectLabel: "Subjekto",
+  messageLabel: "Via mesaĝo",
+  sendMessage: "Sendu Mesaĝon",
+  sendingMessage: "Sendante...",
+  messageSent: "Via Mesaĝo Estas Sendita!",
+  messageSentDesc: "Via kontaktpeto estis ricevita sukcese. Ni respondos al vi per via retadreso kiel eble plej baldaŭ.",
+  writeNewMessage: "Skribu Novan Mesaĝ

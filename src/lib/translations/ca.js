@@ -93,5 +93,21 @@ export const ca = {
   // Footer
   footerText: "Plataforma d'intercanvi de proves tancades per a desenvolupadors.",
   footerSubText: "Aquesta plataforma és completament de codi obert i desenvolupada per desenvolupadors voluntaris.",
-  githubBtn: "Contribuir / Donar Estrella a GitHub"
+  githubBtn: "Contribuir / Donar Estrella a GitHub",
+
+  // Support & Contact
+  supportFAQ: "Suport i PMF",
+  supportTitle: "Suport i contacte",
+  supportDesc: "Tens preguntes sobre la plataforma o vols contactar amb nosaltres? Pots enviar un missatge mitjançant el formulari següent o revisar la secció de PMF.",
+  faqTitle: "Preguntes freqüents",
+  contactFormTitle: "Envia'ns un missatge",
+  nameLabel: "El teu Nom i Cognoms",
+  emailLabel: "La teva adreça de correu electrònic",
+  subjectLabel: "Tema",
+  messageLabel: "El teu missatge",
+  sendMessage: "Enviar missatge",
+  sendingMessage: "S'està enviant...",
+  messageSent: "El vostre missatge ha estat enviat!",
+  messageSentDesc: "La vostra sol·licitud de contacte s'ha rebut correctament. Ens posarem en contacte amb vostè a través de la seva adreça de correu electrònic tan aviat com sigui possible.",
+  writeNewMessage: "Escriu un missatge nou"
 };

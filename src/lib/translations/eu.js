@@ -93,5 +93,21 @@ export const eu = {
   // Footer
   footerText: "Proba itxien truke-plataforma garatzaileentzat.",
   footerSubText: "Plataforma hau guztiz kode irekikoa da eta garatzaile boluntarioek garatu dute.",
-  githubBtn: "Lagundu / Eman Izarra GitHub-en"
+  githubBtn: "Lagundu / Eman Izarra GitHub-en",
+
+  // Support & Contact
+  supportFAQ: "Laguntza eta FAQ",
+  supportTitle: "Laguntza eta kontaktua",
+  supportDesc: "Plataformari buruzko galderarik baduzu edo gurekin harremanetan jarri nahi duzu? Mezu bat bidali dezakezu beheko formularioa erabiliz edo berrikusi FAQ atala.",
+  faqTitle: "Maiz egiten diren galderak",
+  contactFormTitle: "Bidali mezu bat",
+  nameLabel: "Zure Izen-abizenak",
+  emailLabel: "Zure helbide elektronikoa",
+  subjectLabel: "Gaia",
+  messageLabel: "Zure mezua",
+  sendMessage: "Bidali mezua",
+  sendingMessage: "Bidaltzen...",
+  messageSent: "Zure mezua bidali da!",
+  messageSentDesc: "Zure harremanetarako eskaera behar bezala jaso da. Zure helbide elektronikoaren bidez erantzungo dizugu ahalik eta lasterren.",
+  writeNewMessage: "Idatzi mezu berria"
 };

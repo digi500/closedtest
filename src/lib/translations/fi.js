@@ -93,5 +93,21 @@ export const fi = {
   // Footer
   footerText: "Suljetun testauksen vaihtofoorumi kehittäjille.",
   footerSubText: "Tämä alusta on täysin avointa lähdekoodia ja vapaaehtoisten kehittäjien kehittämä.",
-  githubBtn: "Osallistu / Anna tähti GitHubissa"
+  githubBtn: "Osallistu / Anna tähti GitHubissa",
+
+  // Support & Contact
+  supportFAQ: "Tuki & UKK",
+  supportTitle: "Tuki & Ota yhteyttä",
+  supportDesc: "Onko sinulla kysyttävää alustasta tai haluatko ottaa meihin yhteyttä? Voit lähettää viestin alla olevalla lomakkeella tai katsoa UKK-osion.",
+  faqTitle: "Usein kysytyt kysymykset",
+  contactFormTitle: "Lähetä meille viesti",
+  nameLabel: "Nimesi ja sukunimesi",
+  emailLabel: "Sähköpostiosoitteesi",
+  subjectLabel: "Aihe",
+  messageLabel: "Viestisi",
+  sendMessage: "Lähetä viesti",
+  sendingMessage: "Lähetetään...",
+  messageSent: "Viestisi on lähetetty!",
+  messageSentDesc: "Yhteydenottopyyntösi on vastaanotettu onnistuneesti. Otamme sinuun yhteyttä sähköpostiosoitteesi kautta mahdollisimman pian.",
+  writeNewMessage: "Kirjoita Uusi Viesti"
 };

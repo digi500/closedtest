@@ -93,5 +93,21 @@ export const enAU = {
   // Footer
   footerText: "Closed testing exchange platform for developers.",
   footerSubText: "This platform is fully open-source and developed by volunteer developers.",
-  githubBtn: "Contribute / Star on GitHub"
+  githubBtn: "Contribute / Star on GitHub",
+
+  // Support & Contact
+  supportFAQ: "Support & FAQ",
+  supportTitle: "Support & Contact",
+  supportDesc: "Do you have questions about the platform or want to contact us? You can send a message using the form below or review the FAQ section.",
+  faqTitle: "Frequently Asked Questions",
+  contactFormTitle: "Send Us a Message",
+  nameLabel: "Your Name and Surname",
+  emailLabel: "Your Email Address",
+  subjectLabel: "Subject",
+  messageLabel: "Your message",
+  sendMessage: "Send Message",
+  sendingMessage: "Sending...",
+  messageSent: "Your Message Has Been Sent!",
+  messageSentDesc: "Your contact request has been received successfully. We will get back to you via your e-mail address as soon as possible.",
+  writeNewMessage: "Write New Message"
 };

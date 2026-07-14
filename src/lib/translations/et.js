@@ -93,5 +93,21 @@ export const et = {
   // Footer
   footerText: "Suletud testimise vahetusplatvorm arendajatele.",
   footerSubText: "See platvorm on täielikult avatud lähtekoodiga ja seda arendavad vabatahtlikud arendajad.",
-  githubBtn: "Aita kaasa / Anna tärn GitHubis"
+  githubBtn: "Aita kaasa / Anna tärn GitHubis",
+
+  // Support & Contact
+  supportFAQ: "Tugi ja KKK",
+  supportTitle: "Tugi ja kontakt",
+  supportDesc: "Kas teil on platvormi kohta küsimusi või soovite meiega ühendust võtta? Võite saata sõnumi, kasutades allolevat vormi või vaadata KKK jaotist.",
+  faqTitle: "Korduma kippuvad küsimused",
+  contactFormTitle: "Saada meile sõnum",
+  nameLabel: "Teie nimi ja perekonnanimi",
+  emailLabel: "Teie e-posti aadress",
+  subjectLabel: "Teema",
+  messageLabel: "Teie sõnum",
+  sendMessage: "Saada sõnum",
+  sendingMessage: "Saadan...",
+  messageSent: "Teie sõnum on saadetud!",
+  messageSentDesc: "Teie kontaktitaotlus on edukalt vastu võetud. Võtame teiega teie e-posti aadressi kaudu esimesel võimalusel ühendust.",
+  writeNewMessage: "Kirjutage uus sõnum"
 };

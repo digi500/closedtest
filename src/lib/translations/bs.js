@@ -93,5 +93,21 @@ export const bs = {
   // Footer
   footerText: "Platforma za razmjenu zatvorenih testova za programere.",
   footerSubText: "Ova platforma je u potpunosti open-source i razvijaju je dobrovoljni programeri.",
-  githubBtn: "Doprinesi / Daj zvjezdicu na GitHubu"
+  githubBtn: "Doprinesi / Daj zvjezdicu na GitHubu",
+
+  // Support & Contact
+  supportFAQ: "Podrška & FAQ",
+  supportTitle: "Podrška i kontakt",
+  supportDesc: "Imate li pitanja o platformi ili želite da nas kontaktirate? Možete poslati poruku koristeći formu ispod ili pregledati odjeljak FAQ.",
+  faqTitle: "Često postavljana pitanja",
+  contactFormTitle: "Pošaljite nam poruku",
+  nameLabel: "Vaše ime i prezime",
+  emailLabel: "Vaša e-mail adresa",
+  subjectLabel: "Predmet",
+  messageLabel: "Vaša poruka",
+  sendMessage: "Pošalji poruku",
+  sendingMessage: "Slanje...",
+  messageSent: "Vaša poruka je poslana!",
+  messageSentDesc: "Vaš zahtjev za kontakt je uspješno primljen. Javićemo Vam se putem Vaše e-mail adrese u najkraćem mogućem roku.",
+  writeNewMessage: "Napišite novu poruku"
 };

@@ -93,5 +93,21 @@ export const co = {
   // Footer
   footerText: "Piattaforma di scambiu di prove chiuse per sviluppatori.",
   footerSubText: "Sta piattaforma hè cumplettamente open-source è sviluppata da Sviluppatori vuluntarii.",
-  githubBtn: "Cuntribuisce / Dà una Stella nantu à GitHub"
+  githubBtn: "Cuntribuisce / Dà una Stella nantu à GitHub",
+
+  // Support & Contact
+  supportFAQ: "Support & FAQ",
+  supportTitle: "Support & Contact",
+  supportDesc: "Avete dumande nantu à a piattaforma o vulete cuntattateci? Pudete mandà un missaghju usendu u furmulariu sottu o rivede a sezione FAQ.",
+  faqTitle: "Domande Frequenti",
+  contactFormTitle: "Mandateci un messagiu",
+  nameLabel: "U vostru Nome è Cognome",
+  emailLabel: "U vostru indirizzu email",
+  subjectLabel: "Sugettu",
+  messageLabel: "U vostru missaghju",
+  sendMessage: "Mandate Missaghju",
+  sendingMessage: "Mandendu...",
+  messageSent: "U vostru messagiu hè statu mandatu!",
+  messageSentDesc: "A vostra dumanda di cuntattu hè stata ricevuta cun successu. Vi risponderemu via u vostru indirizzu email u più prestu pussibule.",
+  writeNewMessage: "Scrivite un novu messagiu"
 };

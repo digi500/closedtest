@@ -93,5 +93,21 @@ export const de = {
   // Footer
   footerText: "Plattform zum Austausch von geschlossenen Tests für Entwickler.",
   footerSubText: "Diese Plattform ist vollständig quelloffen und wird von freiwilligen Entwicklern entwickelt.",
-  githubBtn: "Auf GitHub beitragen / Stern geben"
+  githubBtn: "Auf GitHub beitragen / Stern geben",
+
+  // Support & Contact
+  supportFAQ: "Support & FAQ",
+  supportTitle: "Support & Kontakt",
+  supportDesc: "Sie haben Fragen zur Plattform oder möchten mit uns Kontakt aufnehmen? Sie können eine Nachricht über das untenstehende Formular senden oder den FAQ-Bereich lesen.",
+  faqTitle: "Häufig gestellte Fragen",
+  contactFormTitle: "Senden Sie uns eine Nachricht",
+  nameLabel: "Ihr Vor- und Nachname",
+  emailLabel: "Ihre E-Mail-Adresse",
+  subjectLabel: "Betreff",
+  messageLabel: "Ihre Nachricht",
+  sendMessage: "Nachricht senden",
+  sendingMessage: "Senden...",
+  messageSent: "Ihre Nachricht wurde gesendet!",
+  messageSentDesc: "Ihre Kontaktanfrage wurde erfolgreich empfangen. Wir werden uns schnellstmöglich über Ihre E-Mail-Adresse bei Ihnen melden.",
+  writeNewMessage: "Neue Nachricht schreiben"
 };

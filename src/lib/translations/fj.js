@@ -93,5 +93,21 @@ export const fj = {
   // Footer
   footerText: "Soli veisau ni vakatovotovo e sogoti buturara vei ira na dauveibuli.",
   footerSubText: "Na buturara qo e open-source taucoko e caka mai vei ira na dauveibuli ena lomasoli.",
-  githubBtn: "Tokona / Solia na Kalokalo ena GitHub"
+  githubBtn: "Tokona / Solia na Kalokalo ena GitHub",
+
+  // Support & Contact
+  supportFAQ: "Veitokoni kei na taro",
+  supportTitle: "Veitokoni & Veitaratara",
+  supportDesc: "E tiko beka na nomu taro me baleta na ituvatuva se o vinakata mo veitaratara kei keda? E rawa ni o vakauta e dua na itukutuku ena nomu vakayagataka na fomu e ra se raica tale na tabana ni FAQ.",
+  faqTitle: "Na Taro e Dau Tarogi Vakawasoma",
+  contactFormTitle: "Vakauta mai e dua nai Tukutuku",
+  nameLabel: "Na Yacamu kei na Yacamu",
+  emailLabel: "Na nomu Imeli",
+  subjectLabel: "Ulutaga",
+  messageLabel: "Na nomu itukutuku",
+  sendMessage: "Vakauta mai na itukutuku",
+  sendingMessage: "Vakauta...",
+  messageSent: "Sa Vakau Na Nomuni iTukutuku!",
+  messageSentDesc: "Sa ciqomi vinaka na nomu kerekere ni veitaratara. Eda na lesu tale mai vei iko ena nomu itikotiko ni imeli ena kena gauna totolo duadua.",
+  writeNewMessage: "Vola na itukutuku vou"
 };

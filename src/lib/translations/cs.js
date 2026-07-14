@@ -93,5 +93,21 @@ export const cs = {
   // Footer
   footerText: "Platforma pro výměnu uzavřeného testování pro vývojáře.",
   footerSubText: "Tato platforma je plně open-source a vyvíjena dobrovolnými vývojáři.",
-  githubBtn: "Přispět / Dát hvězdičku na GitHubu"
+  githubBtn: "Přispět / Dát hvězdičku na GitHubu",
+
+  // Support & Contact
+  supportFAQ: "Podpora & FAQ",
+  supportTitle: "Podpora a kontakt",
+  supportDesc: "Máte dotazy k platformě nebo nás chcete kontaktovat? Můžete odeslat zprávu pomocí formuláře níže nebo si prostudovat sekci FAQ.",
+  faqTitle: "Často kladené otázky",
+  contactFormTitle: "Pošlete nám zprávu",
+  nameLabel: "Vaše jméno a příjmení",
+  emailLabel: "Vaše e-mailová adresa",
+  subjectLabel: "Předmět",
+  messageLabel: "Vaše zpráva",
+  sendMessage: "Odeslat zprávu",
+  sendingMessage: "Odesílání...",
+  messageSent: "Vaše zpráva byla odeslána!",
+  messageSentDesc: "Vaše žádost o kontakt byla úspěšně přijata. Co nejdříve se vám ozveme prostřednictvím vaší e-mailové adresy.",
+  writeNewMessage: "Napište novou zprávu"
 };

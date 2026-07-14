@@ -93,5 +93,21 @@ export const cy = {
   // Footer
   footerText: "Platfform cyfnewid profi caeedig ar gyfer datblygwyr.",
   footerSubText: "Mae'r platfform hwn yn gwbl god agored ac fe'i datblygwyd gan ddatblygwyr gwirfoddol.",
-  githubBtn: "Cyfrannu / Rhoi Seren ar GitHub"
+  githubBtn: "Cyfrannu / Rhoi Seren ar GitHub",
+
+  // Support & Contact
+  supportFAQ: "Cefnogaeth a Chwestiynau Cyffredin",
+  supportTitle: "Cefnogaeth a Chysylltiad",
+  supportDesc: "Oes gennych chi gwestiynau am y platfform neu eisiau cysylltu â ni? Gallwch anfon neges gan ddefnyddio'r ffurflen isod neu adolygu'r adran Cwestiynau Cyffredin.",
+  faqTitle: "Cwestiynau Cyffredin",
+  contactFormTitle: "Anfon Neges i Ni",
+  nameLabel: "Eich Enw a'ch Cyfenw",
+  emailLabel: "Eich Cyfeiriad E-bost",
+  subjectLabel: "Pwnc",
+  messageLabel: "Eich neges",
+  sendMessage: "Anfon Neges",
+  sendingMessage: "Yn anfon...",
+  messageSent: "Mae Eich Neges Wedi'i Anfon!",
+  messageSentDesc: "Mae eich cais cyswllt wedi'i dderbyn yn llwyddiannus. Byddwn yn cysylltu â chi drwy eich cyfeiriad e-bost cyn gynted â phosibl.",
+  writeNewMessage: "Ysgrifennu Neges Newydd"
 };

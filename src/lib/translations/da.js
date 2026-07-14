@@ -93,5 +93,21 @@ export const da = {
   // Footer
   footerText: "Lukket testudvekslingsplatform for udviklere.",
   footerSubText: "Denne platform er fuldt ud open source og udvikles af frivillige udviklere.",
-  githubBtn: "Bidrag / Giv en stjerne på GitHub"
+  githubBtn: "Bidrag / Giv en stjerne på GitHub",
+
+  // Support & Contact
+  supportFAQ: "Support & FAQ",
+  supportTitle: "Support og kontakt",
+  supportDesc: "Har du spørgsmål til platformen eller vil du kontakte os? Du kan sende en besked ved at bruge formularen nedenfor eller gennemgå FAQ-sektionen.",
+  faqTitle: "Ofte stillede spørgsmål",
+  contactFormTitle: "Send os en besked",
+  nameLabel: "Dit navn og efternavn",
+  emailLabel: "Din e-mail-adresse",
+  subjectLabel: "Emne",
+  messageLabel: "Din besked",
+  sendMessage: "Send besked",
+  sendingMessage: "Sender...",
+  messageSent: "Din besked er blevet sendt!",
+  messageSentDesc: "Din kontaktanmodning er blevet modtaget. Vi vender tilbage til dig via din e-mailadresse hurtigst muligt.",
+  writeNewMessage: "Skriv ny besked"
 };
