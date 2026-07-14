@@ -109,5 +109,15 @@ export const ptBR = {
   sendingMessage: "Enviando...",
   messageSent: "Sua mensagem foi enviada!",
   messageSentDesc: "Sua solicitação de contato foi recebida com sucesso. Entraremos em contato com você através do seu endereço de e-mail o mais breve possível.",
-  writeNewMessage: "Escreva uma nova mensagem"
+  writeNewMessage: "Escreva uma nova mensagem",
+
+  // Support FAQs
+  faq1Q: "Qual é a regra do testador do Google Play 20?",
+  faq1A: "Para novas contas de desenvolvedores individuais abertas após novembro de 2023, o Google tornou obrigatória a realização de testes fechados com pelo menos 20 usuários de teste por pelo menos 14 dias antes de publicar seus aplicativos. As candidaturas que não cumpram esta regra não poderão ser publicadas.",
+  faq2Q: "Como funciona a plataforma? É pago?",
+  faq2A: "Nossa plataforma é totalmente gratuita e baseada na cooperação. Os desenvolvedores testam os aplicativos uns dos outros. À medida que você testa os aplicativos de outras pessoas, outros desenvolvedores também testarão seu aplicativo com o prestígio e a rede de cooperação que você ganhará.",
+  faq3Q: "Como faço para testar um aplicativo?",
+  faq3A: "Vá para a página do aplicativo que deseja testar. Participe do Grupo do Google do aplicativo clicando no botão na Etapa 1. Em seguida, baixe o aplicativo para o seu telefone no Google Play clicando no botão de download na Etapa 2 e não o exclua do seu telefone por pelo menos 14 dias.",
+  faq4Q: "O que acontece quando o processo de teste do meu aplicativo termina?",
+  faq4A: "Quando o período de 14 dias for concluído com sucesso, você poderá atualizar seu aplicativo com a opção \"Marcar como publicado\" no painel do desenvolvedor na página de detalhes do seu aplicativo. Nosso sistema também verifica isso por meio da Google Play Store. Após esta etapa, as etapas de teste são removidas e o botão de download direto do Google Play aparece."
 };

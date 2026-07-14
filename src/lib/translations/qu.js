@@ -109,5 +109,15 @@ export const qu = {
   sendingMessage: "Kachaspa...",
   messageSent: "¡Qanpa Willakuyniyki Kachasqañam!",
   messageSentDesc: "Contacto mañakuyniyki allinta chaskisqa. Usqhaylla kutimusaqku correo electrónico nisqaykiwan.",
-  writeNewMessage: "Musuq Willayta Qillqay"
+  writeNewMessage: "Musuq Willayta Qillqay",
+
+  // Support FAQs
+  faq1Q: "¿Imataq Google Play 20 Prueba Kamachiy?",
+  faq1A: "Musuq sapalla paqarichiqniyuq yupaykunapaq kichasqa noviembre killamanta 2023 kaqmanta, Google kamachisqa ruwasqa wichq'asqa prueba ruwayta 20 prueba ruwaqkunawan aswan pisi 14 p'unchawkunallapas manaraq ruwanankuta lluqsichichkaspa. Kay kamachiyta mana hunt’aq mañakuykunaqa manan lloqsimuyta atikunmanchu.",
+  faq2Q: "¿Imaynatataq Plataforma llamkan? ¿Pagasqachu?",
+  faq2A: "Plataformaykuqa llapanpi gratismi hinaspapas yanapanakuypim kachkan. Ruwaqkuna hukkuna hukkunawan ruwanakunata pruebanku. Huk runakunap ruwanakunata pruebasqaykimanhina, wak paqarichiqkuna ruwanaykitapas pruebanqanku chaymanta prestigio chaymanta yanapakuy llika tarisqaykiwan.",
+  faq3Q: "¿Imaynatataq huk Appta pruebaman?",
+  faq3A: "Prueba munasqayki apppa paginanman riy. Yanapakuypa Google Huñunman hukllanakuy 1 kaq llankaypi ñit'ispa chaymanta ruwanakunata telefonoykiman Google Play kaqmanta uraykachiy 2 kaq llamkanapi uraykachiy ñit'ispa chaymanta ama telefonoykimanta qulluychu 14 p'unchawkunallapas.",
+  faq4Q: "¿Imataq pasakun Aplicacionniypa prueba ruway tukukuptin?",
+  faq4A: "14 p'unchaw pacha allinta tukusqa kaqtin, ruwanaykita musuqyachiyta atikunki \"Llaqtachasqa hina marka\" akllanawan ruwaqpa panelninmanta ruwanaykimanta detalle p'anqapi. Sistemaykupas kayta chiqaqchan Google Play Store kaqnintakama. Kay etapamanta qhipaman, prueba ruwanakuna hurqusqa kanku chaymanta chiqa Google Play uraykachiy ñit'ina rikukun."
 };

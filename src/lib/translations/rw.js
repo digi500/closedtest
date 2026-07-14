@@ -109,5 +109,15 @@ export const rw = {
   sendingMessage: "Kohereza ...",
   messageSent: "Ubutumwa bwawe bwoherejwe!",
   messageSentDesc: "Icyifuzo cyawe cyakiriwe neza. Tuzakugarukira ukoresheje aderesi imeri yawe byihuse.",
-  writeNewMessage: "Andika Ubutumwa bushya"
+  writeNewMessage: "Andika Ubutumwa bushya",
+
+  // Support FAQs
+  faq1Q: "Ni ubuhe buryo bwo gukinisha Google Play 20?",
+  faq1A: "Kuri konti nshya yabatezimbere yafunguwe nyuma yUgushyingo 2023, Google yashyizeho itegeko ryo gukora ikizamini gifunze byibuze abakoresha 20 nibura byibuze iminsi 14 mbere yo gutangaza ibyifuzo byabo. Porogaramu itujuje iri tegeko ntishobora gutangazwa.",
+  faq2Q: "Nigute Ihuriro rikora? Yishyuwe?",
+  faq2A: "Ihuriro ryacu ni ubuntu rwose kandi rishingiye ku bufatanye. Abashinzwe gukora igerageza buri wese. Mugihe ugerageza ibyifuzo byabandi, abandi bateza imbere nabo bazagerageza gusaba kwawe hamwe nicyubahiro nubufatanye uzabona.",
+  faq3Q: "Nigute Nagerageza Porogaramu?",
+  faq3A: "Jya kurupapuro rwa porogaramu ushaka kugerageza. Injira muri Google Group ya porogaramu ukanze buto muntambwe ya 1. Noneho ukuremo porogaramu kuri terefone yawe kuri Google Play ukanze buto yo gukuramo intambwe ya 2 hanyuma ntusibe muri terefone yawe byibuze iminsi 14.",
+  faq4Q: "Bigenda bite iyo Gahunda yanjye yo Kwipimisha irangiye?",
+  faq4A: "Mugihe ikiringo ciminsi 14 kirangiye neza, urashobora kuvugurura porogaramu yawe hamwe na \"Mark as Published\" uhereye kumwanya wabatezimbere kurupapuro rwibisobanuro byawe. Sisitemu yacu nayo irabigenzura ikoresheje Ububiko bwa Google. Nyuma yiki cyiciro, intambwe zo kugerageza zavanyweho hanyuma buto yo gukuramo Google Play igaragara."
 };

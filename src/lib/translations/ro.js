@@ -109,5 +109,15 @@ export const ro = {
   sendingMessage: "Se trimite...",
   messageSent: "Mesajul dvs. a fost trimis!",
   messageSentDesc: "Solicitarea dvs. de contact a fost primită cu succes. Vă vom contacta prin adresa dvs. de e-mail cât mai curând posibil.",
-  writeNewMessage: "Scrie un mesaj nou"
+  writeNewMessage: "Scrie un mesaj nou",
+
+  // Support FAQs
+  faq1Q: "Ce este regula de testare Google Play 20?",
+  faq1A: "Pentru noile conturi individuale de dezvoltator deschise după noiembrie 2023, Google a impus obligatoriu efectuarea de teste închise cu cel puțin 20 de utilizatori de testare timp de cel puțin 14 zile înainte de a-și publica aplicațiile. Aplicațiile care nu îndeplinesc această regulă nu pot fi publicate.",
+  faq2Q: "Cum funcționează platforma? Este platit?",
+  faq2A: "Platforma noastră este complet gratuită și se bazează pe cooperare. Dezvoltatorii testează reciproc aplicațiile. Pe măsură ce testați aplicațiile altora, alți dezvoltatori vă vor testa și aplicația cu rețeaua de prestigiu și cooperare pe care o veți câștiga.",
+  faq3Q: "Cum testez o aplicație?",
+  faq3A: "Accesați pagina aplicației pe care doriți să o testați. Alăturați-vă grupului Google al aplicației făcând clic pe butonul din Pasul 1. Apoi descărcați aplicația pe telefonul dvs. din Google Play făcând clic pe butonul de descărcare din Pasul 2 și nu o ștergeți de pe telefon timp de cel puțin 14 zile.",
+  faq4Q: "Ce se întâmplă când procesul de testare al aplicației mele se încheie?",
+  faq4A: "Când perioada de 14 zile este încheiată cu succes, vă puteți actualiza aplicația cu opțiunea „Marcați ca publicată” din panoul pentru dezvoltatori de pe pagina cu detaliile aplicației. Sistemul nostru verifică acest lucru și prin Magazinul Google Play. După această etapă, pașii de testare sunt eliminați și apare butonul de descărcare directă Google Play."
 };
