@@ -109,5 +109,15 @@ export const no = {
   sendingMessage: "Sender...",
   messageSent: "Din melding er sendt!",
   messageSentDesc: "Kontaktforespørselen din er mottatt. Vi vil komme tilbake til deg via din e-postadresse så snart som mulig.",
-  writeNewMessage: "Skriv ny melding"
+  writeNewMessage: "Skriv ny melding",
+
+  // Support FAQs
+  faq1Q: "Hva er testerregelen for Google Play 20?",
+  faq1A: "For nye individuelle utviklerkontoer åpnet etter november 2023, har Google gjort det obligatorisk å gjennomføre lukkede tester med minst 20 testbrukere i minst 14 dager før applikasjonene publiseres. Søknader som ikke fullfører denne regelen kan ikke publiseres.",
+  faq2Q: "Hvordan fungerer plattformen? Er det betalt?",
+  faq2A: "Vår plattform er helt gratis og basert på samarbeid. Utviklere tester hverandres applikasjoner. Når du tester andres applikasjoner, vil andre utviklere også teste applikasjonen din med prestisje- og samarbeidsnettverket du vil få.",
+  faq3Q: "Hvordan tester jeg en app?",
+  faq3A: "Gå til siden til appen du vil teste. Bli med i appens Google-gruppe ved å klikke på knappen i trinn 1. Last deretter ned applikasjonen til telefonen din fra Google Play ved å klikke på nedlastingsknappen i trinn 2 og ikke slett den fra telefonen på minst 14 dager.",
+  faq4Q: "Hva skjer når testprosessen for applikasjonen min avsluttes?",
+  faq4A: "Når 14-dagersperioden er fullført, kan du oppdatere applikasjonen din med alternativet \"Merk som publisert\" fra utviklerpanelet på applikasjonsdetaljsiden. Systemet vårt bekrefter også dette via Google Play Store. Etter dette stadiet fjernes testtrinnene og den direkte nedlastingsknappen for Google Play vises."
 };

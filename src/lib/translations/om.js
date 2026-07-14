@@ -109,5 +109,15 @@ export const om = {
   sendingMessage: "Ergaa...",
   messageSent: "Ergaan Keessan Ergameera!",
   messageSentDesc: "Gaaffiin quunnamtii keessan milkaa'inaan dhiyaateera. Yeroo gabaabaa keessatti karaa e-mail keessaniin isin biraan geenya.",
-  writeNewMessage: "Ergaa Haaraa Barreessaa"
+  writeNewMessage: "Ergaa Haaraa Barreessaa",
+
+  // Support FAQs
+  faq1Q: "Seerri Qormaataa Google Play 20 maali?",
+  faq1A: "Akkaawuntii developer dhuunfaa haaraa Adoolessa 2023 booda banamaniif, Google application isaanii maxxansuu isaanii dura yoo xiqqaate guyyoota 14f yoo xiqqaate fayyadamtoota qorannoo 20 waliin qorannoo cufame gaggeessuun dirqama taasiseera. Iyyannoowwan seera kana hin xumurre maxxanfamuu hin danda’an.",
+  faq2Q: "Waltajjiin Akkamitti Hojjeta? Kaffaltii qabaa?",
+  faq2A: "Waltajjiin keenya guutummaatti bilisa fi tumsa irratti kan hundaa'edha. Developers application walii isaanii qoratu. Akkuma application namoota biroo qorattu, developers biroos application kee kabajaa fi networkii tumsa ati argattu waliin ni qoratu.",
+  faq3Q: "Akkamitti App tokko Qorachuu Danda'a?",
+  faq3A: "Fuula appii qorachuu barbaaddan sanaa deemaa. Tarkaanfii 1ffaa irratti button tuquun Google Group app kanaa join godhaa.Achiis tarkaanfii 2ffaa irratti download button cuqaasuun Google Play irraa gara bilbila keessaniitti buufachuun yoo xiqqaate guyyoota 14f bilbila keessan irraa hin haqinaa.",
+  faq4Q: "Adeemsi Qormaata Appilikeeshinii Koo Yeroo Xumuramu Maaltu Ta'a?",
+  faq4A: "Yeroo yeroon guyyoota 14 milkaa'inaan xumuramu, filannoo \"Akka Maxxanfameetti Mallatteessi\" jedhu paanaalii developer fuula ibsa application kee irratti argamuun application kee haaromsuu dandeessa. Sirni keenyas kana karaa Google Play Store mirkaneessa. Sadarkaa kana booda tarkaanfiiwwan qorannoo ni haqamuun kallattiin Google Play download button ni mul'ata."
 };

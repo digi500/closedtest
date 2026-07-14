@@ -109,5 +109,15 @@ export const ms = {
   sendingMessage: "Menghantar...",
   messageSent: "Mesej Anda Telah Dihantar!",
   messageSentDesc: "Permintaan hubungan anda telah berjaya diterima. Kami akan menghubungi anda semula melalui alamat e-mel anda secepat mungkin.",
-  writeNewMessage: "Tulis Mesej Baharu"
+  writeNewMessage: "Tulis Mesej Baharu",
+
+  // Support FAQs
+  faq1Q: "Apakah Peraturan Penguji Google Play 20?",
+  faq1A: "Untuk akaun pembangun individu baharu yang dibuka selepas November 2023, Google telah mewajibkan untuk menjalankan ujian tertutup dengan sekurang-kurangnya 20 pengguna ujian selama sekurang-kurangnya 14 hari sebelum menerbitkan aplikasi mereka. Permohonan yang tidak melengkapkan peraturan ini tidak boleh diterbitkan.",
+  faq2Q: "Bagaimana Platform Berfungsi? Adakah ia dibayar?",
+  faq2A: "Platform kami adalah percuma sepenuhnya dan berdasarkan kerjasama. Pembangun menguji aplikasi masing-masing. Semasa anda menguji aplikasi orang lain, pembangun lain juga akan menguji aplikasi anda dengan rangkaian prestij dan kerjasama yang akan anda perolehi.",
+  faq3Q: "Bagaimana Saya Menguji Apl?",
+  faq3A: "Pergi ke halaman apl yang ingin anda uji. Sertai Kumpulan Google apl dengan mengklik butang di Langkah 1. Kemudian muat turun aplikasi ke telefon anda daripada Google Play dengan mengklik butang muat turun di Langkah 2 dan jangan padamkannya daripada telefon anda selama sekurang-kurangnya 14 hari.",
+  faq4Q: "Apa yang Berlaku Apabila Proses Pengujian Aplikasi Saya Berakhir?",
+  faq4A: "Apabila tempoh 14 hari berjaya diselesaikan, anda boleh mengemas kini aplikasi anda dengan pilihan \"Tandakan sebagai Diterbitkan\" daripada panel pembangun pada halaman butiran aplikasi anda. Sistem kami juga mengesahkan perkara ini melalui Gedung Google Play. Selepas peringkat ini, langkah ujian dialih keluar dan butang muat turun Google Play terus muncul."
 };

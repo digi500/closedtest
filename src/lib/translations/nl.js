@@ -109,5 +109,15 @@ export const nl = {
   sendingMessage: "Verzenden...",
   messageSent: "Uw bericht is verzonden!",
   messageSentDesc: "Uw contactverzoek is succesvol ontvangen. Wij nemen zo snel mogelijk contact met u op via uw e-mailadres.",
-  writeNewMessage: "Schrijf een nieuw bericht"
+  writeNewMessage: "Schrijf een nieuw bericht",
+
+  // Support FAQs
+  faq1Q: "Wat is de Google Play 20-testerregel?",
+  faq1A: "Voor nieuwe individuele ontwikkelaarsaccounts die na november 2023 zijn geopend, heeft Google het verplicht gesteld om gedurende minimaal 14 dagen gesloten tests uit te voeren met ten minste twintig testgebruikers voordat hun applicaties worden gepubliceerd. Aanvragen die niet aan deze regel voldoen, kunnen niet worden gepubliceerd.",
+  faq2Q: "Hoe werkt het platform? Wordt het betaald?",
+  faq2A: "Ons platform is volledig gratis en gebaseerd op samenwerking. Ontwikkelaars testen elkaars applicaties. Terwijl u de applicaties van anderen test, zullen andere ontwikkelaars ook uw applicatie testen met het prestige- en samenwerkingsnetwerk dat u zult verwerven.",
+  faq3Q: "Hoe test ik een app?",
+  faq3A: "Ga naar de pagina van de app die je wilt testen. Word lid van de Google Group van de app door op de knop in stap 1 te klikken. Download vervolgens de applicatie naar uw telefoon vanuit Google Play door op de downloadknop in stap 2 te klikken en verwijder deze gedurende ten minste 14 dagen niet van uw telefoon.",
+  faq4Q: "Wat gebeurt er als het testproces van mijn applicatie eindigt?",
+  faq4A: "Wanneer de periode van 14 dagen met succes is voltooid, kunt u uw applicatie bijwerken met de optie 'Markeren als gepubliceerd' in het ontwikkelaarspaneel op de detailpagina van uw applicatie. Ons systeem verifieert dit ook via de Google Play Store. Na deze fase worden de teststappen verwijderd en verschijnt de directe downloadknop van Google Play."
 };

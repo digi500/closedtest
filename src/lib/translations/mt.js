@@ -109,5 +109,15 @@ export const mt = {
   sendingMessage: "Tibgħat...",
   messageSent: "Il-Messaġġ Tiegħek Intbagħat!",
   messageSentDesc: "It-talba ta' kuntatt tiegħek waslet b'suċċess. Aħna ser nerġgħu lura lilek permezz tal-indirizz elettroniku tiegħek malajr kemm jista 'jkun.",
-  writeNewMessage: "Ikteb Messaġġ Ġdid"
+  writeNewMessage: "Ikteb Messaġġ Ġdid",
+
+  // Support FAQs
+  faq1Q: "X'inhi r-Regola tat-Tester ta' Google Play 20?",
+  faq1A: "Għal kontijiet tal-iżviluppatur individwali ġodda miftuħa wara Novembru 2023, Google għamlitha obbligatorja li twettaq testijiet magħluqa b'mill-inqas 20 utent tat-test għal mill-inqas 14-il jum qabel ma tippubblika l-applikazzjonijiet tagħhom. Applikazzjonijiet li ma jimlewx din ir-regola ma jistgħux jiġu ppubblikati.",
+  faq2Q: "Kif Taħdem il-Pjattaforma? Huwa mħallas?",
+  faq2A: "Il-pjattaforma tagħna hija kompletament ħielsa u bbażata fuq il-kooperazzjoni. L-iżviluppaturi jittestjaw l-applikazzjonijiet ta' xulxin. Hekk kif tittestja l-applikazzjonijiet ta 'nies oħrajn, żviluppaturi oħra se jittestjaw ukoll l-applikazzjoni tiegħek man-netwerk ta' prestiġju u kooperazzjoni li se tikseb.",
+  faq3Q: "Kif nittestja App?",
+  faq3A: "Mur fil-paġna tal-app li trid tittestja. Ingħaqad mal-Grupp Google tal-app billi tikklikkja l-buttuna fil-Pass 1. Imbagħad tniżżel l-applikazzjoni fuq il-mobile tiegħek minn Google Play billi tikklikkja l-buttuna tat-tniżżil fil-Pass 2 u tħassarhiex mit-telefon tiegħek għal mill-inqas 14-il jum.",
+  faq4Q: "X'jiġri Meta jintemm il-Proċess tal-Ittestjar tal-Applikazzjoni Tiegħi?",
+  faq4A: "Meta l-perjodu ta' 14-il jum jitlesta b'suċċess, tista' taġġorna l-applikazzjoni tiegħek bl-għażla \"Immarka bħala Ippubblikat\" mill-panel tal-iżviluppatur fuq il-paġna tad-dettall tal-applikazzjoni tiegħek. Is-sistema tagħna tivverifika dan ukoll permezz tal-Google Play Store. Wara dan l-istadju, il-passi tal-ittestjar jitneħħew u tidher il-buttuna diretta tat-tniżżil tal-Google Play."
 };
