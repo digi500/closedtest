@@ -22,6 +22,7 @@ export default function AppDetail() {
   const [copiedReddit, setCopiedReddit] = useState(false);
   const [translatedDesc, setTranslatedDesc] = useState('');
   const [isTranslating, setIsTranslating] = useState(false);
+  const [showOriginal, setShowOriginal] = useState(false);
 
   useEffect(() => {
     async function loadData() {
@@ -45,6 +46,35 @@ export default function AppDetail() {
     }
     loadData();
   }, [id]);
+
+  // Reset showOriginal state when language is changed from the header dropdown menu
+  useEffect(() => {
+    setShowOriginal(false);
+  }, [language]);
+
+  // Automatically translate the app description to the selected user language on load or language switch
+  useEffect(() => {
+    if (app && app.description && language && !showOriginal) {
+      const autoTranslate = async () => {
+        setIsTranslating(true);
+        try {
+          const targetLang = language;
+          const desc = app.description;
+          const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${targetLang}&dt=t&q=${encodeURIComponent(desc)}`);
+          const data = await res.json();
+          if (data && data[0]) {
+            const translatedText = data[0].map(item => item[0]).join('');
+            setTranslatedDesc(translatedText);
+          }
+        } catch (err) {
+          console.error("Auto-translation failed:", err);
+        } finally {
+          setIsTranslating(false);
+        }
+      };
+      autoTranslate();
+    }
+  }, [app, language, showOriginal]);
 
   const handleGroupClick = async () => {
     if (!app) return;
@@ -74,9 +104,11 @@ export default function AppDetail() {
     if (!app) return;
     if (translatedDesc) {
       setTranslatedDesc('');
+      setShowOriginal(true);
       return;
     }
     
+    setShowOriginal(false);
     setIsTranslating(true);
     try {
       const targetLang = language;
