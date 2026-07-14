@@ -93,5 +93,21 @@ export const qu = {
   // Footer
   footerText: "Wisq'asqa pruebakuna rantinakuy patapampa ruraqkunapaq.",
   footerSubText: "Kay patapampaqa tukuyninpi kichasqa qillqayuqmi, munaspa yanapaq ruraqkunapaqpas.",
-  githubBtn: "Yanapay / Ch'askata quy GitHub-pi"
+  githubBtn: "Yanapay / Ch'askata quy GitHub-pi",
+
+  // Support & Contact
+  supportFAQ: "Yanapakuy & FAQ",
+  supportTitle: "Yanapakuy & Rimanakuy",
+  supportDesc: "¿Ima tapukuyniykipas kanchu chay plataformamanta icha ñuqaykuwan rimayta munankichu? Huk willayta apachiyta atikunki kay urapi formulariota llamk'achispa utaq FAQ t'aqata qhaway.",
+  faqTitle: "Sapa kuti tapusqakuna",
+  contactFormTitle: "Willayta apachimuwayku",
+  nameLabel: "Sutiykiwan Apellidoykiwan",
+  emailLabel: "Correo electrónico nisqayki",
+  subjectLabel: "Materia",
+  messageLabel: "Willakuyniyki",
+  sendMessage: "Willayta apachiy",
+  sendingMessage: "Kachaspa...",
+  messageSent: "¡Qanpa Willakuyniyki Kachasqañam!",
+  messageSentDesc: "Contacto mañakuyniyki allinta chaskisqa. Usqhaylla kutimusaqku correo electrónico nisqaykiwan.",
+  writeNewMessage: "Musuq Willayta Qillqay"
 };

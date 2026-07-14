@@ -93,5 +93,21 @@ export const ro = {
   // Footer
   footerText: "Platformă de schimb de testare închisă pentru dezvoltatori.",
   footerSubText: "Această platformă este complet open-source și dezvoltată de dezvoltatori voluntari.",
-  githubBtn: "Contribuie / Oferă o Stea pe GitHub"
+  githubBtn: "Contribuie / Oferă o Stea pe GitHub",
+
+  // Support & Contact
+  supportFAQ: "Asistență și întrebări frecvente",
+  supportTitle: "Suport și contact",
+  supportDesc: "Aveți întrebări despre platformă sau doriți să ne contactați? Puteți trimite un mesaj folosind formularul de mai jos sau puteți consulta secțiunea Întrebări frecvente.",
+  faqTitle: "Întrebări frecvente",
+  contactFormTitle: "Trimite-ne un mesaj",
+  nameLabel: "Numele și prenumele dvs.",
+  emailLabel: "Adresa ta de e-mail",
+  subjectLabel: "Subiect",
+  messageLabel: "Mesajul dvs.",
+  sendMessage: "Trimite mesaj",
+  sendingMessage: "Se trimite...",
+  messageSent: "Mesajul dvs. a fost trimis!",
+  messageSentDesc: "Solicitarea dvs. de contact a fost primită cu succes. Vă vom contacta prin adresa dvs. de e-mail cât mai curând posibil.",
+  writeNewMessage: "Scrie un mesaj nou"
 };

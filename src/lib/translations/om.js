@@ -93,5 +93,21 @@ export const om = {
   // Footer
   footerText: "Pilaatfoormii daldala qormaata cufame dizaayinarootaaf.",
   footerSubText: "Pilaatfoormiin kun guutummaatti open-source yoo ta'u dizaayinaroota tola ooltotaan kan saaxilameedha.",
-  githubBtn: "Gumaachi / GitHub irratti Urjii Kenni"
+  githubBtn: "Gumaachi / GitHub irratti Urjii Kenni",
+
+  // Support & Contact
+  supportFAQ: "Deeggarsa & Gaaffii fi deebii",
+  supportTitle: "Deeggarsa & Quunnamtii",
+  supportDesc: "Waa'ee waltajjii kanaa gaaffii qabduu ykn nu qunnamuu barbaadduu? Unka armaan gadii fayyadamuun ergaa erguu ykn kutaa FAQ ilaaluu dandeessu.",
+  faqTitle: "Gaaffilee Irra Deddeebiin Gaafataman",
+  contactFormTitle: "Ergaa Nuuf Ergaa",
+  nameLabel: "Maqaa fi Maqaa Maatii Kee",
+  emailLabel: "Teessoo Imeelii Keessan",
+  subjectLabel: "Mata duree",
+  messageLabel: "Ergaa keessan",
+  sendMessage: "Ergaa Ergaa",
+  sendingMessage: "Ergaa...",
+  messageSent: "Ergaan Keessan Ergameera!",
+  messageSentDesc: "Gaaffiin quunnamtii keessan milkaa'inaan dhiyaateera. Yeroo gabaabaa keessatti karaa e-mail keessaniin isin biraan geenya.",
+  writeNewMessage: "Ergaa Haaraa Barreessaa"
 };

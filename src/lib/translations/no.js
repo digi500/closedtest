@@ -93,5 +93,21 @@ export const no = {
   // Footer
   footerText: "Plattform for utveksling av lukkede tester for utviklere.",
   footerSubText: "Denne plattformen er fullstendig åpen kildekode og utvikles av frivillige utviklere.",
-  githubBtn: "Bidra / Gi en stjerne på GitHub"
+  githubBtn: "Bidra / Gi en stjerne på GitHub",
+
+  // Support & Contact
+  supportFAQ: "Support & FAQ",
+  supportTitle: "Støtte og kontakt",
+  supportDesc: "Har du spørsmål om plattformen eller ønsker å kontakte oss? Du kan sende en melding ved å bruke skjemaet nedenfor eller gå gjennom FAQ-delen.",
+  faqTitle: "Ofte stilte spørsmål",
+  contactFormTitle: "Send oss ​​en melding",
+  nameLabel: "Ditt navn og etternavn",
+  emailLabel: "Din e-postadresse",
+  subjectLabel: "Tema",
+  messageLabel: "Din melding",
+  sendMessage: "Send melding",
+  sendingMessage: "Sender...",
+  messageSent: "Din melding er sendt!",
+  messageSentDesc: "Kontaktforespørselen din er mottatt. Vi vil komme tilbake til deg via din e-postadresse så snart som mulig.",
+  writeNewMessage: "Skriv ny melding"
 };

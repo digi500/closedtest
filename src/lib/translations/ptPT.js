@@ -93,5 +93,21 @@ export const ptPT = {
   // Footer
   footerText: "Plataforma de troca de testes fechados para desenvolvedores.",
   footerSubText: "Esta plataforma é totalmente open-source e desenvolvida por desenvolvedores voluntários.",
-  githubBtn: "Contribuir / Dar Estrela no GitHub"
+  githubBtn: "Contribuir / Dar Estrela no GitHub",
+
+  // Support & Contact
+  supportFAQ: "Support & FAQ",
+  supportTitle: "Support & Contact",
+  supportDesc: "Do you have questions about the platform or want to contact us? You can send a message using the form below or review the FAQ section.",
+  faqTitle: "Frequently Asked Questions",
+  contactFormTitle: "Send Us a Message",
+  nameLabel: "Your Name and Surname",
+  emailLabel: "Your Email Address",
+  subjectLabel: "Subject",
+  messageLabel: "Your message",
+  sendMessage: "Send Message",
+  sendingMessage: "Sending...",
+  messageSent: "Your Message Has Been Sent!",
+  messageSentDesc: "Your contact request has been received successfully. We will get back to you via your e-mail address as soon as possible.",
+  writeNewMessage: "Write New Message"
 };

@@ -93,5 +93,21 @@ export const rw = {
   // Footer
   footerText: "Ihuriro ryo guhana imyitozo ifunze ku bategura porogaramu.",
   footerSubText: "Iri huriro rifunguye rwose kandi ryakozwe n'abategura porogaramu bitanga.",
-  githubBtn: "Tanga umusanzu / Tanga Inyenyeri kuri GitHub"
+  githubBtn: "Tanga umusanzu / Tanga Inyenyeri kuri GitHub",
+
+  // Support & Contact
+  supportFAQ: "Inkunga & Ibibazo",
+  supportTitle: "Inkunga & Twandikire",
+  supportDesc: "Ufite ibibazo bijyanye na platifomu cyangwa ushaka kutwandikira? Urashobora kohereza ubutumwa ukoresheje ifishi ikurikira cyangwa ugasubiramo igice cyibibazo.",
+  faqTitle: "Ibibazo Bikunze Kubazwa",
+  contactFormTitle: "Twohereze Ubutumwa",
+  nameLabel: "Izina ryawe nizina ryawe",
+  emailLabel: "Imeri yawe imeri",
+  subjectLabel: "Ingingo",
+  messageLabel: "Ubutumwa bwawe",
+  sendMessage: "Kohereza Ubutumwa",
+  sendingMessage: "Kohereza ...",
+  messageSent: "Ubutumwa bwawe bwoherejwe!",
+  messageSentDesc: "Icyifuzo cyawe cyakiriwe neza. Tuzakugarukira ukoresheje aderesi imeri yawe byihuse.",
+  writeNewMessage: "Andika Ubutumwa bushya"
 };

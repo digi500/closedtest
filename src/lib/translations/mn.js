@@ -97,12 +97,12 @@ export const mn = {
 
   // Support & Contact
   supportFAQ: "Дэмжлэг ба түгээмэл асуултууд",
-  supportTitle: "Дэмжлэг & Холбоо барих",
+  supportTitle: "Дэмжлэг ба холбоо барих",
   supportDesc: "Танд платформын талаар асуух зүйл байна уу эсвэл бидэнтэй холбогдохыг хүсч байна уу? Та доорх маягтыг ашиглан мессеж илгээх эсвэл FAQ хэсгийг үзэж болно.",
   faqTitle: "Байнга асуудаг асуултууд",
-  contactFormTitle: "Бидэнд зурвас илгээх",
+  contactFormTitle: "Бидэнд мессеж илгээнэ үү",
   nameLabel: "Таны нэр, овог",
-  emailLabel: "Таны Имэйл хаяг",
+  emailLabel: "Таны имэйл хаяг",
   subjectLabel: "Сэдэв",
   messageLabel: "Таны мессеж",
   sendMessage: "Мессеж илгээх",
