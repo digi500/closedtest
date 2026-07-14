@@ -109,5 +109,15 @@ export const fr = {
   sendingMessage: "Envoi...",
   messageSent: "Votre message a été envoyé !",
   messageSentDesc: "Votre demande de contact a été reçue avec succès. Nous vous répondrons via votre adresse e-mail dans les plus brefs délais.",
-  writeNewMessage: "Écrire un nouveau message"
+  writeNewMessage: "Écrire un nouveau message",
+
+  // Support FAQs
+  faq1Q: "Qu'est-ce que la règle du testeur Google Play 20 ?",
+  faq1A: "Pour les nouveaux comptes de développeurs individuels ouverts après novembre 2023, Google a rendu obligatoire la réalisation de tests fermés avec au moins 20 utilisateurs tests pendant au moins 14 jours avant de publier leurs applications. Les candidatures qui ne respectent pas cette règle ne pourront pas être publiées.",
+  faq2Q: "Comment fonctionne la plateforme ? Est-ce payant ?",
+  faq2A: "Notre plateforme est entièrement gratuite et basée sur la coopération. Les développeurs testent les applications des uns et des autres. Au fur et à mesure que vous testez les applications d'autres personnes, d'autres développeurs testeront également votre application grâce au prestige et au réseau de coopération que vous gagnerez.",
+  faq3Q: "Comment tester une application ?",
+  faq3A: "Accédez à la page de l’application que vous souhaitez tester. Rejoignez le groupe Google de l'application en cliquant sur le bouton à l'étape 1. Téléchargez ensuite l'application sur votre téléphone depuis Google Play en cliquant sur le bouton de téléchargement à l'étape 2 et ne la supprimez pas de votre téléphone pendant au moins 14 jours.",
+  faq4Q: "Que se passe-t-il lorsque le processus de test de mon application se termine ?",
+  faq4A: "Lorsque la période de 14 jours est terminée avec succès, vous pouvez mettre à jour votre application avec l'option « Marquer comme publiée » depuis le panneau de développement sur la page de détail de votre application. Notre système le vérifie également via le Google Play Store. Après cette étape, les étapes de test sont supprimées et le bouton de téléchargement direct de Google Play apparaît."
 };

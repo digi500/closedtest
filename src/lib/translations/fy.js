@@ -109,5 +109,15 @@ export const fy = {
   sendingMessage: "Ferstjoere...",
   messageSent: "Jo berjocht is ferstjoerd!",
   messageSentDesc: "Jo kontaktfersyk is mei súkses ûntfongen. Wy nimme sa gau mooglik werom nei jo fia jo e-mailadres.",
-  writeNewMessage: "Skriuw nij berjocht"
+  writeNewMessage: "Skriuw nij berjocht",
+
+  // Support FAQs
+  faq1Q: "Wat is de Google Play 20-testerregel?",
+  faq1A: "Foar nije yndividuele ûntwikkeldersakkounts iepene nei novimber 2023, Google hat it ferplicht makke om sletten testen út te fieren mei op syn minst 20 testbrûkers foar op syn minst 14 dagen foardat se har applikaasjes publisearje. Applikaasjes dy't dizze regel net foltôgje kinne net publisearre wurde.",
+  faq2Q: "Hoe wurket it platfoarm? Is it betelle?",
+  faq2A: "Us platfoarm is folslein fergees en basearre op gearwurking. Untwikkelders testen elkoars applikaasjes. Wylst jo de applikaasjes fan oaren testen, sille oare ûntwikkelders jo applikaasje ek testen mei it prestiizje en gearwurkingsnetwurk dat jo sille winne.",
+  faq3Q: "Hoe test ik in app?",
+  faq3A: "Gean nei de side fan 'e app dy't jo wolle testen. Doch mei oan de Google-groep fan 'e app troch te klikken op de knop yn stap 1. Download dan de applikaasje nei jo tillefoan fan Google Play troch te klikken op de downloadknop yn stap 2 en wiskje it net fan jo tillefoan foar op syn minst 14 dagen.",
+  faq4Q: "Wat bart der as it testproses fan myn applikaasje einiget?",
+  faq4A: "As de perioade fan 14 dagen mei súkses foltôge is, kinne jo jo applikaasje bywurkje mei de opsje \"Markearje as publisearre\" fan it ûntwikkelderspaniel op jo applikaasjedetailside. Us systeem ferifiearret dit ek fia de Google Play Store. Nei dit stadium wurde de teststappen fuortsmiten en ferskynt de direkte Google Play-downloadknop."
 };
