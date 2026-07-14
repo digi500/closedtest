@@ -328,6 +328,7 @@ button.primary:hover, .btn.primary:hover {
   border: 1px solid var(--border-color);
   border-radius: 8px;
   margin-bottom: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .stat-item {
