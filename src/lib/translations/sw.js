@@ -109,5 +109,15 @@ export const sw = {
   sendingMessage: "Gönderiliyor...",
   messageSent: "Mesajınız Gönderildi!",
   messageSentDesc: "İletişim talebiniz başarıyla alındı. En kısa sürede e-posta adresiniz üzerinden geri dönüş yapacağız.",
-  writeNewMessage: "Yeni Mesaj Yaz"
+  writeNewMessage: "Yeni Mesaj Yaz",
+
+  // Support FAQs
+  faq1Q: "Sheria ya Kujaribu 20 ya Google Play ni ipi?",
+  faq1A: "Kwa akaunti mpya za wasanidi programu zilizofunguliwa baada ya Novemba 2023, Google imelazimisha kufanya majaribio ya watu wachache na angalau watumiaji 20 wa majaribio kwa angalau siku 14 kabla ya kuchapisha programu zao. Programu ambazo hazijakamilisha sheria hii haziwezi kuchapishwa.",
+  faq2Q: "Je, Jukwaa Linafanya Kazi Gani? Je, inalipwa?",
+  faq2A: "Jukwaa letu ni bure kabisa na linategemea ushirikiano. Wasanidi programu hujaribu programu za kila mmoja wao. Unapojaribu programu za watu wengine, wasanidi programu wengine pia watajaribu programu yako kwa heshima na mtandao wa ushirikiano utakaopata.",
+  faq3Q: "Je, Ninajaribuje Programu?",
+  faq3A: "Nenda kwenye ukurasa wa programu unayotaka kujaribu. Jiunge na Kikundi cha Google cha programu kwa kubofya kitufe katika Hatua ya 1. Kisha pakua programu kwenye simu yako kutoka Google Play kwa kubofya kitufe cha kupakua katika Hatua ya 2 na usiyafute kwenye simu yako kwa angalau siku 14.",
+  faq4Q: "Nini Hutokea Mchakato wa Kujaribiwa kwa Maombi Yangu unapoisha?",
+  faq4A: "Kipindi cha siku 14 kitakapokamilika, unaweza kusasisha programu yako kwa chaguo la \"Tia alama kuwa Limechapishwa\" kutoka kwa paneli ya msanidi kwenye ukurasa wa maelezo ya programu yako. Mfumo wetu pia huthibitisha hili kupitia Google Play Store. Baada ya hatua hii, hatua za kupima zinaondolewa na kifungo cha moja kwa moja cha kupakua cha Google Play kinaonekana."
 };

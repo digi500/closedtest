@@ -109,5 +109,15 @@ export const sq = {
   sendingMessage: "Dërgimi...",
   messageSent: "Mesazhi juaj është dërguar!",
   messageSentDesc: "Kërkesa juaj për kontakt është marrë me sukses. Ne do t'ju kontaktojmë me adresën tuaj të e-mail sa më shpejt të jetë e mundur.",
-  writeNewMessage: "Shkruani një mesazh të ri"
+  writeNewMessage: "Shkruani një mesazh të ri",
+
+  // Support FAQs
+  faq1Q: "Cili është rregulli i testuesit të Google Play 20?",
+  faq1A: "Për llogaritë e reja individuale të zhvilluesve të hapura pas nëntorit 2023, Google e ka bërë të detyrueshme kryerjen e testimit të mbyllur me të paktën 20 përdorues testues për të paktën 14 ditë përpara se të publikojnë aplikacionet e tyre. Aplikacionet që nuk plotësojnë këtë rregull nuk mund të publikohen.",
+  faq2Q: "Si funksionon platforma? A është paguar?",
+  faq2A: "Platforma jonë është plotësisht e lirë dhe e bazuar në bashkëpunim. Zhvilluesit testojnë aplikacionet e njëri-tjetrit. Ndërsa testoni aplikacionet e njerëzve të tjerë, zhvillues të tjerë do të testojnë gjithashtu aplikacionin tuaj me prestigjin dhe rrjetin e bashkëpunimit që do të fitoni.",
+  faq3Q: "Si mund ta testoj një aplikacion?",
+  faq3A: "Shkoni në faqen e aplikacionit që dëshironi të testoni. Bashkohuni me grupin Google të aplikacionit duke klikuar butonin në hapin 1. Më pas shkarkoni aplikacionin në telefonin tuaj nga Google Play duke klikuar butonin e shkarkimit në Hapin 2 dhe mos e fshini nga telefoni juaj për të paktën 14 ditë.",
+  faq4Q: "Çfarë ndodh kur përfundon procesi i testimit të aplikacionit tim?",
+  faq4A: "Kur periudha 14-ditore të përfundojë me sukses, mund ta përditësoni aplikacionin tuaj me opsionin \"Shëno si të publikuar\" nga paneli i zhvilluesit në faqen e detajeve të aplikacionit. Sistemi ynë e verifikon këtë edhe nëpërmjet Dyqanit të Google Play. Pas kësaj faze, hapat e testimit hiqen dhe shfaqet butoni i drejtpërdrejtë i shkarkimit të Google Play."
 };

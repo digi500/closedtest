@@ -109,5 +109,15 @@ export const su = {
   sendingMessage: "Ngirim...",
   messageSent: "Pesen anjeun parantos dikirim!",
   messageSentDesc: "Paménta kontak anjeun parantos suksés ditampi. Kami bakal uih deui ka anjeun liwat alamat e-mail anjeun pas mungkin.",
-  writeNewMessage: "Tulis Pesen Anyar"
+  writeNewMessage: "Tulis Pesen Anyar",
+
+  // Support FAQs
+  faq1Q: "Naon Aturan Google Play 20 Tester?",
+  faq1A: "Pikeun akun pamekar individu anyar anu dibuka saatos Nopémber 2023, Google parantos ngawajibkeun ngalaksanakeun uji katutup sareng sahenteuna 20 pangguna uji sahenteuna sahenteuna 14 dinten sateuacan nyebarkeun aplikasina. Aplikasi nu teu ngalengkepan aturan ieu teu bisa diterbitkeun.",
+  faq2Q: "Kumaha Dupi Platform Gawé? Dupi éta dibayar?",
+  faq2A: "Platform kami lengkep gratis sareng dumasar kana kerjasama. Pamekar nguji aplikasi masing-masing. Nalika anjeun nguji aplikasi jalma sanés, pamekar sanés ogé bakal nguji aplikasi anjeun kalayan gengsi sareng jaringan kerjasama anu anjeun pikahoyong.",
+  faq3Q: "Kumaha Kuring Nguji Aplikasi?",
+  faq3A: "Pindah ka halaman aplikasi anu anjeun hoyong uji. Miluan Grup Google aplikasi ku ngaklik tombol dina Lengkah 1. Teras unduh aplikasi ka telepon anjeun tina Google Play ku ngaklik tombol unduh dina Lengkah 2 sareng ulah ngahapus tina telepon anjeun sahenteuna 14 dinten.",
+  faq4Q: "Naon Anu Kajadian Nalika Prosés Tés Aplikasi Abdi Tamat?",
+  faq4A: "Nalika periode 14 dinten parantos suksés, anjeun tiasa ngapdet aplikasi anjeun nganggo pilihan \"Tandaan salaku Diterbitkeun\" tina panel pamekar dina halaman rinci aplikasi anjeun. Sistem kami ogé pariksa ieu via Google Play Store. Saatos tahap ieu, léngkah-léngkah tés dipiceun sareng tombol unduh Google Play langsung muncul."
 };

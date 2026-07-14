@@ -109,5 +109,15 @@ export const sv = {
   sendingMessage: "Skickar...",
   messageSent: "Ditt meddelande har skickats!",
   messageSentDesc: "Din kontaktförfrågan har tagits emot framgångsrikt. Vi återkommer till dig via din e-postadress så snart som möjligt.",
-  writeNewMessage: "Skriv nytt meddelande"
+  writeNewMessage: "Skriv nytt meddelande",
+
+  // Support FAQs
+  faq1Q: "Vad är Google Play 20-testarregeln?",
+  faq1A: "För nya individuella utvecklarkonton som öppnats efter november 2023 har Google gjort det obligatoriskt att genomföra slutna tester med minst 20 testanvändare i minst 14 dagar innan de publicerar sina applikationer. Ansökningar som inte uppfyller denna regel kan inte publiceras.",
+  faq2Q: "Hur fungerar plattformen? Är det betalt?",
+  faq2A: "Vår plattform är helt gratis och bygger på samarbete. Utvecklare testar varandras applikationer. När du testar andras applikationer kommer även andra utvecklare att testa din applikation med det prestige- och samarbetsnätverk du kommer att få.",
+  faq3Q: "Hur testar jag en app?",
+  faq3A: "Gå till sidan för appen du vill testa. Gå med i appens Google-grupp genom att klicka på knappen i steg 1. Ladda sedan ner appen till din telefon från Google Play genom att klicka på nedladdningsknappen i steg 2 och ta inte bort den från din telefon på minst 14 dagar.",
+  faq4Q: "Vad händer när min applikations testprocess avslutas?",
+  faq4A: "När 14-dagarsperioden är klar kan du uppdatera din applikation med alternativet \"Markera som publicerad\" från utvecklarpanelen på din applikationsdetaljsida. Vårt system verifierar även detta via Google Play Butik. Efter detta steg tas teststegen bort och den direkta nedladdningsknappen för Google Play visas."
 };
