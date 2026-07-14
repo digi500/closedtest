@@ -93,5 +93,21 @@ export const mt = {
   // Footer
   footerText: "Pjattaforma ta' skambju ta' testijiet magħluqa għall-iżviluppaturi.",
   footerSubText: "Din il-pjattaforma hija kompletament open-source u żviluppata minn żviluppaturi voluntiera.",
-  githubBtn: "Ikkontribwixxi / Agħti Star fuq GitHub"
+  githubBtn: "Ikkontribwixxi / Agħti Star fuq GitHub",
+
+  // Support & Contact
+  supportFAQ: "Appoġġ u FAQ",
+  supportTitle: "Appoġġ u Kuntatt",
+  supportDesc: "Għandek mistoqsijiet dwar il-pjattaforma jew trid tikkuntattjana? Tista' tibgħat messaġġ billi tuża l-formola hawn taħt jew tirrevedi t-taqsima tal-FAQ.",
+  faqTitle: "Mistoqsijiet Frekwenti",
+  contactFormTitle: "Ibgħatilna Messaġġ",
+  nameLabel: "Ismek u Kunjom",
+  emailLabel: "L-indirizz elettroniku tiegħek",
+  subjectLabel: "Suġġett",
+  messageLabel: "Il-messaġġ tiegħek",
+  sendMessage: "Ibgħat Messaġġ",
+  sendingMessage: "Tibgħat...",
+  messageSent: "Il-Messaġġ Tiegħek Intbagħat!",
+  messageSentDesc: "It-talba ta' kuntatt tiegħek waslet b'suċċess. Aħna ser nerġgħu lura lilek permezz tal-indirizz elettroniku tiegħek malajr kemm jista 'jkun.",
+  writeNewMessage: "Ikteb Messaġġ Ġdid"
 };

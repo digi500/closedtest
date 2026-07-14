@@ -93,5 +93,21 @@ export const nl = {
   // Footer
   footerText: "Gesloten testuitwisselingsplatform voor ontwikkelaars.",
   footerSubText: "Dit platform is volledig open-source en ontwikkeld door vrijwillige ontwikkelaars.",
-  githubBtn: "Bijdragen / Ster geven op GitHub"
+  githubBtn: "Bijdragen / Ster geven op GitHub",
+
+  // Support & Contact
+  supportFAQ: "Ondersteuning en veelgestelde vragen",
+  supportTitle: "Ondersteuning en contact",
+  supportDesc: "Heeft u vragen over het platform of wilt u contact met ons opnemen? U kunt een bericht sturen via het onderstaande formulier of de FAQ-sectie bekijken.",
+  faqTitle: "Veelgestelde vragen",
+  contactFormTitle: "Stuur ons een bericht",
+  nameLabel: "Uw naam en achternaam",
+  emailLabel: "Uw e-mailadres",
+  subjectLabel: "Onderwerp",
+  messageLabel: "Jouw bericht",
+  sendMessage: "Bericht verzenden",
+  sendingMessage: "Verzenden...",
+  messageSent: "Uw bericht is verzonden!",
+  messageSentDesc: "Uw contactverzoek is succesvol ontvangen. Wij nemen zo snel mogelijk contact met u op via uw e-mailadres.",
+  writeNewMessage: "Schrijf een nieuw bericht"
 };
