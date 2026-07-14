@@ -93,5 +93,21 @@ export const lt = {
   // Footer
   footerText: "Uždarojo testavimo mainų platforma kūrėjams.",
   footerSubText: "Ši platforma yra visiškai atvirojo kodo ir ją kuria savanoriai programuotojai.",
-  githubBtn: "Prisidėti / Duoti žvaigždutę „GitHub“"
+  githubBtn: "Prisidėti / Duoti žvaigždutę „GitHub“",
+
+  // Support & Contact
+  supportFAQ: "Pagalba ir DUK",
+  supportTitle: "Pagalba ir susisiekite",
+  supportDesc: "Turite klausimų apie platformą arba norite su mumis susisiekti? Galite siųsti žinutę naudodami žemiau esančią formą arba peržiūrėti DUK skyrių.",
+  faqTitle: "Dažniausiai užduodami klausimai",
+  contactFormTitle: "Atsiųskite mums žinutę",
+  nameLabel: "Jūsų vardas ir pavardė",
+  emailLabel: "Jūsų el. pašto adresas",
+  subjectLabel: "Tema",
+  messageLabel: "Jūsų žinutė",
+  sendMessage: "Siųsti žinutę",
+  sendingMessage: "Siunčiama...",
+  messageSent: "Jūsų žinutė išsiųsta!",
+  messageSentDesc: "Jūsų užklausa susisiekti buvo sėkmingai gauta. Mes kuo greičiau susisieksime su jumis jūsų el. pašto adresu.",
+  writeNewMessage: "Rašyti naują žinutę"
 };

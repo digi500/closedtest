@@ -93,5 +93,21 @@ export const mg = {
   // Footer
   footerText: "Sehatra fifanakalozana fitsapana nakatona ho an'ny mpandraharaha.",
   footerSubText: "Ity sehatra ity dia open-source tanteraka ary novolavolain'ny mpandraharaha mpirotsaka an-tsitrapo.",
-  githubBtn: "Handray Anjara / Omeo Kintana ao amin'ny GitHub"
+  githubBtn: "Handray Anjara / Omeo Kintana ao amin'ny GitHub",
+
+  // Support & Contact
+  supportFAQ: "Fanohanana & FAQ",
+  supportTitle: "Fanohanana & Fifandraisana",
+  supportDesc: "Manana fanontaniana momba ny sehatra ve ianao na te hifandray aminay? Azonao atao ny mandefa hafatra amin'ny alàlan'ny endrika etsy ambany na avereno jerena ny fizarana FAQ.",
+  faqTitle: "Fanontaniana matetika",
+  contactFormTitle: "Mandefasa hafatra aminay",
+  nameLabel: "Ny anaranao sy ny anaranao",
+  emailLabel: "Ny adiresy mailakao",
+  subjectLabel: "Lohahevitra",
+  messageLabel: "Ny hafatrao",
+  sendMessage: "Alefaso ny hafatra",
+  sendingMessage: "Mandefa...",
+  messageSent: "Nalefa ny hafatrao!",
+  messageSentDesc: "Voaray soa aman-tsara ny fangatahanao amin'ny fifandraisana. Hiverina aminao izahay amin'ny alàlan'ny adiresy mailakao haingana araka izay azo atao.",
+  writeNewMessage: "Manorata Hafatra Vaovao"
 };

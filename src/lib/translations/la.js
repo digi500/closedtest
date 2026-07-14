@@ -93,5 +93,21 @@ export const la = {
   // Footer
   footerText: "Commutatio probationis clausae pro programmatibus.",
   footerSubText: "Hac plataforma omnino fons apertus est et a voluntariis programmatibus facta.",
-  githubBtn: "Adjuvare / Dare Stellam in GitHub"
+  githubBtn: "Adjuvare / Dare Stellam in GitHub",
+
+  // Support & Contact
+  supportFAQ: "Support & FAQ",
+  supportTitle: "Support & Contact",
+  supportDesc: "Habesne quaestiones de suggestu an vis nobiscum contactum? Epistulam mittere potes forma infra utens vel sectionem FAQ recensere.",
+  faqTitle: "Frequenter Interrogata",
+  contactFormTitle: "Send Us a Message",
+  nameLabel: "Nomen tuum et Surname",
+  emailLabel: "Your Email Address",
+  subjectLabel: "Subject",
+  messageLabel: "Epistula tua",
+  sendMessage: "Mittere Nuntius",
+  sendingMessage: "Mittens...",
+  messageSent: "Tuum missum est?",
+  messageSentDesc: "Petitio tua notorum feliciter recepta est. Recipiemus ad te per tuam electronicam quam primum.",
+  writeNewMessage: "Scribere nova Nuntius"
 };

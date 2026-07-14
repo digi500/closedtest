@@ -93,5 +93,21 @@ export const mi = {
   // Footer
   footerText: "Tūāpapa huringa whakamatautau katia mo nga kaiwhakawhanake.",
   footerSubText: "He puna-tuwhera katoa tenei tūāpapa, kua whakawhanakehia e nga kaiwhakawhanake tūao.",
-  githubBtn: "Tautoko / Homai he Whetu ki GitHub"
+  githubBtn: "Tautoko / Homai he Whetu ki GitHub",
+
+  // Support & Contact
+  supportFAQ: "Tautoko & FAQ",
+  supportTitle: "Tautoko & Whakapā",
+  supportDesc: "Kei a koe nga patai mo te turanga, kei te hiahia ranei koe ki te whakapiri mai ki a maatau? Ka taea e koe te tuku karere ma te whakamahi i te puka i raro nei, te arotake ranei i te waahanga FAQ.",
+  faqTitle: "Nga Uiui Auau",
+  contactFormTitle: "Tukua mai he Karere",
+  nameLabel: "To Ingoa me to Ingoa Whānau",
+  emailLabel: "Tō Wāhitau Īmēra",
+  subjectLabel: "Kaupapa",
+  messageLabel: "To karere",
+  sendMessage: "Tuku Karere",
+  sendingMessage: "Kei te tuku...",
+  messageSent: "Kua Tukua To Karere!",
+  messageSentDesc: "Kua tutuki pai to tono whakapā. Ka hoki atu matou ki a koe ma to wahitau imeera i te wa e taea ai.",
+  writeNewMessage: "Tuhia he Karere Hou"
 };

@@ -93,5 +93,21 @@ export const lb = {
   // Footer
   footerText: "Austauschplattform fir zouen Tester fir Entwéckler.",
   footerSubText: "Dës Plattform ass komplett Open-Source a gëtt vu fräiwëllegen Entwéckler entwéckelt.",
-  githubBtn: "Bäidroen / E Stär op GitHub ginn"
+  githubBtn: "Bäidroen / E Stär op GitHub ginn",
+
+  // Support & Contact
+  supportFAQ: "Ënnerstëtzung & FAQ",
+  supportTitle: "Ënnerstëtzung & Kontakt",
+  supportDesc: "Do you have questions about the platform or want to contact us? You can send a message using the form below or review the FAQ section.",
+  faqTitle: "Heefeg gestallte Froen",
+  contactFormTitle: "Schéckt eis e Message",
+  nameLabel: "Ären Numm a Familljen",
+  emailLabel: "Är E-Mail Adress",
+  subjectLabel: "Betreff",
+  messageLabel: "Äre Message",
+  sendMessage: "Schécken Message",
+  sendingMessage: "Geschéckt ...",
+  messageSent: "Äre Message gouf geschéckt!",
+  messageSentDesc: "Your contact request has been received successfully. We will get back to you via your e-mail address as soon as possible.",
+  writeNewMessage: "Schreiwen Neie Message"
 };

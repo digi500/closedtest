@@ -93,5 +93,21 @@ export const ms = {
   // Footer
   footerText: "Platform pertukaran ujian tertutup untuk pembangun.",
   footerSubText: "Platform ini adalah sumber terbuka sepenuhnya dan dibangunkan oleh pembangun sukarela.",
-  githubBtn: "Menyumbang / Berikan Bintang di GitHub"
+  githubBtn: "Menyumbang / Berikan Bintang di GitHub",
+
+  // Support & Contact
+  supportFAQ: "Sokongan & Soalan Lazim",
+  supportTitle: "Sokongan & Kenalan",
+  supportDesc: "Adakah anda mempunyai soalan tentang platform atau ingin menghubungi kami? Anda boleh menghantar mesej menggunakan borang di bawah atau semak bahagian FAQ.",
+  faqTitle: "Soalan Lazim",
+  contactFormTitle: "Hantar Mesej kepada Kami",
+  nameLabel: "Nama dan Nama Keluarga Anda",
+  emailLabel: "Alamat E-mel Anda",
+  subjectLabel: "Subjek",
+  messageLabel: "Mesej anda",
+  sendMessage: "Hantar Mesej",
+  sendingMessage: "Menghantar...",
+  messageSent: "Mesej Anda Telah Dihantar!",
+  messageSentDesc: "Permintaan hubungan anda telah berjaya diterima. Kami akan menghubungi anda semula melalui alamat e-mel anda secepat mungkin.",
+  writeNewMessage: "Tulis Mesej Baharu"
 };

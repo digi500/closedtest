@@ -93,5 +93,21 @@ export const lv = {
   // Footer
   footerText: "Slēgtās testēšanas apmaiņas platforma izstrādātājiem.",
   footerSubText: "Šī platforma ir pilnībā atvērtā pirmkoda un to izstrādā brīvprātīgie izstrādātāji.",
-  githubBtn: "Līdzdarboties / Dot zvaigzni vietnē GitHub"
+  githubBtn: "Līdzdarboties / Dot zvaigzni vietnē GitHub",
+
+  // Support & Contact
+  supportFAQ: "Atbalsts un FAQ",
+  supportTitle: "Atbalsts un sazināšanās",
+  supportDesc: "Vai jums ir jautājumi par platformu vai vēlaties ar mums sazināties? Jūs varat nosūtīt ziņojumu, izmantojot zemāk esošo veidlapu vai pārskatīt sadaļu FAQ.",
+  faqTitle: "Bieži uzdotie jautājumi",
+  contactFormTitle: "Nosūtiet mums ziņu",
+  nameLabel: "Jūsu vārds un uzvārds",
+  emailLabel: "Jūsu e-pasta adrese",
+  subjectLabel: "Tēma",
+  messageLabel: "Jūsu ziņojums",
+  sendMessage: "Sūtīt ziņu",
+  sendingMessage: "Sūta...",
+  messageSent: "Jūsu ziņa ir nosūtīta!",
+  messageSentDesc: "Jūsu saziņas pieprasījums ir veiksmīgi saņemts. Mēs sazināsimies ar jums, izmantojot jūsu e-pasta adresi, cik drīz vien iespējams.",
+  writeNewMessage: "Rakstīt jaunu ziņu"
 };
