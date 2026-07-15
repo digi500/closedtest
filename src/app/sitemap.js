@@ -28,26 +28,38 @@ export default async function sitemap() {
 
   const routes = [];
 
-  // 1. Add home page variations
+  // 1. Add home page with alternate language links
+  const homeLanguages = {};
   langCodes.forEach(code => {
-    routes.push({
-      url: `${baseUrl}/?lang=${code}`,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 1.0,
-    });
+    homeLanguages[code] = `${baseUrl}/?lang=${code}`;
   });
 
-  // 2. Add dynamic app detail page variations
+  routes.push({
+    url: `${baseUrl}/`,
+    lastModified: new Date(),
+    changeFrequency: 'daily',
+    priority: 1, // Number type required by Next.js
+    alternates: {
+      languages: homeLanguages,
+    },
+  });
+
+  // 2. Add dynamic app detail pages with alternates
   apps.forEach(app => {
     if (app && app.id) {
+      const appLanguages = {};
       langCodes.forEach(code => {
-        routes.push({
-          url: `${baseUrl}/app/${app.id}?lang=${code}`,
-          lastModified: app.created_at ? new Date(app.created_at) : new Date(),
-          changeFrequency: 'weekly',
-          priority: 0.8,
-        });
+        appLanguages[code] = `${baseUrl}/app/${app.id}?lang=${code}`;
+      });
+
+      routes.push({
+        url: `${baseUrl}/app/${app.id}`,
+        lastModified: app.created_at ? new Date(app.created_at) : new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.8, // Number type required by Next.js
+        alternates: {
+          languages: appLanguages,
+        },
       });
     }
   });
