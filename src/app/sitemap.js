@@ -48,14 +48,19 @@ export default async function sitemap() {
   });
 
   // 2. Add dynamic app detail pages
-  // Each app is published with a single link matching its original description language (Turkish or English)
+  // Each app is published with a single link matching its original description language.
+  // We omit '?lang=tr' for Turkish apps since Turkish is the site's default language, keeping the URL clean.
   apps.forEach(app => {
     if (app && app.id) {
       const appLang = detectLanguage(app.title, app.description);
       const lastMod = app.created_at ? new Date(app.created_at) : new Date();
+      
+      const url = appLang === 'tr' 
+        ? `${baseUrl}/app/${app.id}` 
+        : `${baseUrl}/app/${app.id}?lang=${appLang}`;
 
       routes.push({
-        url: `${baseUrl}/app/${app.id}?lang=${appLang}`,
+        url: url,
         lastModified: lastMod,
         changeFrequency: 'weekly',
         priority: 0.8,
