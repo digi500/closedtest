@@ -1,5 +1,20 @@
 import { db } from '../lib/db';
 
+// Helper to detect if text is Turkish or English
+function detectLanguage(title = '', description = '') {
+  const text = `${title} ${description}`.toLowerCase();
+  
+  // Turkish specific characters
+  const turkishChars = /[şçğıöüıİĞÜŞÖÇ]/;
+  // Very common Turkish stop words
+  const turkishWords = /\b(ve|bir|için|bu|ile|de|da|olan|olarak|en|veya|ama|içinde|göre|kadar|yeni|tüm|tümü|araçlar|odaklanma|sayacı|oyunu|retro|grafiklere|bağımlılık|arkadaşlarınızla|günlük|gelir|giderlerinizi|sade|şekilde|takip|grafikli|raporlar|hakkında|destek|giriş|üye|indir|uygulaması)\b/;
+  
+  if (turkishChars.test(text) || turkishWords.test(text)) {
+    return 'tr';
+  }
+  return 'en';
+}
+
 export default async function sitemap() {
   const baseUrl = 'https://closedtest-beryl.vercel.app';
 
@@ -11,26 +26,14 @@ export default async function sitemap() {
     console.error('Error fetching apps for sitemap:', e);
   }
 
-  const langCodes = [
-    "tr", "en", "en-GB", "en-AU", "pt-BR", "pt-PT", "es", "es-MX", "de", "fr",
-    "it", "ru", "zh", "ja", "ko", "hi", "ar", "nl", "pl", "sv",
-    "no", "da", "fi", "el", "he", "cs", "ro", "hu", "uk", "id",
-    "vi", "th", "tl", "ms", "sk", "bg", "hr", "sr", "zh-TW", "ca",
-    "sl", "et", "lv", "lt", "is", "ga", "mt", "sq", "mk", "bs",
-    "ka", "hy", "az", "kk", "uz", "fa", "ur", "bn", "pa", "mr",
-    "te", "ta", "gu", "kn", "ml", "si", "ne", "my", "km", "lo",
-    "mn", "tg", "ky", "tk", "eu", "gl", "lb", "cy", "af", "sw",
-    "zu", "xh", "am", "yo", "ig", "so", "mg", "eo", "la", "haw",
-    "mi", "sm", "su", "jv", "hmn", "yi", "co", "fy", "sa", "bo",
-    "gn", "be", "tt", "gd", "fo", "or", "sd", "as", "qu", "ay",
-    "om", "ti", "rw", "sn", "fj", "to"
-  ];
+  // Major languages for the homepage alternates to keep it clean and optimized
+  const majorLangs = ["tr", "en", "de", "fr", "es", "it", "ru", "pt-BR", "zh", "ja", "ko"];
 
   const routes = [];
 
-  // 1. Add home page with alternate language links
+  // 1. Add home page with major language alternates
   const homeLanguages = {};
-  langCodes.forEach(code => {
+  majorLangs.forEach(code => {
     homeLanguages[code] = `${baseUrl}/?lang=${code}`;
   });
 
@@ -38,28 +41,24 @@ export default async function sitemap() {
     url: `${baseUrl}/`,
     lastModified: new Date(),
     changeFrequency: 'daily',
-    priority: 1, // Number type required by Next.js
+    priority: 1,
     alternates: {
       languages: homeLanguages,
     },
   });
 
-  // 2. Add dynamic app detail pages with alternates
+  // 2. Add dynamic app detail pages
+  // Each app is published with a single link matching its original description language (Turkish or English)
   apps.forEach(app => {
     if (app && app.id) {
-      const appLanguages = {};
-      langCodes.forEach(code => {
-        appLanguages[code] = `${baseUrl}/app/${app.id}?lang=${code}`;
-      });
+      const appLang = detectLanguage(app.title, app.description);
+      const lastMod = app.created_at ? new Date(app.created_at) : new Date();
 
       routes.push({
-        url: `${baseUrl}/app/${app.id}`,
-        lastModified: app.created_at ? new Date(app.created_at) : new Date(),
+        url: `${baseUrl}/app/${app.id}?lang=${appLang}`,
+        lastModified: lastMod,
         changeFrequency: 'weekly',
-        priority: 0.8, // Number type required by Next.js
-        alternates: {
-          languages: appLanguages,
-        },
+        priority: 0.8,
       });
     }
   });
